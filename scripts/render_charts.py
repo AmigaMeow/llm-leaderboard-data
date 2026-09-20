@@ -38,25 +38,34 @@ def price(m):
         return None
 
 
-def value_score(m):
-    s, p = m.get("arena_score"), price(m)
-    if s is None or not p or p <= 0:
-        return None
-    return float(s) / p
+BANDS = [(0.0,0.10),(0.10,0.25),(0.25,0.50),(0.50,1.00),(1.00,3.00),(3.00,10.00),(10.00,float("inf"))]
+
+def band_label(lo, hi):
+    return ("$%.0f+" % lo) if hi == float("inf") else ("$%.2f\u2013%.2f" % (lo, hi))
+
+def budget_picks(models):
+    """每档价格里 Arena 分数最高的模型。"""
+    pool = [m for m in models if m.get("arena_score") is not None and price(m)]
+    picks = []
+    for lo, hi in BANDS:
+        band = [m for m in pool if lo <= price(m) < hi]
+        if not band:
+            continue
+        band.sort(key=lambda m: m["arena_score"], reverse=True)
+        picks.append((lo, hi, band[0]))
+    return picks
 
 
 def pick(models, key, n=TOP_N):
-    if key == "value":
-        rows = [m for m in models if value_score(m) is not None]
-        rows.sort(key=value_score, reverse=True)
-    else:
-        rows = [m for m in models if m.get("arena_score") is not None]
-        rows.sort(key=lambda m: m["arena_score"], reverse=True)
+    if key == "budget":
+        return budget_picks(models)
+    rows = [m for m in models if m.get("arena_score") is not None]
+    rows.sort(key=lambda m: m["arena_score"], reverse=True)
     return rows[:n]
 
 
 def metric(m, key):
-    return value_score(m) if key == "value" else float(m.get("arena_score"))
+    return float(m.get("arena_score"))
 
 
 def bar_color(i):
@@ -86,9 +95,16 @@ STYLE = """  <style>
 
 
 def build_svg(models, key, title, subtitle, value_label):
-    rows = pick(models, key)
-    if not rows:
+    picked = pick(models, key)
+    if not picked:
         return None
+    # budget 视图返回 (lo, hi, model) 三元组；其余为 model 列表
+    if key == "budget":
+        rows = [m for _, _, m in picked]
+        labels = [band_label(lo, hi) for lo, hi, _ in picked]
+    else:
+        rows = picked
+        labels = [m.get("display_name") or m.get("id") or "?" for m in rows]
     vals = [metric(m, key) for m in rows]
     hi = max(vals)
     lo = min(vals)
@@ -113,7 +129,7 @@ def build_svg(models, key, title, subtitle, value_label):
         frac = (v - base) / (scale_max - base) if scale_max > base else 1.0
         frac = max(0.02, min(1.0, frac))
         bw = span_x * frac
-        name = m.get("display_name") or m.get("id") or "?"
+        name = labels[i]
         if len(name) > 24:
             name = name[:23] + "…"
         p.append('<text class="fg" x="%d" y="%d" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">%s</text>' % (NAME_RIGHT, y + 17, esc(name)))
@@ -143,8 +159,8 @@ def main():
     specs = [
         ("arena-top10.svg", "arena", "Arena Top 10 — human preference",
          "LMArena Bradley-Terry score, higher is better. Snapshot " + date, "Arena score"),
-        ("value-top10.svg", "value", "Best value Top 10 — Arena score per dollar",
-         "Arena score / blended price (in:out = 3:1), higher is better. Snapshot " + date, "Arena per $"),
+        ("budget-bands.svg", "budget", "Strongest model by budget",
+         "Highest Arena score in each price band (blended, in:out = 3:1). Snapshot " + date, "Arena score"),
     ]
     made = []
     for fname, key, title, sub, vlabel in specs:

@@ -77,11 +77,9 @@ def blended_price(m):
     except (TypeError, ValueError):
         return None
 
-def arena_per_dollar(m):
-    a, p = m.get("arena_score"), blended_price(m)
-    if a is None or not p or p <= 0:
-        return None
-    return float(a) / p
+# 注：曾用「Arena 分数 ÷ 混合价格」做性价比榜，实测与价格榜 86% 同序
+# （Arena 跨距仅 6.4%，价格跨距 338 倍，比值被价格主导），故弃用，
+# 改为按预算分档取最强者（见 view_budget）。
 
 def delta_cell(cur, prev):
     if prev is None:
@@ -96,11 +94,39 @@ def delta_cell(cur, prev):
 def view_all(models):
     return [m for m in models if m.get("arena_score") is not None], lambda m: m["arena_score"]
 
-def view_cheap(models):
-    return [m for m in models if arena_per_dollar(m) is not None], lambda m: arena_per_dollar(m)
-
 def view_price(models):
     return [m for m in models if blended_price(m) is not None], None
+
+
+# 预算分档：回答「我预算 $X/百万 token，该选哪个？」
+BUDGET_BANDS = [
+    (0.0, 0.10),
+    (0.10, 0.25),
+    (0.25, 0.50),
+    (0.50, 1.00),
+    (1.00, 3.00),
+    (3.00, 10.00),
+    (10.00, float("inf")),
+]
+
+
+def band_label(lo, hi):
+    if hi == float("inf"):
+        return "$%.0f+" % lo
+    return "$%.2f–%.2f" % (lo, hi)
+
+
+def view_budget(models):
+    """每档预算里 Arena 分数最高的模型。"""
+    pool = [m for m in models if m.get("arena_score") is not None and blended_price(m)]
+    picks = []
+    for lo, hi in BUDGET_BANDS:
+        band = [m for m in pool if lo <= blended_price(m) < hi]
+        if not band:
+            continue
+        band.sort(key=lambda m: m["arena_score"], reverse=True)
+        picks.append((lo, hi, band[0]))
+    return picks, None
 
 def view_ctx(models):
     return [m for m in models if m.get("context_length") is not None], lambda m: m["context_length"]
@@ -110,7 +136,8 @@ def view_open(models):
 
 VIEWS = [
     ("all",   "Overall (Arena human preference)", view_all,   "LMArena Bradley-Terry score."),
-    ("cheap", "Best value",  view_cheap, "Value = Arena score / blended price (in:out = 3:1)."),
+    ("budget", "Pick by budget", view_budget,
+     "Strongest model in each price band. 'Gap to #1' shows how many Arena points you give up versus the top model overall."),
     ("price", "Lowest price", view_price, "Sorted by blended price ascending."),
     ("ctx",   "Long context", view_ctx,  "Sorted by maximum context window."),
     ("open",  "Open weights", view_open, "Open-weight models only, by Arena score."),
@@ -118,7 +145,7 @@ VIEWS = [
 
 COLS = {
     "all":   ["#", "Model", "Org", "Weights", "Arena", "95% CI", "Votes", "Change"],
-    "cheap": ["#", "Model", "Org", "Weights", "Arena/$", "Blended", "Arena", "Change"],
+    "budget": ["Budget", "Strongest model", "Org", "Weights", "Arena", "Gap to #1", "Blended price"],
     "price": ["#", "Model", "Org", "Weights", "Blended", "Input", "Output", "Change"],
     "ctx":   ["#", "Model", "Org", "Weights", "Context", "Arena", "Blended", "Change"],
     "open":  ["#", "Model", "Org", "License", "Arena", "Votes", "Context", "Change"],
@@ -127,13 +154,37 @@ COLS = {
 def sort_rows(rows, key, keyfn):
     if key == "price":
         rows.sort(key=blended_price)
-    elif key == "cheap":
-        rows.sort(key=arena_per_dollar, reverse=True)
     elif keyfn:
         rows.sort(key=keyfn, reverse=True)
     return rows
 
+def render_budget(title, desc, picks, best_score):
+    cols = COLS["budget"]
+    out = ["| " + " | ".join(cols) + " |",
+           "|" + "|".join([":---", ":---", ":---", ":---", "---:", "---:", "---:"]) + "|"]
+    for lo, hi, m in picks:
+        bp = blended_price(m)
+        gap = best_score - float(m["arena_score"])
+        out.append("| %s | %s | %s | %s | %s | %s | %s |" % (
+            band_label(lo, hi),
+            m.get("display_name") or m.get("id"),
+            m.get("org") or "-",
+            "open" if m.get("open_weights") else "closed",
+            num(m.get("arena_score")),
+            ("%.1f" % gap) if gap > 0 else "—",
+            money(bp),
+        ))
+    nl = chr(10)
+    header = "# " + title + nl + nl + "> " + desc + nl + nl
+    header += "> Snapshot: " + SNAPSHOT_DATE + " | " + str(len(picks)) + " price bands" + nl + nl
+    return header + nl.join(out) + nl
+
+
 def render_view(key, title, fn, desc, models, prev_ranks, limit):
+    if key == "budget":
+        picks, _ = fn(models)
+        best = max((float(m["arena_score"]) for _, _, m in picks), default=0.0)
+        return render_budget(title, desc, picks, best)
     rows, keyfn = fn(models)
     rows = sort_rows(rows, key, keyfn)[:limit]
     cols = COLS[key]
@@ -151,8 +202,6 @@ def render_view(key, title, fn, desc, models, prev_ranks, limit):
             if m.get("arena_ci_low") is not None and m.get("arena_ci_high") is not None:
                 ci = "%.0f ~ %.0f" % (m["arena_ci_low"], m["arena_ci_high"])
             row = [rank_txt, name, org, w, num(m.get("arena_score")), ci, integer(m.get("arena_votes")), dl]
-        elif key == "cheap":
-            row = [rank_txt, name, org, w, num(arena_per_dollar(m), 2), money(blended_price(m)), num(m.get("arena_score")), dl]
         elif key == "price":
             row = [rank_txt, name, org, w, money(blended_price(m)), money(m.get("price_in")), money(m.get("price_out")), dl]
         elif key == "ctx":
@@ -193,13 +242,15 @@ def main():
             prev_models = []
     prev_ranks = {}
     for key, title, fn, desc in VIEWS:
+        if key == "budget":
+            continue  # 预算榜无排名涨跌概念
         rows, keyfn = fn(prev_models)
         rows = sort_rows(rows, key, keyfn)
         prev_ranks[key] = {m.get("id"): i for i, m in enumerate(rows, 1)}
     for key, title, fn, desc in VIEWS:
         with open(os.path.join(out, "leaderboard", key + ".md"), "w", encoding="utf-8") as f:
             f.write(render_view(key, title, fn, desc, models, prev_ranks, args.limit))
-    for stale in ("intel.md", "coding.md", "speed.md"):
+    for stale in ("intel.md", "coding.md", "speed.md", "cheap.md"):
         p = os.path.join(out, "leaderboard", stale)
         if os.path.isfile(p):
             os.remove(p)

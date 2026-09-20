@@ -38,11 +38,22 @@ def bp(m):
     except (TypeError, ValueError):
         return None
 
-def apd(m):
-    s, p = m.get("arena_score"), bp(m)
-    if s is None or not p or p <= 0:
-        return None
-    return float(s) / p
+BUDGET_BANDS = [(0.0,0.10),(0.10,0.25),(0.25,0.50),(0.50,1.00),(1.00,3.00),(3.00,10.00),(10.00,float("inf"))]
+
+def band_label(lo, hi):
+    return ("$%.0f+" % lo) if hi == float("inf") else ("$%.2f–%.2f" % (lo, hi))
+
+def budget_picks(models):
+    """每个价格档里 Arena 分数最高的模型。"""
+    pool = [m for m in models if m.get("arena_score") is not None and bp(m)]
+    picks = []
+    for lo, hi in BUDGET_BANDS:
+        band = [m for m in pool if lo <= bp(m) < hi]
+        if not band:
+            continue
+        band.sort(key=lambda m: m["arena_score"], reverse=True)
+        picks.append((lo, hi, band[0]))
+    return picks
 
 def ctxt(cl):
     if not cl:
@@ -55,17 +66,16 @@ def ctxt(cl):
 
 VIEW_META = [
     ("all",   "Overall",      "Arena human preference",        "arena_score"),
-    ("cheap", "Best value",   "Arena score / blended price",   None),
+    ("budget","Pick by budget","Strongest model in each price band", None),
     ("price", "Lowest price", "Blended price ascending",       None),
     ("ctx",   "Long context", "Maximum context window",        "context_length"),
     ("open",  "Open weights", "Open-weight models only",       "arena_score"),
 ]
 
 def top_rows(models, key, n=10):
-    if key == "cheap":
-        rows = [m for m in models if apd(m) is not None]
-        rows.sort(key=apd, reverse=True)
-    elif key == "price":
+    if key == "budget":
+        return models          # budget_picks 自行分档，不需要预先截断
+    if key == "price":
         rows = [m for m in models if bp(m) is not None]
         rows.sort(key=bp)
     elif key == "open":
@@ -82,11 +92,17 @@ def top_rows(models, key, n=10):
 def render_top(models, key, limit=10):
     rows = top_rows(models, key, limit)
     out = []
-    if key == "cheap":
-        out.append("| # | Model | Org | Arena/$ | Blended | Weights |")
-        out.append("|---:|:---|:---|---:|---:|:---|")
-        for i, m in enumerate(rows, 1):
-            out.append("| %s | %s | %s | %s | %s | %s |" % (MEDALS.get(i, i), m.get("display_name"), m.get("org"), num(apd(m), 1), money(bp(m)), "open" if m.get("open_weights") else "closed"))
+    if key == "budget":
+        picks = budget_picks(rows)
+        best = max((float(m["arena_score"]) for _, _, m in picks), default=0.0)
+        out.append("| Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |")
+        out.append("|:---|:---|:---|:---|---:|---:|---:|")
+        for lo, hi, m in picks:
+            gap = best - float(m["arena_score"])
+            out.append("| %s | %s | %s | %s | %s | %s | %s |" % (
+                band_label(lo, hi), m.get("display_name"), m.get("org"),
+                "open" if m.get("open_weights") else "closed",
+                num(m.get("arena_score")), ("%.1f" % gap) if gap > 0 else "—", money(bp(m))))
     elif key == "ctx":
         out.append("| # | Model | Org | Context | Arena | Blended |")
         out.append("|---:|:---|:---|---:|---:|---:|")
@@ -130,7 +146,7 @@ def main():
 
     nl = chr(10)
     r = []
-    r.append("# 大模型排行榜 · LLM Leaderboard · AI 模型能力与性价比榜单")
+    r.append("# 大模型排行榜 · LLM Leaderboard · 模型能力与成本对比")
     r.append("")
     r.append("> 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，")
     r.append(">")
@@ -141,7 +157,7 @@ def main():
     r.append("")
     r.append("")
     r.append("涵盖 **闭源商用模型**（GPT / Claude / Gemini / Grok / Qwen / GLM / Kimi …）与 **开源权重模型**")
-    r.append("（Llama / DeepSeek / Qwen / GLM / Mistral / MiniMax …），可按能力、价格、性价比、上下文长度筛选对比。")
+    r.append("（Llama / DeepSeek / Qwen / GLM / Mistral / MiniMax …），可按能力、价格、预算档位与上下文长度对比。")
     r.append("")
     r.append("---")
     r.append("")
@@ -174,7 +190,7 @@ def main():
     r.append("")
     r.append("![Arena Top 10](docs/charts/arena-top10.svg)")
     r.append("")
-    r.append("![Best value Top 10](docs/charts/value-top10.svg)")
+    r.append("![Arena Top 10 by price band](docs/charts/budget-bands.svg)")
     r.append("")
     r.append("> 图表随主题自动切换明暗；由 `scripts/render_charts.py` 每日生成。")
     r.append("")
@@ -186,13 +202,13 @@ def main():
     r.append("")
     r.append("[→ 完整综合榜](leaderboard/all.md)")
     r.append("")
-    r.append("## 💰 性价比榜 Top 10：最划算的大模型")
+    r.append("## 💰 按预算选：每档价格里最强的模型")
     r.append("")
-    r.append("> 性价比 = Arena 分数 ÷ 混合价格（输入:输出 = 3:1）。**衡量单位花费换来的人类偏好得分**，比单纯比价格更有参考价值。")
+    r.append("> 回答的是「我预算 $X/百万 token，该用哪个」。**Gap to #1** 是相对榜首丢掉的 Arena 分数。")
     r.append("")
-    r.append(render_top(models, "cheap", 10))
+    r.append(render_top(models, "budget", 10))
     r.append("")
-    r.append("[→ 完整性价比榜](leaderboard/cheap.md)")
+    r.append("[→ 完整预算榜](leaderboard/budget.md)")
     r.append("")
     r.append("## 📄 长上下文榜 Top 10：最大上下文窗口的模型")
     r.append("")
@@ -213,8 +229,10 @@ def main():
     r.append("")
     r.append("**这是什么榜单？** 一个每日自动更新的大模型排行榜，用 Arena 人类盲测偏好衡量模型能力，用 OpenRouter 公开定价衡量成本。")
     r.append("")
-    r.append("**排名依据什么？** 综合榜按 LMArena 的 Bradley-Terry 评分（人类盲测胜率推导）排序，并给出 95% 置信区间；")
-    r.append("性价比榜按「Arena 分数 ÷ 混合价格」排序，衡量单位花费换来的人类偏好得分。")
+    r.append("**排名依据什么？** 综合榜按 LMArena 的 Bradley-Terry 评分（人类盲测胜率推导）排序，并给出 95% 置信区间。")
+    r.append("")
+    r.append("**为什么不做「性价比分数」？** 试过，但 Arena 分数跨距只有约 6%，而价格跨距高达数百倍，")
+    r.append("两者相除会退化成价格榜（实测 86% 同序）。所以改为**按价格分档取最强者** —— 这更贴近真实决策。")
     r.append("")
     r.append("**为什么两个模型分数接近时不宜直接比名次？** 因为评分带有置信区间。区间重叠时，名次差异可能只是采样波动。")
     r.append("")

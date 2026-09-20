@@ -1,4 +1,4 @@
-# 大模型排行榜 · LLM Leaderboard · AI 模型能力与性价比榜单
+# 大模型排行榜 · LLM Leaderboard · 模型能力与成本对比
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
@@ -9,7 +9,7 @@
 
 
 涵盖 **闭源商用模型**（GPT / Claude / Gemini / Grok / Qwen / GLM / Kimi …）与 **开源权重模型**
-（Llama / DeepSeek / Qwen / GLM / Mistral / MiniMax …），可按能力、价格、性价比、上下文长度筛选对比。
+（Llama / DeepSeek / Qwen / GLM / Mistral / MiniMax …），可按能力、价格、预算档位与上下文长度对比。
 
 ---
 
@@ -34,7 +34,7 @@
 | 榜单 | 说明 | 完整榜 |
 |---|---|---|
 | **Overall** | Arena human preference | [查看](leaderboard/all.md) |
-| **Best value** | Arena score / blended price | [查看](leaderboard/cheap.md) |
+| **Pick by budget** | Strongest model in each price band | [查看](leaderboard/budget.md) |
 | **Lowest price** | Blended price ascending | [查看](leaderboard/price.md) |
 | **Long context** | Maximum context window | [查看](leaderboard/ctx.md) |
 | **Open weights** | Open-weight models only | [查看](leaderboard/open.md) |
@@ -45,7 +45,7 @@
 
 ![Arena Top 10](docs/charts/arena-top10.svg)
 
-![Best value Top 10](docs/charts/value-top10.svg)
+![Arena Top 10 by price band](docs/charts/budget-bands.svg)
 
 > 图表随主题自动切换明暗；由 `scripts/render_charts.py` 每日生成。
 
@@ -68,24 +68,21 @@
 
 [→ 完整综合榜](leaderboard/all.md)
 
-## 💰 性价比榜 Top 10：最划算的大模型
+## 💰 按预算选：每档价格里最强的模型
 
-> 性价比 = Arena 分数 ÷ 混合价格（输入:输出 = 3:1）。**衡量单位花费换来的人类偏好得分**，比单纯比价格更有参考价值。
+> 回答的是「我预算 $X/百万 token，该用哪个」。**Gap to #1** 是相对榜首丢掉的 Arena 分数。
 
-| # | Model | Org | Arena/$ | Blended | Weights |
-|---:|:---|:---|---:|---:|:---|
-| 🥇 | DeepSeek V4 Flash | DeepSeek | 24,216.5 | $0.059 | open |
-| 🥈 | GLM-5.3 Flash | Z.AI | 10,329.1 | $0.143 | open |
-| 🥉 | MiMo V2.5 | Xiaomi | 8,156.6 | $0.175 | open |
-| 4 | Hy3 | Tencent | 6,236.4 | $0.231 | open |
-| 5 | GPT-5.6 Luna | OpenAI | 3,177.6 | $0.450 | closed |
-| 6 | MiniMax M3 | MiniMax | 2,730.5 | $0.525 | open |
-| 7 | MiMo V2.5 Pro | Xiaomi | 2,693.7 | $0.544 | open |
-| 8 | Qwen3.7 Plus | Alibaba | 2,596.8 | $0.560 | closed |
-| 9 | DeepSeek V4 Pro | DeepSeek | 2,056.5 | $0.705 | open |
-| 10 | GLM-5.2 | Z.AI | 1,722.9 | $0.851 | open |
+| Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
+|:---|:---|:---|:---|---:|---:|---:|
+| $0.00–0.10 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 75.8 | $0.059 |
+| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,471.9 | 35.7 | $0.143 |
+| $0.25–0.50 | GPT-5.6 Luna | OpenAI | closed | 1,429.9 | 77.7 | $0.450 |
+| $0.50–1.00 | GLM-5.2 | Z.AI | open | 1,466.9 | 40.7 | $0.851 |
+| $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,494.7 | 12.9 | $1.50 |
+| $3.00–10.00 | Gemini 3.5 Flash | Google | closed | 1,482.1 | 25.5 | $3.38 |
+| $10+ | Claude Fable 5.1 | Anthropic | closed | 1,507.6 | — | $20.00 |
 
-[→ 完整性价比榜](leaderboard/cheap.md)
+[→ 完整预算榜](leaderboard/budget.md)
 
 ## 📄 长上下文榜 Top 10：最大上下文窗口的模型
 
@@ -117,8 +114,10 @@
 
 **这是什么榜单？** 一个每日自动更新的大模型排行榜，用 Arena 人类盲测偏好衡量模型能力，用 OpenRouter 公开定价衡量成本。
 
-**排名依据什么？** 综合榜按 LMArena 的 Bradley-Terry 评分（人类盲测胜率推导）排序，并给出 95% 置信区间；
-性价比榜按「Arena 分数 ÷ 混合价格」排序，衡量单位花费换来的人类偏好得分。
+**排名依据什么？** 综合榜按 LMArena 的 Bradley-Terry 评分（人类盲测胜率推导）排序，并给出 95% 置信区间。
+
+**为什么不做「性价比分数」？** 试过，但 Arena 分数跨距只有约 6%，而价格跨距高达数百倍，
+两者相除会退化成价格榜（实测 86% 同序）。所以改为**按价格分档取最强者** —— 这更贴近真实决策。
 
 **为什么两个模型分数接近时不宜直接比名次？** 因为评分带有置信区间。区间重叠时，名次差异可能只是采样波动。
 
