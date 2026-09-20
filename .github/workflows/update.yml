@@ -1,0 +1,58 @@
+name: Daily Update
+
+on:
+  schedule:
+    # 每日 07:30 UTC（北京时间 15:30），站点同步脚本 06:20 UTC 之后
+    - cron: '30 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch snapshot from 17nas.com
+        id: fetch
+        run: |
+          python3 scripts/generate.py \
+            --api "${API_URL:-https://17nas.com/api/public/llm-leaderboard.php}" \
+            --out . --limit 50
+        env:
+          API_URL: https://17nas.com/api/public/llm-leaderboard.php
+
+      - name: Render README
+        run: python3 scripts/render_readme.py --data data/latest.json --out .
+
+      - name: Update CHANGELOG
+        run: python3 scripts/changelog.py --data data/latest.json --out .
+
+      - name: Commit and push
+        run: |
+          git config user.name  '17nas-bot'
+          git config user.email 'bot@17nas.com'
+          git add -A
+          if git diff --staged --quiet; then
+            echo 'No changes today.'
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "data: daily snapshot ${DATE}"
+          git push
