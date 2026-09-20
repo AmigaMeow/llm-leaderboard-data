@@ -205,6 +205,7 @@ def main():
     r.append("- 本仓库的**榜单生成代码**以 [MIT](LICENSE) 许可开放。")
     r.append("- **Arena 评分**来自 LMArena（CC-BY-4.0 数据集），**价格数据**来自 OpenRouter 公开 API。")
     r.append("- 本仓库**不包含** Artificial Analysis 的数据：其 Terms of Use 明确禁止再分发，故未纳入。")
+    r.append("- 完整的条款核查记录（含条款原文引用）见 [docs/UPSTREAM-TOS.md](docs/UPSTREAM-TOS.md)。")
     r.append("- 原始榜单与更多维度：[17nas.com/llm-leaderboard.php](https://17nas.com/llm-leaderboard.php)")
     r.append("")
     r.append("---")
