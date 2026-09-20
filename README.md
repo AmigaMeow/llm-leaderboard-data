@@ -131,6 +131,14 @@
 本仓库由 GitHub Actions **每日自动更新**：拉取聚合数据 → 生成榜单 → 提交。
 历史快照保存在 [`data/history/`](data/history/)，可用于回溯任意一天的榜单。
 
+## 相关项目
+
+| 项目 | 说明 |
+|---|---|
+| [llm-benchmark-leaderboard](https://github.com/AmigaMeow/llm-benchmark-leaderboard) | 自托管的排行榜程序（PHP + 无数据库依赖），可基于本仓库的数据自行部署 |
+| [cpu-benchmark-leaderboard](https://github.com/AmigaMeow/cpu-benchmark-leaderboard) | 自托管的 CPU 性能天梯榜 |
+| [17nas.com/llm-leaderboard.php](https://17nas.com/llm-leaderboard.php) | 在线版榜单（含更多维度与历史趋势） |
+
 ## 许可与数据条款
 
 - 本仓库的**榜单生成代码**以 [MIT](LICENSE) 许可开放。
