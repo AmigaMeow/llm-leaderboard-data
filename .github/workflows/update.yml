@@ -41,6 +41,9 @@ jobs:
       - name: Render README
         run: python3 scripts/render_readme.py --data data/latest.json --out .
 
+      - name: Render charts (SVG)
+        run: python3 scripts/render_charts.py --data data/latest.json --out .
+
       - name: Update CHANGELOG
         run: python3 scripts/changelog.py --data data/latest.json --out .
 

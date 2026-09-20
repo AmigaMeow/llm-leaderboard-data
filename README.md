@@ -41,6 +41,16 @@
 
 ---
 
+## 📈 榜单可视化
+
+![Arena Top 10](docs/charts/arena-top10.svg)
+
+![Best value Top 10](docs/charts/value-top10.svg)
+
+> 图表随主题自动切换明暗；由 `scripts/render_charts.py` 每日生成。
+
+---
+
 ## 🏆 综合榜 Top 10：Arena 人类偏好评分的模型排名
 
 | # | Model | Org | Arena | Votes |
