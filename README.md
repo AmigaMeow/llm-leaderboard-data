@@ -74,10 +74,10 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 75.8 | $0.059 |
+| $0.00–0.10 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 75.8 | $0.046 |
 | $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,471.9 | 35.7 | $0.143 |
 | $0.25–0.50 | GPT-5.6 Luna | OpenAI | closed | 1,429.9 | 77.7 | $0.450 |
-| $0.50–1.00 | GLM-5.2 | Z.AI | open | 1,466.9 | 40.7 | $0.851 |
+| $0.50–1.00 | GLM-5.2 | Z.AI | open | 1,466.9 | 40.7 | $0.998 |
 | $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,494.7 | 12.9 | $1.50 |
 | $3.00–10.00 | Gemini 3.5 Flash | Google | closed | 1,482.1 | 25.5 | $3.38 |
 | $10+ | Claude Fable 5.1 | Anthropic | closed | 1,507.6 | — | $20.00 |
@@ -89,7 +89,7 @@
 | # | Model | Org | Context | Arena | Blended |
 |---:|:---|:---|---:|---:|---:|
 | 🥇 | Grok 4.20 | xAI | 2.0M | - | $1.56 |
-| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $1.40 |
+| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $1.38 |
 | 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,471.9 | $0.143 |
 | 4 | GPT-5.5 | OpenAI | 1.1M | 1,470.9 | $11.25 |
 | 5 | GPT-5.4 | OpenAI | 1.1M | 1,469.6 | $5.62 |
