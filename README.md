@@ -1,11 +1,15 @@
-# 大模型排行榜 · LLM Leaderboard
+# 大模型排行榜 · LLM Leaderboard · AI 模型能力与性价比榜单
 
-> 📊 **每日自动更新**的大模型能力与价格榜单 —— 聚合 Arena 人类盲测偏好与 OpenRouter 定价。
+> 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
 > 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **2026-09-20**
 
 [![Daily Update](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml/badge.svg)](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
+涵盖 **闭源商用模型**（GPT / Claude / Gemini / Grok / Qwen / GLM / Kimi …）与 **开源权重模型**
+（Llama / DeepSeek / Qwen / GLM / Mistral / MiniMax …），可按能力、价格、性价比、上下文长度筛选对比。
 
 ---
 
@@ -25,7 +29,7 @@
 
 ---
 
-## 榜单索引
+## 榜单索引（5 个维度的模型对比）
 
 | 榜单 | 说明 | 完整榜 |
 |---|---|---|
@@ -37,7 +41,7 @@
 
 ---
 
-## 🏆 综合榜 Top 10（Arena 人类偏好）
+## 🏆 综合榜 Top 10：Arena 人类偏好评分的模型排名
 
 | # | Model | Org | Arena | Votes |
 |---:|:---|:---|---:|---:|
@@ -54,7 +58,7 @@
 
 [→ 完整综合榜](leaderboard/all.md)
 
-## 💰 性价比榜 Top 10
+## 💰 性价比榜 Top 10：最划算的大模型
 
 > 性价比 = Arena 分数 ÷ 混合价格（输入:输出 = 3:1）。**衡量单位花费换来的人类偏好得分**，比单纯比价格更有参考价值。
 
@@ -73,7 +77,7 @@
 
 [→ 完整性价比榜](leaderboard/cheap.md)
 
-## 📄 长上下文榜 Top 10
+## 📄 长上下文榜 Top 10：最大上下文窗口的模型
 
 | # | Model | Org | Context | Arena | Blended |
 |---:|:---|:---|---:|---:|---:|
@@ -98,6 +102,19 @@
 - **票数**：参与投票的样本量。票数越高，分数越稳定。
 - **价格**：OpenRouter 公开定价，单位美元 / 百万 token；混合价格按输入:输出 = 3:1 加权。
 - **涨跌**：与上一份快照的名次对比。NEW = 新进榜。
+
+## 常见问题
+
+**这是什么榜单？** 一个每日自动更新的大模型排行榜，用 Arena 人类盲测偏好衡量模型能力，用 OpenRouter 公开定价衡量成本。
+
+**排名依据什么？** 综合榜按 LMArena 的 Bradley-Terry 评分（人类盲测胜率推导）排序，并给出 95% 置信区间；
+性价比榜按「Arena 分数 ÷ 混合价格」排序，衡量单位花费换来的人类偏好得分。
+
+**为什么两个模型分数接近时不宜直接比名次？** 因为评分带有置信区间。区间重叠时，名次差异可能只是采样波动。
+
+**数据多久更新一次？** 每日一次，由 GitHub Actions 自动拉取并提交；历史快照保留在 [`data/history/`](data/history/)。
+
+**可以商用或二次分发吗？** 生成代码为 MIT；Arena 数据为 CC-BY-4.0（需署名）；请勿再分发 Artificial Analysis 数据。
 
 ## 更新机制
 
