@@ -1,6 +1,6 @@
 # 大模型排行榜 · LLM Leaderboard
 
-> 📊 **每日自动更新**的大模型能力榜单 —— 聚合 Arena 人类盲测、Artificial Analysis 评测与 OpenRouter 定价。
+> 📊 **每日自动更新**的大模型能力与价格榜单 —— 聚合 Arena 人类盲测偏好与 OpenRouter 定价。
 >
 > 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **2026-09-20**
 
@@ -14,10 +14,11 @@
 | 指标 | 值 |
 |---|---:|
 | 收录模型 | **58** |
+| 有 Arena 评分 | 43 |
+| 有定价数据 | 57 |
 | 开源权重 | 18 |
-| 闭源 | 40 |
 | 覆盖厂商 | 15 |
-| 数据源 | lmarena ✅ ｜ openrouter ✅ ｜ aa ✅ |
+| 数据源 | lmarena ok | openrouter ok |
 | 最近更新 | 2026-09-20 |
 
 厂商分布：OpenAI (10)、Anthropic (9)、Google (8)、Alibaba (5)、Z.AI (4)、Moonshot AI (4)
@@ -28,20 +29,17 @@
 
 | 榜单 | 说明 | 完整榜 |
 |---|---|---|
-| **综合榜** | Arena 人类盲测偏好 | [查看](leaderboard/all.md) |
-| **智能指数榜** | Artificial Analysis 综合能力 | [查看](leaderboard/intel.md) |
-| **编程榜** | AA 编程分项 | [查看](leaderboard/coding.md) |
-| **性价比榜** | 智能指数 ÷ 混合价格 | [查看](leaderboard/cheap.md) |
-| **速度榜** | 实测输出速度 t/s | [查看](leaderboard/speed.md) |
-| **开源权重榜** | 仅开放权重模型 | [查看](leaderboard/open.md) |
-| **长上下文榜** | 最大上下文窗口 | [查看](leaderboard/ctx.md) |
-| **价格榜** | 混合价格升序 | [查看](leaderboard/price.md) |
+| **Overall** | Arena human preference | [查看](leaderboard/all.md) |
+| **Best value** | Arena score / blended price | [查看](leaderboard/cheap.md) |
+| **Lowest price** | Blended price ascending | [查看](leaderboard/price.md) |
+| **Long context** | Maximum context window | [查看](leaderboard/ctx.md) |
+| **Open weights** | Open-weight models only | [查看](leaderboard/open.md) |
 
 ---
 
-## 🏆 综合榜 Top 10
+## 🏆 综合榜 Top 10（Arena 人类偏好）
 
-| # | 模型 | 厂商 | Arena | 票数 |
+| # | Model | Org | Arena | Votes |
 |---:|:---|:---|---:|---:|
 | 🥇 | Claude Fable 5.1 | Anthropic | 1,507.6 | 5,783 |
 | 🥈 | Claude Opus 5 | Anthropic | 1,505.0 | 20,706 |
@@ -58,48 +56,48 @@
 
 ## 💰 性价比榜 Top 10
 
-> 智能指数 ÷ 混合价格（输入:输出 = 3:1）。**单位花费换来的能力**，比单纯比价格更有参考价值。
+> 性价比 = Arena 分数 ÷ 混合价格（输入:输出 = 3:1）。**衡量单位花费换来的人类偏好得分**，比单纯比价格更有参考价值。
 
-| # | 模型 | 厂商 | 智能/美元 | 混合价格 | 权重 |
+| # | Model | Org | Arena/$ | Blended | Weights |
 |---:|:---|:---|---:|---:|:---|
-| 🥇 | DeepSeek V4 Flash | DeepSeek | 583.5 | $0.059 | 开源 |
-| 🥈 | GLM-5.3 Flash | Z.AI | 294.0 | $0.143 | 开源 |
-| 🥉 | DeepSeek V4.1 Flash | DeepSeek | 150.5 | $0.262 | 开源 |
-| 4 | MiMo V2.5 | Xiaomi | 127.4 | $0.175 | 开源 |
-| 5 | Hy3 | Tencent | 111.7 | $0.231 | 开源 |
-| 6 | GPT-5.6 Luna | OpenAI | 83.3 | $0.450 | 闭源 |
-| 7 | MiniMax M3 | MiniMax | 56.4 | $0.525 | 开源 |
-| 8 | DeepSeek V3.2 | DeepSeek | 53.0 | $0.302 | 开源 |
-| 9 | DeepSeek V4 Pro | DeepSeek | 51.5 | $0.705 | 开源 |
-| 10 | MiMo V2.5 Pro | Xiaomi | 48.6 | $0.544 | 开源 |
+| 🥇 | DeepSeek V4 Flash | DeepSeek | 24,216.5 | $0.059 | open |
+| 🥈 | GLM-5.3 Flash | Z.AI | 10,329.1 | $0.143 | open |
+| 🥉 | MiMo V2.5 | Xiaomi | 8,156.6 | $0.175 | open |
+| 4 | Hy3 | Tencent | 6,236.4 | $0.231 | open |
+| 5 | GPT-5.6 Luna | OpenAI | 3,177.6 | $0.450 | closed |
+| 6 | MiniMax M3 | MiniMax | 2,730.5 | $0.525 | open |
+| 7 | MiMo V2.5 Pro | Xiaomi | 2,693.7 | $0.544 | open |
+| 8 | Qwen3.7 Plus | Alibaba | 2,596.8 | $0.560 | closed |
+| 9 | DeepSeek V4 Pro | DeepSeek | 2,056.5 | $0.705 | open |
+| 10 | GLM-5.2 | Z.AI | 1,722.9 | $0.851 | open |
 
 [→ 完整性价比榜](leaderboard/cheap.md)
 
-## ⚡ 速度榜 Top 10
+## 📄 长上下文榜 Top 10
 
-| # | 模型 | 厂商 | 速度(t/s) | 智能指数 |
-|---:|:---|:---|---:|---:|
-| 🥇 | Gemini 3.7 Flash | Google | 383.0 | 39.4 |
-| 🥈 | Gemini 3.8 Flash | Google | 306.3 | 41.2 |
-| 🥉 | DeepSeek V4 Flash | DeepSeek | 240.8 | 34.5 |
-| 4 | Muse Spark 1.2 | Meta | 231.0 | 39.8 |
-| 5 | DeepSeek V4.1 Flash | DeepSeek | 221.0 | 39.5 |
-| 6 | Gemini 3.6 Flash | Google | 211.8 | 34.3 |
-| 7 | Mistral Medium 3.5 | Mistral | 145.1 | 14.9 |
-| 8 | GPT-5.6 Luna | OpenAI | 130.2 | 37.5 |
-| 9 | Gemini 3.1 Pro Preview | Google | 123.8 | 30.4 |
-| 10 | MiniMax M3 | MiniMax | 120.4 | 29.6 |
+| # | Model | Org | Context | Arena | Blended |
+|---:|:---|:---|---:|---:|---:|
+| 🥇 | Grok 4.20 | xAI | 2.0M | - | $1.56 |
+| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $1.40 |
+| 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,471.9 | $0.143 |
+| 4 | GPT-5.5 | OpenAI | 1.1M | 1,470.9 | $11.25 |
+| 5 | GPT-5.4 | OpenAI | 1.1M | 1,469.6 | $5.62 |
+| 6 | MiMo V2.5 Pro | Xiaomi | 1.1M | 1,464.7 | $0.544 |
+| 7 | GPT-5.6 Sol | OpenAI | 1.1M | 1,455.0 | $4.00 |
+| 8 | GPT-5.6 Terra | OpenAI | 1.1M | 1,446.2 | $4.50 |
+| 9 | GPT-5.6 Luna | OpenAI | 1.1M | 1,429.9 | $0.450 |
+| 10 | MiMo V2.5 | Xiaomi | 1.1M | 1,427.4 | $0.175 |
 
-[→ 完整速度榜](leaderboard/speed.md)
+[→ 完整长上下文榜](leaderboard/ctx.md)
 
 ---
 
 ## 数据说明
 
-- **Arena 分数**：LMArena 人类盲测的 Bradley-Terry 评分，附 95% 置信区间。区间重叠时名次差异不必过度解读。
-- **智能指数 / 编程 / 速度**：来自 Artificial Analysis 的实测评测。
+- **Arena 分数**：LMArena 人类盲测的 Bradley-Terry 评分，附 95% 置信区间。两个模型的区间重叠时，名次差异不必过度解读。
+- **票数**：参与投票的样本量。票数越高，分数越稳定。
 - **价格**：OpenRouter 公开定价，单位美元 / 百万 token；混合价格按输入:输出 = 3:1 加权。
-- **涨跌**：与上一份快照的名次对比。🆕 = 新进榜。
+- **涨跌**：与上一份快照的名次对比。NEW = 新进榜。
 
 ## 更新机制
 
@@ -109,7 +107,8 @@
 ## 许可与数据条款
 
 - 本仓库的**榜单生成代码**以 [MIT](LICENSE) 许可开放。
-- **评测数据**来自 LMArena、Artificial Analysis、OpenRouter 等第三方，版权归各来源所有；本仓库仅聚合展示并标注来源，使用时请遵守各上游条款。
+- **Arena 评分**来自 LMArena（CC-BY-4.0 数据集），**价格数据**来自 OpenRouter 公开 API。
+- 本仓库**不包含** Artificial Analysis 的数据：其 Terms of Use 明确禁止再分发，故未纳入。
 - 原始榜单与更多维度：[17nas.com/llm-leaderboard.php](https://17nas.com/llm-leaderboard.php)
 
 ---
