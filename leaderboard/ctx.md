@@ -2,12 +2,12 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-09-20 | 50 models
+> Snapshot: 2026-09-21 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | Grok 4.20 | xAI | closed | 2.0M | - | $1.56 | - |
-| 🥈 | GLM-5.3 | Z.AI | open | 1.3M | 1,475.1 | $1.38 | - |
+| 🥈 | GLM-5.3 | Z.AI | open | 1.3M | 1,475.1 | $1.40 | - |
 | 🥉 | GLM-5.3 Flash | Z.AI | open | 1.3M | 1,471.9 | $0.143 | - |
 | 4 | GPT-5.5 | OpenAI | closed | 1.1M | 1,470.9 | $11.25 | - |
 | 5 | GPT-5.4 | OpenAI | closed | 1.1M | 1,469.6 | $5.62 | - |
@@ -29,10 +29,10 @@
 | 21 | GLM-5.2 | Z.AI | open | 1.0M | 1,466.9 | $0.998 | - |
 | 22 | Gemini 3 Flash | Google | closed | 1.0M | 1,466.7 | $1.12 | - |
 | 23 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,457.8 | $3.44 | - |
-| 24 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,450.6 | $0.528 | - |
+| 24 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,450.6 | $1.19 | - |
 | 25 | MiniMax M3 | MiniMax | open | 1.0M | 1,433.5 | $0.525 | - |
-| 26 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,431.8 | $0.046 | - |
-| 27 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | - | $0.262 | - |
+| 26 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,431.8 | $0.111 | - |
+| 27 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | - | $0.525 | - |
 | 28 | Claude Fable 5.1 | Anthropic | closed | 1.0M | 1,507.6 | $20.00 | - |
 | 29 | Claude Opus 5 | Anthropic | closed | 1.0M | 1,505.0 | $10.00 | - |
 | 30 | Claude Opus 4.6 | Anthropic | closed | 1.0M | 1,503.0 | $10.00 | - |

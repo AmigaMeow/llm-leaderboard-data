@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **2026-09-20**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **2026-09-21**
 
 [![Daily Update](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml/badge.svg)](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -23,7 +23,7 @@
 | 开源权重 | 18 |
 | 覆盖厂商 | 15 |
 | 数据源 | lmarena ok | openrouter ok |
-| 最近更新 | 2026-09-20 |
+| 最近更新 | 2026-09-21 |
 
 厂商分布：OpenAI (10)、Anthropic (9)、Google (8)、Alibaba (5)、Z.AI (4)、Moonshot AI (4)
 
@@ -74,7 +74,6 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 75.8 | $0.046 |
 | $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,471.9 | 35.7 | $0.143 |
 | $0.25–0.50 | GPT-5.6 Luna | OpenAI | closed | 1,429.9 | 77.7 | $0.450 |
 | $0.50–1.00 | GLM-5.2 | Z.AI | open | 1,466.9 | 40.7 | $0.998 |
@@ -89,7 +88,7 @@
 | # | Model | Org | Context | Arena | Blended |
 |---:|:---|:---|---:|---:|---:|
 | 🥇 | Grok 4.20 | xAI | 2.0M | - | $1.56 |
-| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $1.38 |
+| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $1.40 |
 | 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,471.9 | $0.143 |
 | 4 | GPT-5.5 | OpenAI | 1.1M | 1,470.9 | $11.25 |
 | 5 | GPT-5.4 | OpenAI | 1.1M | 1,469.6 | $5.62 |
