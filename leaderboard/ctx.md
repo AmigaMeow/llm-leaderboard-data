@@ -2,13 +2,13 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-09-21 | 50 models
+> Snapshot: 2026-09-22 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | Grok 4.20 | xAI | closed | 2.0M | - | $1.56 | - |
-| 🥈 | GLM-5.3 | Z.AI | open | 1.3M | 1,475.1 | $1.40 | - |
-| 🥉 | GLM-5.3 Flash | Z.AI | open | 1.3M | 1,471.9 | $0.143 | - |
+| 🥈 | GLM-5.3 | Z.AI | open | 1.3M | 1,475.1 | $1.29 | - |
+| 🥉 | GLM-5.3 Flash | Z.AI | open | 1.3M | 1,471.9 | $0.237 | - |
 | 4 | GPT-5.5 | OpenAI | closed | 1.1M | 1,470.9 | $11.25 | - |
 | 5 | GPT-5.4 | OpenAI | closed | 1.1M | 1,469.6 | $5.62 | - |
 | 6 | MiMo V2.5 Pro | Xiaomi | open | 1.1M | 1,464.7 | $0.544 | - |
@@ -25,7 +25,7 @@
 | 17 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,480.2 | $2.00 | - |
 | 18 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,480.1 | $4.50 | - |
 | 19 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,476.1 | $1.50 | - |
-| 20 | Kimi K3 | Moonshot AI | open | 1.0M | 1,472.3 | $3.40 | - |
+| 20 | Kimi K3 | Moonshot AI | open | 1.0M | 1,472.3 | $6.00 | - |
 | 21 | GLM-5.2 | Z.AI | open | 1.0M | 1,466.9 | $0.998 | - |
 | 22 | Gemini 3 Flash | Google | closed | 1.0M | 1,466.7 | $1.12 | - |
 | 23 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,457.8 | $3.44 | - |
