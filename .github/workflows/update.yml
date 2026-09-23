@@ -49,8 +49,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name  '17nas-bot'
-          git config user.email 'bot@17nas.com'
+          git config user.name  'AmigaMeow'
+          git config user.email '240840432+AmigaMeow@users.noreply.github.com'
           git add -A
           if git diff --staged --quiet; then
             echo 'No changes today.'
