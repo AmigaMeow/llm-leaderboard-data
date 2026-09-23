@@ -21,6 +21,11 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # secrets 不能在 if: 里直接引用；按 GitHub 官方建议先落到 job 级 env，
+    # 再由步骤用 env.HF_TOKEN 判断是否跳过。未配置时这一整步不执行。
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_DATASET_REPO: ${{ vars.HF_DATASET_REPO || 'AmigaMeow/llm-leaderboard' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -59,3 +64,10 @@ jobs:
           DATE=$(date -u +%Y-%m-%d)
           git commit -m "data: daily snapshot ${DATE}"
           git push
+
+      # 发布到 Hugging Face Datasets。未配置 HF_TOKEN 时自动跳过 —— 日常路径零新依赖。
+      - name: Publish to Hugging Face
+        if: env.HF_TOKEN != ''
+        run: |
+          pip install --quiet huggingface_hub
+          python3 scripts/publish_hf.py --repo "${HF_DATASET_REPO}"
