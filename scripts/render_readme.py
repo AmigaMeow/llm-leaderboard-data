@@ -134,6 +134,11 @@ def main():
     models = d["models"]
     date = d.get("date", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     srcs = d.get("sources", {})
+    # LMArena 上游文本榜的发布日 —— 与「我们抓取的日期」是两回事。
+    # 上游按自己的节奏发布（2026-09-13 之后停了 10 天以上），只写「每日更新」容易被
+    # 误读为「分数每天在变」，所以这里显式分开标注。
+    _lm = srcs.get("lmarena") if isinstance(srcs, dict) else None
+    arena_pub = str((_lm.get("publish_date") if isinstance(_lm, dict) else "") or "").strip()
     n_open = sum(1 for m in models if m.get("open_weights"))
     n_arena = sum(1 for m in models if m.get("arena_score") is not None)
     n_price = sum(1 for m in models if bp(m) is not None)
@@ -150,7 +155,11 @@ def main():
     r.append("")
     r.append("> 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，")
     r.append(">")
-    r.append("> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **" + date + "**")
+    r.append("> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **" + date + "**")
+    if arena_pub:
+        r.append(">")
+        r.append("> ⚠️ 其中 **Arena 分数取自 LMArena 快照 " + arena_pub + "**（上游自该日起未发布新快照）；")
+        r.append("> 定价、上下文长度与收录名单为每日抓取。")
     r.append("")
     r.append("[![Daily Update](https://github.com/%s/actions/workflows/update.yml/badge.svg)](https://github.com/%s/actions/workflows/update.yml)" % (args.repo, args.repo))
     r.append("[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)");
@@ -171,7 +180,9 @@ def main():
     r.append("| 开源权重 | %d |" % n_open)
     r.append("| 覆盖厂商 | %d |" % len(orgs))
     r.append("| 数据源 | %s |" % src_txt)
-    r.append("| 最近更新 | %s |" % date)
+    r.append("| 最近抓取 | %s |" % date)
+    if arena_pub:
+        r.append("| Arena 榜发布日 | %s |" % arena_pub)
     r.append("")
     r.append("厂商分布：" + "、".join("%s (%d)" % (k, v) for k, v in top_orgs))
     r.append("")
