@@ -45,10 +45,10 @@
 | 37 | GPT-5.6 Terra | OpenAI | closed | 1,446.2 | 1441 ~ 1451 | 28,119 | - |
 | 38 | Claude Sonnet 5 | Anthropic | closed | 1,442.1 | 1438 ~ 1447 | 35,301 | - |
 | 39 | Hy3 | Tencent | open | 1,440.6 | 1433 ~ 1448 | 8,047 | - |
-| 40 | Qwen3.8 27B | Alibaba | open | 1,439.3 | 1433 ~ 1446 | 10,697 | NEW |
-| 41 | MiniMax M3 | MiniMax | open | 1,433.5 | 1429 ~ 1438 | 48,540 | DOWN1 |
-| 42 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 1428 ~ 1436 | 48,887 | DOWN1 |
-| 43 | GPT-5.6 Luna | OpenAI | closed | 1,429.9 | 1425 ~ 1435 | 28,547 | DOWN1 |
-| 44 | Grok 4.6 | xAI | closed | 1,429.9 | 1424 ~ 1436 | 15,521 | DOWN1 |
-| 45 | MiMo V2.5 | Xiaomi | open | 1,427.4 | 1423 ~ 1432 | 44,466 | DOWN1 |
-| 46 | GPT-5.2 | OpenAI | closed | 1,416.5 | 1413 ~ 1420 | 47,538 | DOWN1 |
+| 40 | Qwen3.8 27B | Alibaba | open | 1,439.3 | 1433 ~ 1446 | 10,697 | - |
+| 41 | MiniMax M3 | MiniMax | open | 1,433.5 | 1429 ~ 1438 | 48,540 | - |
+| 42 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 1428 ~ 1436 | 48,887 | - |
+| 43 | GPT-5.6 Luna | OpenAI | closed | 1,429.9 | 1425 ~ 1435 | 28,547 | - |
+| 44 | Grok 4.6 | xAI | closed | 1,429.9 | 1424 ~ 1436 | 15,521 | - |
+| 45 | MiMo V2.5 | Xiaomi | open | 1,427.4 | 1423 ~ 1432 | 44,466 | - |
+| 46 | GPT-5.2 | OpenAI | closed | 1,416.5 | 1413 ~ 1420 | 47,538 | - |

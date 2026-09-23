@@ -20,16 +20,16 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **68** |
+| 收录模型 | **77** |
 | 有 Arena 评分 | 46 |
 | 有定价数据 | 66 |
 | 开源权重 | 21 |
-| 覆盖厂商 | 15 |
+| 覆盖厂商 | 20 |
 | 数据源 | lmarena ok | openrouter ok |
 | 最近抓取 | 2026-09-23 |
 | Arena 榜发布日 | 2026-09-13 |
 
-厂商分布：OpenAI (13)、Anthropic (10)、Google (8)、Alibaba (7)、Meta (4)、Z.AI (4)
+厂商分布：OpenAI (13)、Anthropic (10)、Google (8)、Alibaba (8)、DeepSeek (6)、Meta (4)
 
 ---
 

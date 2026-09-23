@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T14:57:46+00:00",
+ "generated_at": "2026-09-23T15:05:43+00:00",
  "date": "2026-09-23",
  "schema_version": 1,
  "sources": {
@@ -12,7 +12,7 @@
    "publish_date": null
   }
  },
- "count": 68,
+ "count": 77,
  "models": [
   {
    "id": "anthropic/claude-fable-5.1",
@@ -751,6 +751,22 @@
    "listed_at_iso": "2025-12-10"
   },
   {
+   "id": "alibaba/qwen3-8-flash-next",
+   "display_name": "Qwen3.8-Flash-Next",
+   "org": "Alibaba",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
+  },
+  {
    "id": "anthropic/claude-opus-4.5",
    "display_name": "Claude Opus 4.5",
    "org": "Anthropic",
@@ -781,6 +797,22 @@
    "price_out": 20,
    "context_length": 1000000,
    "listed_at_iso": "2026-09-22"
+  },
+  {
+   "id": "apodex/apodex-1-1",
+   "display_name": "Apodex 1.1",
+   "org": "Apodex",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
   },
   {
    "id": "bytedance-seed/seed-2.1-turbo",
@@ -815,6 +847,38 @@
    "listed_at_iso": "2025-12-01"
   },
   {
+   "id": "deepseek/deepseek-v4-flash-vision",
+   "display_name": "DeepSeek V4 Flash Vision",
+   "org": "DeepSeek",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
+  },
+  {
+   "id": "deepseek/deepseek-v4-pro-0424-high",
+   "display_name": "DeepSeek V4 Pro 0424",
+   "org": "DeepSeek",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
+  },
+  {
    "id": "deepseek/deepseek-v4.1-flash",
    "display_name": "DeepSeek V4.1 Flash",
    "org": "DeepSeek",
@@ -829,6 +893,22 @@
    "price_out": 0.5,
    "context_length": 1048576,
    "listed_at_iso": "2026-09-10"
+  },
+  {
+   "id": "institute-of-foundation-models/k2-horizon-375b-a23b",
+   "display_name": "K2 Horizon 375B A23B",
+   "org": "Institute of Foundation Models",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
   },
   {
    "id": "mistralai/mistral-large",
@@ -893,6 +973,22 @@
    "price_out": 3.3,
    "context_length": 262144,
    "listed_at_iso": "2026-06-12"
+  },
+  {
+   "id": "motif-technologies/motif-3",
+   "display_name": "Motif 3",
+   "org": "Motif Technologies",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
   },
   {
    "id": "openai/gpt-5.1",
@@ -1037,6 +1133,54 @@
    "price_out": 6,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-12"
+  },
+  {
+   "id": "sapiens-ai/agnes-2-5-pro-beta",
+   "display_name": "Agnes 2.5 Pro Beta",
+   "org": "Sapiens AI",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
+  },
+  {
+   "id": "sapiens-ai/agnes-3-0-flash",
+   "display_name": "Agnes 3.0 Flash",
+   "org": "Sapiens AI",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
+  },
+  {
+   "id": "stepfun/step-5",
+   "display_name": "Step 5 Preview",
+   "org": "StepFun",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
   },
   {
    "id": "x-ai/grok-4.20",

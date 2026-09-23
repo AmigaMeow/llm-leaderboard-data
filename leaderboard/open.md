@@ -16,7 +16,7 @@
 | 8 | DeepSeek V4 Pro | DeepSeek | MIT | 1,450.6 | 54,130 | 1.0M | - |
 | 9 | GLM-5 | Z AI | MIT | 1,446.3 | 27,605 | 204K | - |
 | 10 | Hy3 | Tencent | Apache 2.0 | 1,440.6 | 8,047 | 262K | - |
-| 11 | Qwen3.8 27B | Alibaba | Apache 2.0 | 1,439.3 | 10,697 | 1.0M | NEW |
-| 12 | MiniMax M3 | MiniMax | MiniMax Community License | 1,433.5 | 48,540 | 1.0M | DOWN1 |
-| 13 | DeepSeek V4 Flash | DeepSeek | MIT | 1,431.8 | 48,887 | 1.0M | DOWN1 |
-| 14 | MiMo V2.5 | Xiaomi | MIT | 1,427.4 | 44,466 | 1.1M | DOWN1 |
+| 11 | Qwen3.8 27B | Alibaba | Apache 2.0 | 1,439.3 | 10,697 | 1.0M | - |
+| 12 | MiniMax M3 | MiniMax | MiniMax Community License | 1,433.5 | 48,540 | 1.0M | - |
+| 13 | DeepSeek V4 Flash | DeepSeek | MIT | 1,431.8 | 48,887 | 1.0M | - |
+| 14 | MiMo V2.5 | Xiaomi | MIT | 1,427.4 | 44,466 | 1.1M | - |
