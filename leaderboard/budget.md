@@ -2,7 +2,7 @@
 
 > Strongest model in each price band. 'Gap to #1' shows how many Arena points you give up versus the top model overall.
 
-> Snapshot: 2026-09-22 | 6 price bands
+> Snapshot: 2026-09-23 | 6 price bands
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Blended price |
 |:---|:---|:---|:---|---:|---:|---:|

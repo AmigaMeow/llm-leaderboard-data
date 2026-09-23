@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **2026-09-22**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 快照 **2026-09-23**
 
 [![Daily Update](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml/badge.svg)](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -17,15 +17,15 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **58** |
-| 有 Arena 评分 | 43 |
-| 有定价数据 | 57 |
+| 收录模型 | **60** |
+| 有 Arena 评分 | 45 |
+| 有定价数据 | 58 |
 | 开源权重 | 18 |
 | 覆盖厂商 | 15 |
 | 数据源 | lmarena ok | openrouter ok |
-| 最近更新 | 2026-09-22 |
+| 最近更新 | 2026-09-23 |
 
-厂商分布：OpenAI (10)、Anthropic (9)、Google (8)、Alibaba (5)、Z.AI (4)、Moonshot AI (4)
+厂商分布：OpenAI (10)、Anthropic (9)、Google (8)、Alibaba (5)、Meta (4)、Z.AI (4)
 
 ---
 
@@ -62,9 +62,9 @@
 | 5 | Claude Fable 5 | Anthropic | 1,492.6 | 30,057 |
 | 6 | Gemini 3.7 Flash | Google | 1,490.5 | 5,640 |
 | 7 | Claude Opus 4.7 | Anthropic | 1,490.0 | 60,002 |
-| 8 | Muse Spark 1.2 | Meta | 1,489.4 | 3,227 |
-| 9 | Gemini 3.5 Flash | Google | 1,482.1 | 38,257 |
-| 10 | Qwen3.8 Max | Alibaba | 1,480.6 | 16,670 |
+| 8 | Muse Spark 1.3 | Meta | 1,489.7 | 4,723 |
+| 9 | Muse Spark 1.2 | Meta | 1,489.4 | 3,227 |
+| 10 | Gemini 3.5 Flash | Google | 1,482.1 | 38,257 |
 
 [→ 完整综合榜](leaderboard/all.md)
 
