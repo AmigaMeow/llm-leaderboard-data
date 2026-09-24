@@ -156,6 +156,9 @@ def main():
     r.append("> 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，")
     r.append(">")
     r.append("> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **" + date + "**")
+    r.append(">")
+    r.append("> Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard)"
+             " —— 不用克隆，可直接 `load_dataset()` 读取")
     if arena_pub:
         r.append(">")
         r.append("> ⚠️ 其中 **Arena 分数取自 LMArena 快照 " + arena_pub + "**（上游自该日起未发布新快照）；")
@@ -163,6 +166,7 @@ def main():
     r.append("")
     r.append("[![Daily Update](https://github.com/%s/actions/workflows/update.yml/badge.svg)](https://github.com/%s/actions/workflows/update.yml)" % (args.repo, args.repo))
     r.append("[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)");
+    r.append("[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97-Dataset-yellow)](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard)")
     r.append("")
     r.append("")
     r.append("涵盖 **闭源商用模型**（GPT / Claude / Gemini / Grok / Qwen / GLM / Kimi …）与 **开源权重模型**")
