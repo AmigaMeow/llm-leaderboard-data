@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T03:44:39+00:00",
+ "generated_at": "2026-09-24T06:20:05+00:00",
  "date": "2026-09-24",
  "schema_version": 1,
  "sources": {
@@ -12,7 +12,7 @@
    "publish_date": null
   }
  },
- "count": 77,
+ "count": 75,
  "models": [
   {
    "id": "anthropic/claude-fable-5.1",
@@ -1133,38 +1133,6 @@
    "price_out": 6,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-12"
-  },
-  {
-   "id": "sapiens-ai/agnes-2-5-pro-beta",
-   "display_name": "Agnes 2.5 Pro Beta",
-   "org": "Sapiens AI",
-   "license": null,
-   "open_weights": null,
-   "arena_score": null,
-   "arena_ci_low": null,
-   "arena_ci_high": null,
-   "arena_votes": null,
-   "arena_rank": null,
-   "price_in": null,
-   "price_out": null,
-   "context_length": null,
-   "listed_at_iso": null
-  },
-  {
-   "id": "sapiens-ai/agnes-3-0-flash",
-   "display_name": "Agnes 3.0 Flash",
-   "org": "Sapiens AI",
-   "license": null,
-   "open_weights": null,
-   "arena_score": null,
-   "arena_ci_low": null,
-   "arena_ci_high": null,
-   "arena_votes": null,
-   "arena_rank": null,
-   "price_in": null,
-   "price_out": null,
-   "context_length": null,
-   "listed_at_iso": null
   },
   {
    "id": "stepfun/step-5",
