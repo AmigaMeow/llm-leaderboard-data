@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-09-24**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-09-25**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -23,13 +23,13 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **75** |
+| 收录模型 | **74** |
 | 有 Arena 评分 | 46 |
 | 有定价数据 | 66 |
 | 开源权重 | 21 |
-| 覆盖厂商 | 19 |
+| 覆盖厂商 | 18 |
 | 数据源 | lmarena ok | openrouter ok |
-| 最近抓取 | 2026-09-24 |
+| 最近抓取 | 2026-09-25 |
 | Arena 榜发布日 | 2026-09-13 |
 
 厂商分布：OpenAI (13)、Anthropic (10)、Google (8)、Alibaba (8)、DeepSeek (6)、Meta (4)
@@ -81,7 +81,8 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,471.9 | 35.7 | $0.237 |
+| $0.00–0.10 | DeepSeek V4 Flash | DeepSeek | open | 1,431.8 | 75.8 | $0.061 |
+| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,471.9 | 35.7 | $0.184 |
 | $0.25–0.50 | GPT-5.6 Luna | OpenAI | closed | 1,429.9 | 77.7 | $0.450 |
 | $0.50–1.00 | GLM-5.2 | Z.AI | open | 1,466.9 | 40.7 | $0.998 |
 | $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,494.7 | 12.9 | $1.50 |
@@ -95,8 +96,8 @@
 | # | Model | Org | Context | Arena | Blended |
 |---:|:---|:---|---:|---:|---:|
 | 🥇 | Grok 4.20 | xAI | 2.0M | - | $1.56 |
-| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $1.29 |
-| 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,471.9 | $0.237 |
+| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,475.1 | $2.15 |
+| 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,471.9 | $0.184 |
 | 4 | GPT-5.5 | OpenAI | 1.1M | 1,470.9 | $11.25 |
 | 5 | GPT-5.4 | OpenAI | 1.1M | 1,469.6 | $5.62 |
 | 6 | MiMo V2.5 Pro | Xiaomi | 1.1M | 1,464.7 | $0.544 |

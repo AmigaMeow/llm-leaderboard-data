@@ -2,7 +2,7 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-09-24 | 14 models
+> Snapshot: 2026-09-25 | 14 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
