@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-09-27**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-09-28**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -23,16 +23,16 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **74** |
-| 有 Arena 评分 | 50 |
-| 有定价数据 | 66 |
-| 开源权重 | 21 |
+| 收录模型 | **75** |
+| 有 Arena 评分 | 51 |
+| 有定价数据 | 67 |
+| 开源权重 | 22 |
 | 覆盖厂商 | 18 |
 | 数据源 | lmarena ok | openrouter ok |
-| 最近抓取 | 2026-09-27 |
+| 最近抓取 | 2026-09-28 |
 | Arena 榜发布日 | 2026-09-25 |
 
-厂商分布：OpenAI (13)、Anthropic (10)、Google (8)、Alibaba (8)、DeepSeek (6)、Meta (4)
+厂商分布：OpenAI (13)、Anthropic (10)、Google (8)、Alibaba (8)、DeepSeek (6)、Xiaomi (4)
 
 ---
 
@@ -81,9 +81,8 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | GLM-5.3 Flash | Z.AI | open | 1,470.9 | 46.9 | $0.069 |
-| $0.10–0.25 | Hy3 | Tencent | open | 1,441.6 | 76.2 | $0.231 |
-| $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,472.5 | 45.3 | $0.420 |
+| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,470.9 | 46.9 | $0.237 |
+| $0.25–0.50 | GPT-5.6 Luna | OpenAI | closed | 1,431.8 | 86.0 | $0.450 |
 | $0.50–1.00 | MiMo-V2.6-Pro | Xiaomi | open | 1,490.7 | 27.1 | $0.544 |
 | $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,494.4 | 23.4 | $1.50 |
 | $3.00–10.00 | Claude Opus 5.5 | Anthropic | closed | 1,517.8 | — | $8.00 |
@@ -96,8 +95,8 @@
 | # | Model | Org | Context | Arena | Blended |
 |---:|:---|:---|---:|---:|---:|
 | 🥇 | Grok 4.20 | xAI | 2.0M | - | $1.56 |
-| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,472.5 | $0.420 |
-| 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,470.9 | $0.069 |
+| 🥈 | GLM-5.3 | Z.AI | 1.3M | 1,472.5 | $1.34 |
+| 🥉 | GLM-5.3 Flash | Z.AI | 1.3M | 1,470.9 | $0.237 |
 | 4 | MiMo-V2.6-Pro | Xiaomi | 1.1M | 1,490.7 | $0.544 |
 | 5 | GPT-5.5 | OpenAI | 1.1M | 1,471.2 | $11.25 |
 | 6 | GPT-5.4 | OpenAI | 1.1M | 1,468.9 | $5.62 |
