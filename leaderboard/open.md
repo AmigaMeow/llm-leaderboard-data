@@ -2,14 +2,14 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-09-29 | 16 models
+> Snapshot: 2026-09-30 | 16 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | MiMo-V2.6-Pro | Xiaomi | MIT | 1,490.7 | 4,026 | 1.1M | - |
 | 🥈 | Kimi K3 | Moonshot AI | Kimi K3 license | 1,475.6 | 26,400 | 1.0M | - |
-| 🥉 | GLM-5.3 | Z.AI | MIT | 1,472.5 | 15,904 | 1.3M | - |
-| 4 | GLM-5.3 Flash | Z.AI | MIT | 1,470.9 | 19,103 | 1.3M | - |
+| 🥉 | GLM-5.3 | Z.AI | MIT | 1,472.5 | 15,904 | 1.0M | - |
+| 4 | GLM-5.3 Flash | Z.AI | MIT | 1,470.9 | 19,103 | 1.0M | - |
 | 5 | GLM-5.2 | Z.AI | MIT | 1,470.2 | 43,570 | 1.0M | - |
 | 6 | MiMo V2.5 Pro | Xiaomi | MIT | 1,465.0 | 69,225 | 1.1M | - |
 | 7 | GLM-5.1 | Z.AI | MIT | 1,461.9 | 56,463 | 204K | - |

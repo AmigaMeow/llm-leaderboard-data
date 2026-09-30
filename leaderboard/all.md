@@ -2,7 +2,7 @@
 
 > LMArena Bradley-Terry score.
 
-> Snapshot: 2026-09-29 | 50 models
+> Snapshot: 2026-09-30 | 50 models
 
 | # | Model | Org | Weights | Arena | 95% CI | Votes | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
