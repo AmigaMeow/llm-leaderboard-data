@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-10-01
+
+- 收录模型 **79** 个（开源权重 22）
+- 数据源：lmarena ok／openrouter ok
+- 新进榜：Gemini 4 Argon、JT-4.1 Flash 236B A21B、GPT-6.1 Sol
+- Arena 榜首：**Gemini 4 Argon**（1,533.1，4,942 票）
+
 ## 2026-09-30
 
 - 收录模型 **76** 个（开源权重 22）
