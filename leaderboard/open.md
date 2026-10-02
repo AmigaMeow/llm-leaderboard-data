@@ -2,7 +2,7 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-10-01 | 16 models
+> Snapshot: 2026-10-02 | 16 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -19,6 +19,6 @@
 | 11 | GLM-5 | Z AI | MIT | 1,446.3 | 29,203 | 204K | - |
 | 12 | Hy3 | Tencent | Apache 2.0 | 1,442.1 | 10,239 | 262K | - |
 | 13 | Qwen3.8 27B | Alibaba | Apache 2.0 | 1,441.4 | 17,777 | 1.0M | - |
-| 14 | DeepSeek V4 Flash | DeepSeek | MIT | 1,432.0 | 51,869 | 1.0M | UP1 |
-| 15 | MiniMax M3 | MiniMax | MiniMax Community License | 1,431.8 | 58,171 | 1.0M | DOWN1 |
+| 14 | DeepSeek V4 Flash | DeepSeek | MIT | 1,432.0 | 51,869 | 1.0M | - |
+| 15 | MiniMax M3 | MiniMax | MiniMax Community License | 1,431.8 | 58,171 | 1.0M | - |
 | 16 | MiMo V2.5 | Xiaomi | MIT | 1,427.6 | 47,292 | 1.1M | - |
