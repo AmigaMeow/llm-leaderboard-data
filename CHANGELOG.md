@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-10-07
+
+- 收录模型 **81** 个（开源权重 22）
+- 数据源：lmarena ok／openrouter ok
+- 新进榜：Mistral Large 4 Preview
+- Arena 榜首：**Gemini 4 Argon**（1,533.5，4,932 票）
+
 ## 2026-10-06
 
 - 收录模型 **80** 个（开源权重 22）
