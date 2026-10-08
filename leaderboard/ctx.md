@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-10-07 | 50 models
+> Snapshot: 2026-10-08 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -29,14 +29,14 @@
 | 21 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,480.2 | $4.50 | - |
 | 22 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,479.5 | $1.50 | - |
 | 23 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,479.2 | $2.00 | - |
-| 24 | Kimi K3 | Moonshot AI | open | 1.0M | 1,475.9 | $4.21 | - |
-| 25 | GLM-5.3 | Z.AI | open | 1.0M | 1,471.4 | $1.80 | - |
-| 26 | GLM-5.2 | Z.AI | open | 1.0M | 1,470.4 | $3.02 | - |
+| 24 | Kimi K3 | Moonshot AI | open | 1.0M | 1,475.9 | $4.29 | - |
+| 25 | GLM-5.3 | Z.AI | open | 1.0M | 1,471.4 | $0.884 | - |
+| 26 | GLM-5.2 | Z.AI | open | 1.0M | 1,470.4 | $2.52 | - |
 | 27 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,469.6 | $0.237 | - |
 | 28 | Gemini 3 Flash | Google | closed | 1.0M | 1,465.6 | $1.12 | - |
 | 29 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,457.8 | $3.44 | - |
-| 30 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,451.0 | $0.261 | - |
-| 31 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,432.1 | $0.343 | - |
+| 30 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,451.0 | $1.19 | - |
+| 31 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,432.1 | $0.325 | - |
 | 32 | MiniMax M3 | MiniMax | open | 1.0M | 1,432.1 | $0.525 | - |
 | 33 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | - | $0.525 | - |
 | 34 | Qwen3.8 2.4T A95B | Alibaba | open | 1.0M | - | $3.00 | - |
@@ -54,5 +54,5 @@
 | 46 | Claude Sonnet 5 | Anthropic | closed | 1.0M | 1,442.9 | $4.00 | - |
 | 47 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,440.7 | $0.956 | - |
 | 48 | Claude Fable 5 | Anthropic | closed | 1.0M | - | $20.00 | - |
-| 49 | Grok 4.5 | xAI | closed | 500K | 1,448.1 | $3.00 | - |
-| 50 | Grok 4.6 | xAI | closed | 500K | 1,427.3 | $3.00 | - |
+| 49 | Claude Haiku 5.5 | Anthropic | closed | 1.0M | - | $0.200 | NEW |
+| 50 | Grok 4.5 | xAI | closed | 500K | 1,448.1 | $3.00 | DOWN1 |
