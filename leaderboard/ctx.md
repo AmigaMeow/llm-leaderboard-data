@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-10-10 | 50 models
+> Snapshot: 2026-10-11 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -29,16 +29,16 @@
 | 21 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,480.5 | $4.50 | - |
 | 22 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,478.8 | $1.50 | - |
 | 23 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,478.6 | $2.00 | - |
-| 24 | Kimi K3 | Moonshot AI | open | 1.0M | 1,475.5 | $3.85 | - |
-| 25 | GLM-5.3 | Z.AI | open | 1.0M | 1,471.2 | $1.23 | - |
+| 24 | Kimi K3 | Moonshot AI | open | 1.0M | 1,475.5 | $3.10 | - |
+| 25 | GLM-5.3 | Z.AI | open | 1.0M | 1,471.2 | $1.25 | - |
 | 26 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,471.1 | $0.237 | - |
 | 27 | GLM-5.2 | Z.AI | open | 1.0M | 1,469.8 | $1.79 | - |
 | 28 | Gemini 3 Flash | Google | closed | 1.0M | 1,465.7 | $1.12 | - |
 | 29 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,462.4 | $0.525 | - |
 | 30 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,457.7 | $3.44 | - |
-| 31 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,451.1 | $1.19 | - |
+| 31 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,451.1 | $0.261 | - |
 | 32 | MiniMax M3 | MiniMax | open | 1.0M | 1,432.6 | $0.525 | - |
-| 33 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,432.1 | $0.328 | - |
+| 33 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,432.1 | $0.343 | - |
 | 34 | Qwen3.8 2.4T A95B | Alibaba | open | 1.0M | - | $3.00 | - |
 | 35 | Claude Opus 5.5 | Anthropic | closed | 1.0M | 1,514.8 | $8.00 | - |
 | 36 | Claude Fable 5.1 | Anthropic | closed | 1.0M | 1,510.0 | $20.00 | - |
@@ -53,6 +53,6 @@
 | 45 | Claude Sonnet 4.6 | Anthropic | closed | 1.0M | 1,457.7 | $6.00 | - |
 | 46 | Qwen3.7 Plus | Alibaba | closed | 1.0M | 1,454.8 | $0.560 | - |
 | 47 | Claude Sonnet 5 | Anthropic | closed | 1.0M | 1,442.1 | $4.00 | - |
-| 48 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,441.1 | $0.956 | - |
+| 48 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,441.1 | $0.605 | - |
 | 49 | Claude Haiku 5.5 | Anthropic | closed | 1.0M | - | $0.200 | - |
 | 50 | Grok 4.5 | xAI | closed | 500K | 1,448.1 | $3.00 | - |

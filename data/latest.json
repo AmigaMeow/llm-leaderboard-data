@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-10T06:20:04+00:00",
- "date": "2026-10-10",
+ "generated_at": "2026-10-11T06:20:04+00:00",
+ "date": "2026-10-11",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -329,8 +329,8 @@
    "arena_ci_high": 1480.2,
    "arena_votes": 30351,
    "arena_rank": 24,
-   "price_in": 0.64,
-   "price_out": 13.5,
+   "price_in": 0.8,
+   "price_out": 10,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-16"
   },
@@ -377,7 +377,7 @@
    "arena_ci_high": 1476.6,
    "arena_votes": 20049,
    "arena_rank": 27,
-   "price_in": 0.039,
+   "price_in": 0.07,
    "price_out": 4.8,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-18"
@@ -585,8 +585,8 @@
    "arena_ci_high": 1459.7,
    "arena_votes": 40066,
    "arena_rank": 43,
-   "price_in": 0.465,
-   "price_out": 2.45,
+   "price_in": 0.65,
+   "price_out": 3.41,
    "context_length": 262144,
    "listed_at_iso": "2026-04-20"
   },
@@ -633,8 +633,8 @@
    "arena_ci_high": 1455,
    "arena_votes": 57657,
    "arena_rank": 48,
-   "price_in": 0.9483,
-   "price_out": 1.8966,
+   "price_in": 0.2088,
+   "price_out": 0.4176,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-12"
   },
@@ -825,8 +825,8 @@
    "arena_ci_high": 1446.3,
    "arena_votes": 20711,
    "arena_rank": 73,
-   "price_in": 0.425,
-   "price_out": 2.55,
+   "price_in": 0.04,
+   "price_out": 2.3,
    "context_length": 1000000,
    "listed_at_iso": "2026-08-14"
   },
@@ -921,7 +921,7 @@
    "arena_ci_high": 1436.1,
    "arena_votes": 52047,
    "arena_rank": 91,
-   "price_in": 0.0103,
+   "price_in": 0.03,
    "price_out": 1.28,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-31"
