@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-10-13
+
+- 收录模型 **84** 个（开源权重 23）
+- 数据源：lmarena ok／openrouter ok
+- 新进榜：Muse Wonder、Muse Wonder Full
+- Arena 榜首：**Gemini 4 Argon**（1,533.9，4,892 票）
+
 ## 2026-10-12
 
 - 收录模型 **82** 个（开源权重 23）

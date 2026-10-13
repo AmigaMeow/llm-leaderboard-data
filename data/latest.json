@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T06:20:04+00:00",
- "date": "2026-10-12",
+ "generated_at": "2026-10-13T06:20:05+00:00",
+ "date": "2026-10-13",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -12,7 +12,7 @@
    "publish_date": null
   }
  },
- "count": 82,
+ "count": 84,
  "models": [
   {
    "id": "google/gemini-4-argon",
@@ -330,7 +330,7 @@
    "arena_votes": 30351,
    "arena_rank": 24,
    "price_in": 0.73,
-   "price_out": 10,
+   "price_out": 13.5,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-16"
   },
@@ -409,8 +409,8 @@
    "arena_ci_high": 1476.1,
    "arena_votes": 27678,
    "arena_rank": 29,
-   "price_in": 0.15,
-   "price_out": 0.5,
+   "price_in": 0.0261,
+   "price_out": 0.9,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-26"
   },
@@ -489,8 +489,8 @@
    "arena_ci_high": 1468.8,
    "arena_votes": 10872,
    "arena_rank": 37,
-   "price_in": 0.3,
-   "price_out": 1.2,
+   "price_in": 0.0441,
+   "price_out": 0.891,
    "context_length": 1048576,
    "listed_at_iso": "2026-09-10"
   },
@@ -921,7 +921,7 @@
    "arena_ci_high": 1436.1,
    "arena_votes": 52047,
    "arena_rank": 91,
-   "price_in": 0.0099,
+   "price_in": 0.0365,
    "price_out": 1.28,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-31"
@@ -1218,6 +1218,38 @@
    "id": "institute-of-foundation-models/k2-horizon-375b-a23b",
    "display_name": "K2 Horizon 375B A23B",
    "org": "Institute of Foundation Models",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
+  },
+  {
+   "id": "meta/muse-wonder",
+   "display_name": "Muse Wonder",
+   "org": "Meta",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": 4,
+   "price_out": 20,
+   "context_length": 1048576,
+   "listed_at_iso": "2026-10-12"
+  },
+  {
+   "id": "meta/muse-wonder-full",
+   "display_name": "Muse Wonder Full",
+   "org": "Meta",
    "license": null,
    "open_weights": null,
    "arena_score": null,
