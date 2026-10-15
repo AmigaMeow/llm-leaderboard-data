@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-14T06:20:34+00:00",
- "date": "2026-10-14",
+ "generated_at": "2026-10-15T06:20:05+00:00",
+ "date": "2026-10-15",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -329,7 +329,7 @@
    "arena_ci_high": 1480.2,
    "arena_votes": 32036,
    "arena_rank": 24,
-   "price_in": 0.7,
+   "price_in": 0.45,
    "price_out": 15,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-16"
@@ -409,8 +409,8 @@
    "arena_ci_high": 1475.9,
    "arena_votes": 31379,
    "arena_rank": 29,
-   "price_in": 0.15,
-   "price_out": 0.5,
+   "price_in": 0.036,
+   "price_out": 0.9,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-26"
   },
@@ -441,7 +441,7 @@
    "arena_ci_high": 1474.2,
    "arena_votes": 49127,
    "arena_rank": 32,
-   "price_in": 0.05,
+   "price_in": 0.037,
    "price_out": 7,
    "context_length": 1048576,
    "listed_at_iso": "2026-06-16"
@@ -505,8 +505,8 @@
    "arena_ci_high": 1466.2,
    "arena_votes": 62175,
    "arena_rank": 38,
-   "price_in": 1.33,
-   "price_out": 4.18,
+   "price_in": 0.966,
+   "price_out": 3.036,
    "context_length": 204800,
    "listed_at_iso": "2026-04-07"
   },
@@ -521,7 +521,7 @@
    "arena_ci_high": 1468.8,
    "arena_votes": 12000,
    "arena_rank": 39,
-   "price_in": 0.0066,
+   "price_in": 0.0137,
    "price_out": 0.891,
    "context_length": 1048576,
    "listed_at_iso": "2026-09-10"
@@ -585,8 +585,8 @@
    "arena_ci_high": 1461.6,
    "arena_votes": 39832,
    "arena_rank": 43,
-   "price_in": 2,
-   "price_out": 10,
+   "price_in": 4,
+   "price_out": 20,
    "context_length": 1050000,
    "listed_at_iso": "2026-07-09"
   },
@@ -761,8 +761,8 @@
    "arena_ci_high": 1450.3,
    "arena_votes": 29279,
    "arena_rank": 60,
-   "price_in": 0.6,
-   "price_out": 1.92,
+   "price_in": 1,
+   "price_out": 3.2,
    "context_length": 204800,
    "listed_at_iso": "2026-02-11"
   },
@@ -841,8 +841,8 @@
    "arena_ci_high": 1445.7,
    "arena_votes": 22539,
    "arena_rank": 74,
-   "price_in": 0.04,
-   "price_out": 2.3,
+   "price_in": 0.24,
+   "price_out": 2.2,
    "context_length": 1000000,
    "listed_at_iso": "2026-08-14"
   },
