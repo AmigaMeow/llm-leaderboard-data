@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-10-16
+
+- 收录模型 **86** 个（开源权重 24）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Muse Spark Open
+- Arena 榜首：**Gemini 4 Argon**（1,523.9，4,904 票）
+
 ## 2026-10-15
 
 - 收录模型 **85** 个（开源权重 23）
