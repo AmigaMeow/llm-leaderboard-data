@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-10-19**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-10-20**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -23,13 +23,13 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **87** |
+| 收录模型 | **88** |
 | 有 Arena 评分 | 69 |
 | 有定价数据 | 72 |
 | 开源权重 | 24 |
 | 覆盖厂商 | 22 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-10-19 |
+| 最近抓取 | 2026-10-20 |
 | Arena 榜发布日 | 2026-10-15 |
 
 厂商分布：OpenAI (14)、Anthropic (12)、Google (9)、Alibaba (8)、Meta (7)、DeepSeek (6)
@@ -81,7 +81,7 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | DeepSeek V4.1 Flash | DeepSeek | open | 1,474.6 | 49.3 | $0.065 |
+| $0.00–0.10 | DeepSeek V4.1 Flash | DeepSeek | open | 1,474.6 | 49.3 | $0.029 |
 | $0.10–0.25 | Hy3 | Tencent | open | 1,453.2 | 70.7 | $0.231 |
 | $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,478.5 | 45.4 | $0.409 |
 | $0.50–1.00 | MiMo-V2.6-Pro | Xiaomi | open | 1,479.2 | 44.7 | $0.544 |
