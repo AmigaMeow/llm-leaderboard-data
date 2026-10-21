@@ -2,11 +2,11 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-10-20**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-10-21**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
-> ⚠️ 其中 **Arena 分数取自 LMArena 快照 2026-10-15**（上游自该日起未发布新快照）；
+> ⚠️ 其中 **Arena 分数取自 LMArena 快照 2026-10-20**（上游自该日起未发布新快照）；
 > 定价、上下文长度与收录名单为每日抓取。
 
 [![Daily Update](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml/badge.svg)](https://github.com/AmigaMeow/llm-leaderboard-data/actions/workflows/update.yml)
@@ -26,11 +26,11 @@
 | 收录模型 | **88** |
 | 有 Arena 评分 | 69 |
 | 有定价数据 | 72 |
-| 开源权重 | 24 |
+| 开源权重 | 25 |
 | 覆盖厂商 | 22 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-10-20 |
-| Arena 榜发布日 | 2026-10-15 |
+| 最近抓取 | 2026-10-21 |
+| Arena 榜发布日 | 2026-10-20 |
 
 厂商分布：OpenAI (14)、Anthropic (12)、Google (9)、Alibaba (8)、Meta (7)、DeepSeek (6)
 
@@ -62,16 +62,16 @@
 
 | # | Model | Org | Arena | Votes |
 |---:|:---|:---|---:|---:|
-| 🥇 | Gemini 4 Argon | Google | 1,523.9 | 4,904 |
-| 🥈 | Muse Wonder | Meta | 1,508.9 | 3,247 |
-| 🥉 | Claude Opus 5.5 | Anthropic | 1,508.2 | 8,300 |
-| 4 | Claude Fable 5 | Anthropic | 1,503.6 | 42,004 |
-| 5 | Claude Opus 4.6 | Anthropic | 1,503.1 | 81,394 |
-| 6 | Claude Fable 5.1 | Anthropic | 1,502.3 | 14,590 |
-| 7 | Claude Opus 4.7 | Anthropic | 1,501.1 | 65,116 |
-| 8 | Gemini 3.8 Flash | Google | 1,496.4 | 37,454 |
-| 9 | Muse Spark 1.3 | Meta | 1,494.4 | 17,561 |
-| 10 | Muse Spark 1.2 | Meta | 1,493.1 | 8,248 |
+| 🥇 | Gemini 4 Argon | Google | 1,523.9 | 4,900 |
+| 🥈 | Muse Wonder | Meta | 1,509.5 | 5,099 |
+| 🥉 | Claude Opus 5.5 | Anthropic | 1,508.8 | 9,496 |
+| 4 | Claude Fable 5 | Anthropic | 1,503.7 | 43,399 |
+| 5 | Claude Fable 5.1 | Anthropic | 1,502.6 | 15,623 |
+| 6 | Claude Opus 4.6 | Anthropic | 1,502.6 | 82,619 |
+| 7 | Claude Opus 4.7 | Anthropic | 1,501.0 | 65,131 |
+| 8 | Gemini 3.8 Flash | Google | 1,496.3 | 41,423 |
+| 9 | Muse Spark 1.3 | Meta | 1,494.7 | 19,323 |
+| 10 | Muse Spark 1.2 | Meta | 1,492.0 | 9,578 |
 
 [→ 完整综合榜](leaderboard/all.md)
 
@@ -81,13 +81,12 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | DeepSeek V4.1 Flash | DeepSeek | open | 1,474.6 | 49.3 | $0.029 |
-| $0.10–0.25 | Hy3 | Tencent | open | 1,453.2 | 70.7 | $0.231 |
-| $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,478.5 | 45.4 | $0.409 |
-| $0.50–1.00 | MiMo-V2.6-Pro | Xiaomi | open | 1,479.2 | 44.7 | $0.544 |
-| $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,496.4 | 27.5 | $1.65 |
+| $0.10–0.25 | DeepSeek V4.1 Flash | DeepSeek | open | 1,475.3 | 48.6 | $0.131 |
+| $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,480.7 | 43.2 | $0.409 |
+| $0.50–1.00 | MiMo-V2.6-Pro | Xiaomi | open | 1,479.6 | 44.3 | $0.544 |
+| $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,496.3 | 27.6 | $1.65 |
 | $3.00–10.00 | Gemini 4 Argon | Google | closed | 1,523.9 | — | $4.00 |
-| $10+ | Claude Fable 5 | Anthropic | closed | 1,503.6 | 20.3 | $20.00 |
+| $10+ | Claude Fable 5 | Anthropic | closed | 1,503.7 | 20.2 | $20.00 |
 
 [→ 完整预算榜](leaderboard/budget.md)
 
@@ -95,16 +94,16 @@
 
 | # | Model | Org | Context | Arena | Blended |
 |---:|:---|:---|---:|---:|---:|
-| 🥇 | Grok 4.20 | xAI | 2.0M | 1,471.5 | $1.56 |
-| 🥈 | GPT-6 Astra | OpenAI | 1.1M | 1,477.3 | $20.00 |
-| 🥉 | GPT-6.1 Sol | OpenAI | 1.1M | 1,483.8 | $4.00 |
-| 4 | GPT-6 Sol | OpenAI | 1.1M | 1,459.0 | $4.00 |
-| 5 | GPT-5.6 Sol | OpenAI | 1.1M | 1,484.7 | $8.00 |
-| 6 | MiMo-V2.6-Pro | Xiaomi | 1.1M | 1,479.2 | $0.544 |
-| 7 | GPT-5.5 | OpenAI | 1.1M | 1,481.4 | $11.25 |
-| 8 | GPT-6 Luna | OpenAI | 1.1M | 1,442.8 | $0.200 |
-| 9 | MiMo-V2.6-Flash | Xiaomi | 1.1M | 1,450.9 | $0.175 |
-| 10 | GPT-5.4 | OpenAI | 1.1M | 1,475.1 | $5.62 |
+| 🥇 | Grok 4.20 | xAI | 2.0M | - | $1.56 |
+| 🥈 | GPT-6 Astra | OpenAI | 1.1M | 1,475.5 | $20.00 |
+| 🥉 | GPT-6.1 Sol | OpenAI | 1.1M | 1,479.4 | $4.00 |
+| 4 | GPT-6 Sol | OpenAI | 1.1M | 1,458.8 | $4.00 |
+| 5 | GPT-5.6 Sol | OpenAI | 1.1M | 1,484.5 | $8.00 |
+| 6 | MiMo-V2.6-Pro | Xiaomi | 1.1M | 1,479.6 | $0.544 |
+| 7 | GPT-5.5 | OpenAI | 1.1M | 1,481.5 | $11.25 |
+| 8 | GPT-6 Luna | OpenAI | 1.1M | 1,441.0 | $0.200 |
+| 9 | MiMo-V2.6-Flash | Xiaomi | 1.1M | 1,448.8 | $0.175 |
+| 10 | GPT-5.4 | OpenAI | 1.1M | 1,475.2 | $5.62 |
 
 [→ 完整长上下文榜](leaderboard/ctx.md)
 
