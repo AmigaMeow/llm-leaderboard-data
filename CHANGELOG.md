@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-10-23
+
+- 收录模型 **88** 个（开源权重 26）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：MiniMax-M3.1-Flash
+- Arena 榜首：**Gemini 4 Argon**（1,517.2，10,083 票）
+
 ## 2026-10-22
 
 - 收录模型 **88** 个（开源权重 25）
