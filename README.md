@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-10-23**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-10-24**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -23,13 +23,13 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **88** |
+| 收录模型 | **89** |
 | 有 Arena 评分 | 70 |
-| 有定价数据 | 73 |
+| 有定价数据 | 74 |
 | 开源权重 | 26 |
-| 覆盖厂商 | 22 |
+| 覆盖厂商 | 23 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-10-23 |
+| 最近抓取 | 2026-10-24 |
 | Arena 榜发布日 | 2026-10-22 |
 
 厂商分布：OpenAI (14)、Anthropic (12)、Google (9)、Alibaba (8)、Meta (7)、DeepSeek (6)
@@ -81,8 +81,7 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | GLM-5.3 Flash | Z.AI | open | 1,476.0 | 41.2 | $0.054 |
-| $0.10–0.25 | Hy3 | Tencent | open | 1,453.8 | 63.4 | $0.231 |
+| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,476.0 | 41.2 | $0.237 |
 | $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,480.7 | 36.5 | $0.409 |
 | $0.50–1.00 | MiMo-V2.6-Pro | Xiaomi | open | 1,479.5 | 37.7 | $0.544 |
 | $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,495.7 | 21.5 | $1.65 |
@@ -101,10 +100,10 @@
 | 4 | GPT-6 Sol | OpenAI | 1.1M | 1,459.0 | $4.00 |
 | 5 | GPT-5.6 Sol | OpenAI | 1.1M | 1,485.1 | $8.00 |
 | 6 | MiMo-V2.6-Pro | Xiaomi | 1.1M | 1,479.5 | $0.544 |
-| 7 | GPT-5.5 | OpenAI | 1.1M | 1,481.6 | $11.25 |
-| 8 | GPT-6 Luna | OpenAI | 1.1M | 1,442.2 | $0.200 |
-| 9 | MiMo-V2.6-Flash | Xiaomi | 1.1M | 1,448.1 | $0.175 |
-| 10 | GPT-5.4 | OpenAI | 1.1M | 1,475.4 | $5.62 |
+| 7 | GPT-6 Luna | OpenAI | 1.1M | 1,442.2 | $0.200 |
+| 8 | MiMo-V2.6-Flash | Xiaomi | 1.1M | 1,448.1 | $0.175 |
+| 9 | GPT-5.6 Terra | OpenAI | 1.1M | 1,467.2 | $4.50 |
+| 10 | MiMo V2.5 Pro | Xiaomi | 1.1M | 1,466.5 | $0.381 |
 
 [→ 完整长上下文榜](leaderboard/ctx.md)
 
