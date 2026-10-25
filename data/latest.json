@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-24T06:20:04+00:00",
- "date": "2026-10-24",
+ "generated_at": "2026-10-25T06:20:04+00:00",
+ "date": "2026-10-25",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -154,6 +154,28 @@
    "agent_variant": "high"
   },
   {
+   "id": "meta/muse-wonder-full",
+   "display_name": "Muse Wonder Full",
+   "org": "Meta",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null,
+   "agent_score": 10.74,
+   "agent_ci_low": 9.35,
+   "agent_ci_high": 12.13,
+   "agent_rank": 7,
+   "agent_sessions": null,
+   "agent_variant": "max"
+  },
+  {
    "id": "openai/gpt-6-sol",
    "display_name": "GPT-6 Sol",
    "org": "OpenAI",
@@ -171,7 +193,7 @@
    "agent_score": 8.57,
    "agent_ci_low": 6.85,
    "agent_ci_high": 10.28,
-   "agent_rank": 7,
+   "agent_rank": 8,
    "agent_sessions": 10305,
    "agent_variant": "max"
   },
@@ -193,7 +215,7 @@
    "agent_score": 8.22,
    "agent_ci_low": 6.59,
    "agent_ci_high": 9.85,
-   "agent_rank": 8,
+   "agent_rank": 9,
    "agent_sessions": 24440,
    "agent_variant": "max"
   },
@@ -215,9 +237,31 @@
    "agent_score": 7.75,
    "agent_ci_low": 6.35,
    "agent_ci_high": 9.16,
-   "agent_rank": 9,
+   "agent_rank": 10,
    "agent_sessions": 43567,
    "agent_variant": "high"
+  },
+  {
+   "id": "moonshotai/kimi-k3.1-pro",
+   "display_name": "Kimi K3.1 Pro",
+   "org": "Kimi",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": 2,
+   "price_out": 10,
+   "context_length": 1048576,
+   "listed_at_iso": "2026-10-23",
+   "agent_score": 7.61,
+   "agent_ci_low": 4.61,
+   "agent_ci_high": 10.61,
+   "agent_rank": 11,
+   "agent_sessions": null,
+   "agent_variant": "max"
   },
   {
    "id": "openai/gpt-5.6-sol",
@@ -237,7 +281,7 @@
    "agent_score": 6.06,
    "agent_ci_low": 4.72,
    "agent_ci_high": 7.39,
-   "agent_rank": 10,
+   "agent_rank": 12,
    "agent_sessions": 37542,
    "agent_variant": "xhigh"
   },
@@ -259,7 +303,7 @@
    "agent_score": 3.75,
    "agent_ci_low": 2.05,
    "agent_ci_high": 5.45,
-   "agent_rank": 11,
+   "agent_rank": 13,
    "agent_sessions": 33991,
    "agent_variant": "high"
   },
@@ -281,7 +325,7 @@
    "agent_score": 3.31,
    "agent_ci_low": 1.73,
    "agent_ci_high": 4.88,
-   "agent_rank": 12,
+   "agent_rank": 14,
    "agent_sessions": 11134,
    "agent_variant": "max"
   },
@@ -303,7 +347,7 @@
    "agent_score": 3.3,
    "agent_ci_low": 2.5,
    "agent_ci_high": 4.11,
-   "agent_rank": 13,
+   "agent_rank": 15,
    "agent_sessions": 43983,
    "agent_variant": null
   },
@@ -325,7 +369,7 @@
    "agent_score": 3.17,
    "agent_ci_low": 2.1,
    "agent_ci_high": 4.25,
-   "agent_rank": 14,
+   "agent_rank": 16,
    "agent_sessions": 39719,
    "agent_variant": "high"
   },
@@ -347,7 +391,7 @@
    "agent_score": 3.05,
    "agent_ci_low": 2.22,
    "agent_ci_high": 3.88,
-   "agent_rank": 15,
+   "agent_rank": 17,
    "agent_sessions": 78017,
    "agent_variant": "max"
   },
@@ -369,7 +413,7 @@
    "agent_score": 3.02,
    "agent_ci_low": 1.45,
    "agent_ci_high": 4.6,
-   "agent_rank": 16,
+   "agent_rank": 18,
    "agent_sessions": 16639,
    "agent_variant": "xhigh"
   },
@@ -391,7 +435,7 @@
    "agent_score": 2.79,
    "agent_ci_low": 2.37,
    "agent_ci_high": 3.22,
-   "agent_rank": 17,
+   "agent_rank": 19,
    "agent_sessions": 194437,
    "agent_variant": "max"
   },
@@ -413,7 +457,7 @@
    "agent_score": 2.25,
    "agent_ci_low": 1.91,
    "agent_ci_high": 2.6,
-   "agent_rank": 18,
+   "agent_rank": 20,
    "agent_sessions": 259479,
    "agent_variant": "max"
   },
@@ -435,7 +479,7 @@
    "agent_score": 2.1,
    "agent_ci_low": 0.78,
    "agent_ci_high": 3.43,
-   "agent_rank": 19,
+   "agent_rank": 21,
    "agent_sessions": 22895,
    "agent_variant": null
   },
@@ -457,7 +501,7 @@
    "agent_score": 1.69,
    "agent_ci_low": 0.88,
    "agent_ci_high": 2.51,
-   "agent_rank": 20,
+   "agent_rank": 23,
    "agent_sessions": 90051,
    "agent_variant": "max"
   },
@@ -479,7 +523,7 @@
    "agent_score": 1.57,
    "agent_ci_low": 0.82,
    "agent_ci_high": 2.32,
-   "agent_rank": 21,
+   "agent_rank": 24,
    "agent_sessions": 139480,
    "agent_variant": "max"
   },
@@ -501,7 +545,7 @@
    "agent_score": 1.22,
    "agent_ci_low": 0.38,
    "agent_ci_high": 2.05,
-   "agent_rank": 22,
+   "agent_rank": 25,
    "agent_sessions": 88117,
    "agent_variant": "max"
   },
@@ -523,7 +567,7 @@
    "agent_score": 1.14,
    "agent_ci_low": 0.11,
    "agent_ci_high": 2.17,
-   "agent_rank": 23,
+   "agent_rank": 26,
    "agent_sessions": 27887,
    "agent_variant": "high"
   },
@@ -545,7 +589,7 @@
    "agent_score": 1.13,
    "agent_ci_low": 0.52,
    "agent_ci_high": 1.74,
-   "agent_rank": 24,
+   "agent_rank": 27,
    "agent_sessions": 75307,
    "agent_variant": null
   },
@@ -567,7 +611,7 @@
    "agent_score": 0.63,
    "agent_ci_low": -0.49,
    "agent_ci_high": 1.75,
-   "agent_rank": 25,
+   "agent_rank": 28,
    "agent_sessions": 29832,
    "agent_variant": "xhigh"
   },
@@ -589,7 +633,7 @@
    "agent_score": 0.22,
    "agent_ci_low": -1.1,
    "agent_ci_high": 1.53,
-   "agent_rank": 26,
+   "agent_rank": 29,
    "agent_sessions": 25167,
    "agent_variant": "xhigh"
   },
@@ -604,14 +648,14 @@
    "arena_ci_high": 1471.2,
    "arena_votes": 9797,
    "arena_rank": 57,
-   "price_in": 0.5001,
-   "price_out": 1.0002,
+   "price_in": 0.2088,
+   "price_out": 0.4176,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-12",
    "agent_score": -0.27,
    "agent_ci_low": -1.99,
    "agent_ci_high": 1.46,
-   "agent_rank": 27,
+   "agent_rank": 30,
    "agent_sessions": 7331,
    "agent_variant": null
   },
@@ -633,7 +677,7 @@
    "agent_score": -1.27,
    "agent_ci_low": -2.23,
    "agent_ci_high": -0.31,
-   "agent_rank": 28,
+   "agent_rank": 31,
    "agent_sessions": 56113,
    "agent_variant": "high"
   },
@@ -655,7 +699,7 @@
    "agent_score": -1.77,
    "agent_ci_low": -2.44,
    "agent_ci_high": -1.1,
-   "agent_rank": 29,
+   "agent_rank": 32,
    "agent_sessions": 92133,
    "agent_variant": null
   },
@@ -677,8 +721,30 @@
    "agent_score": -2.03,
    "agent_ci_low": -3.47,
    "agent_ci_high": -0.6,
-   "agent_rank": 30,
+   "agent_rank": 33,
    "agent_sessions": 15412,
+   "agent_variant": null
+  },
+  {
+   "id": "reflection/reflection-beam",
+   "display_name": "Beam 1.0",
+   "org": "Reflection",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null,
+   "agent_score": -3.04,
+   "agent_ci_low": -5.51,
+   "agent_ci_high": -0.58,
+   "agent_rank": 34,
+   "agent_sessions": 12147,
    "agent_variant": null
   },
   {
@@ -699,7 +765,7 @@
    "agent_score": -3.27,
    "agent_ci_low": -3.97,
    "agent_ci_high": -2.58,
-   "agent_rank": 31,
+   "agent_rank": 35,
    "agent_sessions": 105281,
    "agent_variant": null
   },
@@ -721,7 +787,7 @@
    "agent_score": -4.1,
    "agent_ci_low": -4.89,
    "agent_ci_high": -3.31,
-   "agent_rank": 32,
+   "agent_rank": 36,
    "agent_sessions": 62625,
    "agent_variant": null
   },
@@ -743,7 +809,7 @@
    "agent_score": -4.45,
    "agent_ci_low": -5.76,
    "agent_ci_high": -3.13,
-   "agent_rank": 33,
+   "agent_rank": 37,
    "agent_sessions": 87676,
    "agent_variant": null
   },
@@ -765,7 +831,7 @@
    "agent_score": -5.06,
    "agent_ci_low": -7.04,
    "agent_ci_high": -3.09,
-   "agent_rank": 34,
+   "agent_rank": 39,
    "agent_sessions": 14080,
    "agent_variant": null
   },
@@ -787,7 +853,7 @@
    "agent_score": -6.43,
    "agent_ci_low": -7.59,
    "agent_ci_high": -5.27,
-   "agent_rank": 35,
+   "agent_rank": 40,
    "agent_sessions": 42729,
    "agent_variant": null
   },
@@ -809,7 +875,7 @@
    "agent_score": -6.8,
    "agent_ci_low": -8.24,
    "agent_ci_high": -5.35,
-   "agent_rank": 36,
+   "agent_rank": 41,
    "agent_sessions": 31979,
    "agent_variant": null
   },
@@ -831,7 +897,7 @@
    "agent_score": -6.86,
    "agent_ci_low": -7.51,
    "agent_ci_high": -6.22,
-   "agent_rank": 37,
+   "agent_rank": 42,
    "agent_sessions": 149239,
    "agent_variant": null
   },
@@ -853,7 +919,7 @@
    "agent_score": -7.02,
    "agent_ci_low": -7.85,
    "agent_ci_high": -6.19,
-   "agent_rank": 38,
+   "agent_rank": 43,
    "agent_sessions": 53539,
    "agent_variant": "xhigh"
   },
@@ -875,7 +941,7 @@
    "agent_score": -7.44,
    "agent_ci_low": -9.21,
    "agent_ci_high": -5.67,
-   "agent_rank": 39,
+   "agent_rank": 44,
    "agent_sessions": 23985,
    "agent_variant": null
   },
@@ -897,7 +963,7 @@
    "agent_score": -8.66,
    "agent_ci_low": -9.66,
    "agent_ci_high": -7.65,
-   "agent_rank": 40,
+   "agent_rank": 45,
    "agent_sessions": 49530,
    "agent_variant": null
   },
@@ -919,7 +985,7 @@
    "agent_score": -10.07,
    "agent_ci_low": -11.28,
    "agent_ci_high": -8.86,
-   "agent_rank": 41,
+   "agent_rank": 46,
    "agent_sessions": 43703,
    "agent_variant": null
   },
@@ -941,7 +1007,7 @@
    "agent_score": -12.13,
    "agent_ci_low": -13.86,
    "agent_ci_high": -10.39,
-   "agent_rank": 42,
+   "agent_rank": 47,
    "agent_sessions": 13468,
    "agent_variant": null
   },
@@ -1506,22 +1572,6 @@
    "listed_at_iso": "2026-10-15"
   },
   {
-   "id": "meta/muse-wonder-full",
-   "display_name": "Muse Wonder Full",
-   "org": "Meta",
-   "license": null,
-   "open_weights": null,
-   "arena_score": null,
-   "arena_ci_low": null,
-   "arena_ci_high": null,
-   "arena_votes": null,
-   "arena_rank": null,
-   "price_in": null,
-   "price_out": null,
-   "context_length": null,
-   "listed_at_iso": null
-  },
-  {
    "id": "minimax/minimax-m3.1-flash",
    "display_name": "MiniMax-M3.1-Flash",
    "org": "MiniMax",
@@ -1568,22 +1618,6 @@
    "price_out": 3.35,
    "context_length": 262144,
    "listed_at_iso": "2026-06-12"
-  },
-  {
-   "id": "moonshotai/kimi-k3.1-pro",
-   "display_name": "Kimi K3.1 Pro",
-   "org": "Kimi",
-   "license": null,
-   "open_weights": null,
-   "arena_score": null,
-   "arena_ci_low": null,
-   "arena_ci_high": null,
-   "arena_votes": null,
-   "arena_rank": null,
-   "price_in": 2,
-   "price_out": 10,
-   "context_length": 1048576,
-   "listed_at_iso": "2026-10-23"
   },
   {
    "id": "motif-technologies/motif-3",
@@ -1648,22 +1682,6 @@
    "price_out": 6,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-12"
-  },
-  {
-   "id": "reflection/reflection-beam",
-   "display_name": "Beam 1.0",
-   "org": "Reflection",
-   "license": null,
-   "open_weights": null,
-   "arena_score": null,
-   "arena_ci_low": null,
-   "arena_ci_high": null,
-   "arena_votes": null,
-   "arena_rank": null,
-   "price_in": null,
-   "price_out": null,
-   "context_length": null,
-   "listed_at_iso": null
   },
   {
    "id": "sapiens-ai/agnes-2-5-pro-beta",
