@@ -2,12 +2,12 @@
 
 > Strongest model in each price band. 'Gap to #1' shows how many Arena points you give up versus the top model overall.
 
-> Snapshot: 2026-10-25 | 6 price bands
+> Snapshot: 2026-10-26 | 6 price bands
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Blended price |
 |:---|:---|:---|:---|---:|---:|---:|
 | $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,476.0 | 41.2 | $0.237 |
-| $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,480.7 | 36.5 | $0.409 |
+| $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,480.7 | 36.5 | $0.402 |
 | $0.50–1.00 | MiMo-V2.6-Pro | Xiaomi | open | 1,479.5 | 37.7 | $0.544 |
 | $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,495.7 | 21.5 | $1.65 |
 | $3.00–10.00 | Gemini 4 Argon | Google | closed | 1,517.2 | — | $4.00 |

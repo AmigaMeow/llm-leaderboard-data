@@ -2,7 +2,7 @@
 
 > LMArena Bradley-Terry score.
 
-> Snapshot: 2026-10-25 | 50 models
+> Snapshot: 2026-10-26 | 50 models
 
 | # | Model | Org | Weights | Arena | 95% CI | Votes | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -53,6 +53,6 @@
 | 45 | Qwen3.6 Max | Alibaba | closed | 1,460.6 | 1452 ~ 1469 | 5,423 | - |
 | 46 | GPT-6 Sol | OpenAI | closed | 1,459.0 | 1453 ~ 1465 | 14,707 | - |
 | 47 | DeepSeek V4 Pro 0424 | DeepSeek | open | 1,457.9 | 1454 ~ 1462 | 57,588 | - |
-| 48 | GLM-5 | Z AI | open | 1,457.4 | 1453 ~ 1462 | 29,267 | - |
+| 48 | GLM-5 | Z.AI | open | 1,457.4 | 1453 ~ 1462 | 29,267 | - |
 | 49 | Grok 4.6 | xAI | closed | 1,456.4 | 1452 ~ 1461 | 32,189 | - |
 | 50 | Qwen3.7 Plus | Alibaba | closed | 1,455.7 | 1451 ~ 1460 | 42,058 | - |

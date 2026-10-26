@@ -2,7 +2,7 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-10-25 | 22 models
+> Snapshot: 2026-10-26 | 22 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -17,7 +17,7 @@
 | 9 | DeepSeek V4 Pro | DeepSeek | MIT | 1,464.5 | 9,797 | 1.0M | - |
 | 10 | Kimi K2.6 | Moonshot AI | Modified MIT | 1,460.7 | 40,026 | 262K | - |
 | 11 | DeepSeek V4 Pro 0424 | DeepSeek | MIT | 1,457.9 | 57,588 | - | - |
-| 12 | GLM-5 | Z AI | MIT | 1,457.4 | 29,267 | 204K | - |
+| 12 | GLM-5 | Z.AI | MIT | 1,457.4 | 29,267 | 204K | - |
 | 13 | Hy3 | Tencent | Apache 2.0 | 1,453.8 | 13,220 | 262K | - |
 | 14 | Kimi K2.5 | Moonshot AI | Modified MIT | 1,449.9 | 74,744 | 262K | - |
 | 15 | MiMo-V2.6-Flash | Xiaomi | MIT | 1,448.1 | 13,730 | 1.1M | - |
@@ -27,4 +27,4 @@
 | 19 | MiMo V2.5 | Xiaomi | MIT | 1,434.0 | 47,364 | 1.1M | - |
 | 20 | Mistral Medium 3.5 | Mistral | Modified MIT | 1,426.4 | 11,791 | 262K | - |
 | 21 | DeepSeek V3.2 | DeepSeek | MIT | 1,424.8 | 48,090 | 163K | - |
-| 22 | GLM-4.6 | Z AI | MIT | 1,424.3 | 35,818 | 204K | - |
+| 22 | GLM-4.6 | Z.AI | MIT | 1,424.3 | 35,818 | 204K | - |
