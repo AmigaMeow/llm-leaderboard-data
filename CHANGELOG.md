@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-10-27
+
+- 收录模型 **90** 个（开源权重 29）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：GPT-6.1 Terra
+- Arena 榜首：**Gemini 4 Argon**（1,517.2，10,083 票）
+
 ## 2026-10-26
 
 - 收录模型 **89** 个（开源权重 29）

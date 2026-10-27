@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T06:21:20+00:00",
- "date": "2026-10-26",
+ "generated_at": "2026-10-27T06:21:00+00:00",
+ "date": "2026-10-27",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -19,7 +19,7 @@
    "metric": "task success rate (%)"
   }
  },
- "count": 89,
+ "count": 90,
  "models": [
   {
    "id": "anthropic/claude-opus-5.5",
@@ -428,8 +428,8 @@
    "arena_ci_high": 1482.1,
    "arena_votes": 13750,
    "arena_rank": 34,
-   "price_in": 0.02,
-   "price_out": 1,
+   "price_in": 0.14,
+   "price_out": 0.42,
    "context_length": 1048576,
    "listed_at_iso": "2026-09-10",
    "agent_score": 2.25,
@@ -494,8 +494,8 @@
    "arena_ci_high": 1491.9,
    "arena_votes": 35379,
    "arena_rank": 18,
-   "price_in": 0.202,
-   "price_out": 20,
+   "price_in": 0.179,
+   "price_out": 11.5,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-16",
    "agent_score": 1.57,
@@ -516,7 +516,7 @@
    "arena_ci_high": 1485.8,
    "arena_votes": 25144,
    "arena_rank": 26,
-   "price_in": 0.0699,
+   "price_in": 0.0769,
    "price_out": 1.4,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-18",
@@ -934,8 +934,8 @@
    "arena_ci_high": 1470,
    "arena_votes": 77883,
    "arena_rank": 51,
-   "price_in": 0.3045,
-   "price_out": 0.609,
+   "price_in": 0.48,
+   "price_out": 1.8,
    "context_length": 1050000,
    "listed_at_iso": "2026-04-22",
    "agent_score": -8.66,
@@ -1224,8 +1224,8 @@
    "arena_ci_high": 1468.9,
    "arena_votes": 65402,
    "arena_rank": 53,
-   "price_in": 1.4,
-   "price_out": 4.4,
+   "price_in": 0.966,
+   "price_out": 3.036,
    "context_length": 204800,
    "listed_at_iso": "2026-04-07"
   },
@@ -1384,8 +1384,8 @@
    "arena_ci_high": 1439.7,
    "arena_votes": 51982,
    "arena_rank": 105,
-   "price_in": 0.091,
-   "price_out": 0.182,
+   "price_in": 0.14,
+   "price_out": 0.28,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-31"
   },
@@ -1400,8 +1400,8 @@
    "arena_ci_high": 1438.2,
    "arena_votes": 47364,
    "arena_rank": 109,
-   "price_in": 0.119,
-   "price_out": 0.238,
+   "price_in": 0.4,
+   "price_out": 2,
    "context_length": 1050000,
    "listed_at_iso": "2026-04-22"
   },
@@ -1608,8 +1608,8 @@
    "arena_ci_high": null,
    "arena_votes": null,
    "arena_rank": null,
-   "price_in": 0.6712,
-   "price_out": 3.35,
+   "price_in": 0.56,
+   "price_out": 3.1,
    "context_length": 262144,
    "listed_at_iso": "2026-06-12"
   },
@@ -1660,6 +1660,22 @@
    "price_out": 50,
    "context_length": 1050000,
    "listed_at_iso": "2026-09-04"
+  },
+  {
+   "id": "openai/gpt-6.1-terra",
+   "display_name": "GPT-6.1 Terra",
+   "org": "OpenAI",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": 1,
+   "price_out": 5,
+   "context_length": 1050000,
+   "listed_at_iso": "2026-10-26"
   },
   {
    "id": "qwen/qwen3.8-2.4t-a95b",
