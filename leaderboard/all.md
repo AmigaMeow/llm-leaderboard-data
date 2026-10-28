@@ -2,7 +2,7 @@
 
 > LMArena Bradley-Terry score.
 
-> Snapshot: 2026-10-27 | 50 models
+> Snapshot: 2026-10-28 | 50 models
 
 | # | Model | Org | Weights | Arena | 95% CI | Votes | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -30,29 +30,29 @@
 | 22 | Claude Opus 4.8 | Anthropic | closed | 1,481.5 | 1478 ~ 1485 | 64,096 | - |
 | 23 | GLM-5.3 | Z.AI | open | 1,480.7 | 1476 ~ 1486 | 25,144 | - |
 | 24 | GPT-6.1 Sol | OpenAI | closed | 1,479.9 | 1473 ~ 1487 | 8,305 | - |
-| 25 | MiMo-V2.6-Pro | Xiaomi | open | 1,479.5 | 1470 ~ 1489 | 4,067 | - |
-| 26 | Claude Sonnet 5.5 | Anthropic | closed | 1,477.5 | 1470 ~ 1484 | 8,977 | - |
-| 27 | Gemini 3.5 Flash | Google | closed | 1,477.3 | 1473 ~ 1481 | 48,504 | - |
-| 28 | GPT-6 Astra | OpenAI | closed | 1,476.5 | 1470 ~ 1482 | 14,076 | - |
-| 29 | DeepSeek V4.1 Flash | DeepSeek | open | 1,476.0 | 1470 ~ 1482 | 13,750 | - |
-| 30 | GLM-5.3 Flash | Z.AI | open | 1,476.0 | 1471 ~ 1481 | 38,359 | - |
-| 31 | GPT-5.2 Chat | OpenAI | closed | 1,475.6 | 1472 ~ 1480 | 35,982 | - |
-| 32 | GLM-5.2 | Z.AI | open | 1,475.4 | 1471 ~ 1480 | 52,283 | - |
-| 33 | GPT-5.4 | OpenAI | closed | 1,475.4 | 1472 ~ 1479 | 64,757 | - |
-| 34 | Qwen3.7 Max | Alibaba | closed | 1,474.2 | 1464 ~ 1484 | 3,941 | - |
-| 35 | Gemini 3 Flash | Google | closed | 1,472.8 | 1468 ~ 1477 | 31,313 | - |
-| 36 | Claude Sonnet 4.6 | Anthropic | closed | 1,472.1 | 1469 ~ 1476 | 70,953 | - |
-| 37 | Claude Opus 4.5 | Anthropic | closed | 1,469.7 | 1467 ~ 1473 | 72,850 | - |
-| 38 | GPT-5.6 Terra | OpenAI | closed | 1,467.2 | 1463 ~ 1471 | 46,470 | - |
-| 39 | MiMo V2.5 Pro | Xiaomi | open | 1,466.5 | 1463 ~ 1470 | 77,883 | - |
-| 40 | Grok 4.5 | xAI | closed | 1,465.8 | 1461 ~ 1470 | 39,880 | - |
-| 41 | GLM-5.1 | Z.AI | open | 1,465.4 | 1462 ~ 1469 | 65,402 | - |
-| 42 | DeepSeek V4 Pro | DeepSeek | open | 1,464.5 | 1458 ~ 1471 | 9,797 | - |
-| 43 | Claude Sonnet 5 | Anthropic | closed | 1,461.5 | 1457 ~ 1466 | 51,784 | - |
-| 44 | Kimi K2.6 | Moonshot AI | open | 1,460.7 | 1456 ~ 1465 | 40,026 | - |
-| 45 | Qwen3.6 Max | Alibaba | closed | 1,460.6 | 1452 ~ 1469 | 5,423 | - |
-| 46 | GPT-6 Sol | OpenAI | closed | 1,459.0 | 1453 ~ 1465 | 14,707 | - |
-| 47 | DeepSeek V4 Pro 0424 | DeepSeek | open | 1,457.9 | 1454 ~ 1462 | 57,588 | - |
-| 48 | GLM-5 | Z.AI | open | 1,457.4 | 1453 ~ 1462 | 29,267 | - |
-| 49 | Grok 4.6 | xAI | closed | 1,456.4 | 1452 ~ 1461 | 32,189 | - |
-| 50 | Qwen3.7 Plus | Alibaba | closed | 1,455.7 | 1451 ~ 1460 | 42,058 | - |
+| 25 | Claude Sonnet 5.5 | Anthropic | closed | 1,477.5 | 1470 ~ 1484 | 8,977 | UP1 |
+| 26 | Gemini 3.5 Flash | Google | closed | 1,477.3 | 1473 ~ 1481 | 48,504 | UP1 |
+| 27 | GPT-6 Astra | OpenAI | closed | 1,476.5 | 1470 ~ 1482 | 14,076 | UP1 |
+| 28 | DeepSeek V4.1 Flash | DeepSeek | open | 1,476.0 | 1470 ~ 1482 | 13,750 | UP1 |
+| 29 | GLM-5.3 Flash | Z.AI | open | 1,476.0 | 1471 ~ 1481 | 38,359 | UP1 |
+| 30 | GPT-5.2 Chat | OpenAI | closed | 1,475.6 | 1472 ~ 1480 | 35,982 | UP1 |
+| 31 | GLM-5.2 | Z.AI | open | 1,475.4 | 1471 ~ 1480 | 52,283 | UP1 |
+| 32 | GPT-5.4 | OpenAI | closed | 1,475.4 | 1472 ~ 1479 | 64,757 | UP1 |
+| 33 | Qwen3.7 Max | Alibaba | closed | 1,474.2 | 1464 ~ 1484 | 3,941 | UP1 |
+| 34 | Gemini 3 Flash | Google | closed | 1,472.8 | 1468 ~ 1477 | 31,313 | UP1 |
+| 35 | Claude Sonnet 4.6 | Anthropic | closed | 1,472.1 | 1469 ~ 1476 | 70,953 | UP1 |
+| 36 | Claude Opus 4.5 | Anthropic | closed | 1,469.7 | 1467 ~ 1473 | 72,850 | UP1 |
+| 37 | GPT-5.6 Terra | OpenAI | closed | 1,467.2 | 1463 ~ 1471 | 46,470 | UP1 |
+| 38 | MiMo V2.5 Pro | Xiaomi | open | 1,466.5 | 1463 ~ 1470 | 77,883 | UP1 |
+| 39 | Grok 4.5 | xAI | closed | 1,465.8 | 1461 ~ 1470 | 39,880 | UP1 |
+| 40 | GLM-5.1 | Z.AI | open | 1,465.4 | 1462 ~ 1469 | 65,402 | UP1 |
+| 41 | DeepSeek V4 Pro | DeepSeek | open | 1,464.5 | 1458 ~ 1471 | 9,797 | UP1 |
+| 42 | Claude Sonnet 5 | Anthropic | closed | 1,461.5 | 1457 ~ 1466 | 51,784 | UP1 |
+| 43 | Kimi K2.6 | Moonshot AI | open | 1,460.7 | 1456 ~ 1465 | 40,026 | UP1 |
+| 44 | Qwen3.6 Max | Alibaba | closed | 1,460.6 | 1452 ~ 1469 | 5,423 | UP1 |
+| 45 | GLM-5 | Z.AI | open | 1,457.4 | 1453 ~ 1462 | 29,267 | UP3 |
+| 46 | Grok 4.6 | xAI | closed | 1,456.4 | 1452 ~ 1461 | 32,189 | UP3 |
+| 47 | Qwen3.7 Plus | Alibaba | closed | 1,455.7 | 1451 ~ 1460 | 42,058 | UP3 |
+| 48 | GPT-5.1 | OpenAI | closed | 1,455.7 | 1452 ~ 1460 | 41,646 | UP3 |
+| 49 | Hy3 | Tencent | open | 1,453.8 | 1448 ~ 1460 | 13,220 | UP3 |
+| 50 | GPT-5.6 Luna | OpenAI | closed | 1,453.0 | 1449 ~ 1457 | 41,426 | UP3 |
