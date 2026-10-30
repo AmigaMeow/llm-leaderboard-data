@@ -2,14 +2,14 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-10-29 | 18 models
+> Snapshot: 2026-10-30 | 18 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | Kimi K3 | Moonshot AI | Kimi K3 license | 1,488.2 | 36,780 | 1.0M | - |
 | 🥈 | GLM-5.3 | Z.AI | MIT | 1,480.6 | 26,606 | 1.0M | - |
-| 🥉 | GLM-5.3 Flash | Z.AI | MIT | 1,476.5 | 41,642 | 1.0M | UP1 |
-| 4 | DeepSeek V4.1 Flash | DeepSeek | MIT | 1,476.2 | 13,657 | 1.0M | DOWN1 |
+| 🥉 | GLM-5.3 Flash | Z.AI | MIT | 1,476.5 | 41,642 | 1.0M | - |
+| 4 | DeepSeek V4.1 Flash | DeepSeek | MIT | 1,476.2 | 13,657 | 1.0M | - |
 | 5 | GLM-5.2 | Z.AI | MIT | 1,475.3 | 53,702 | 1.0M | - |
 | 6 | MiMo V2.5 Pro | Xiaomi | MIT | 1,466.6 | 77,728 | 1.1M | - |
 | 7 | GLM-5.1 | Z.AI | MIT | 1,465.4 | 66,771 | 204K | - |
