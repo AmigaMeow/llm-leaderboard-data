@@ -2,22 +2,22 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-10-30 | 50 models
+> Snapshot: 2026-10-31 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | Grok 4.20 | xAI | closed | 2.0M | - | $1.56 | - |
 | 🥈 | GPT-6 Astra | OpenAI | closed | 1.1M | 1,475.6 | $20.00 | - |
 | 🥉 | GPT-6.1 Sol | OpenAI | closed | 1.1M | 1,481.3 | $4.00 | - |
-| 4 | GPT-5.6 Sol | OpenAI | closed | 1.1M | 1,484.9 | $8.00 | - |
-| 5 | GPT-5.6 Terra | OpenAI | closed | 1.1M | 1,467.3 | $4.50 | - |
-| 6 | MiMo V2.5 Pro | Xiaomi | open | 1.1M | 1,466.6 | $0.810 | - |
-| 7 | GPT-5.5 | OpenAI | closed | 1.1M | 1,481.7 | $11.25 | - |
-| 8 | GPT-5.4 | OpenAI | closed | 1.1M | 1,475.3 | $5.62 | - |
-| 9 | GPT-5.6 Luna | OpenAI | closed | 1.1M | 1,453.0 | $0.450 | - |
-| 10 | MiMo V2.5 | Xiaomi | open | 1.1M | 1,433.9 | $0.800 | - |
-| 11 | GPT-6 Astra Pro | OpenAI | closed | 1.1M | - | $20.00 | - |
-| 12 | GPT-6.1 Terra | OpenAI | closed | 1.1M | - | $2.00 | - |
+| 4 | GPT-6.1 Terra | OpenAI | closed | 1.1M | - | $2.00 | UP8 |
+| 5 | GPT-5.6 Sol | OpenAI | closed | 1.1M | 1,484.9 | $8.00 | DOWN1 |
+| 6 | GPT-5.6 Terra | OpenAI | closed | 1.1M | 1,467.3 | $4.50 | DOWN1 |
+| 7 | MiMo V2.5 Pro | Xiaomi | open | 1.1M | 1,466.6 | $0.810 | DOWN1 |
+| 8 | GPT-5.5 | OpenAI | closed | 1.1M | 1,481.7 | $11.25 | DOWN1 |
+| 9 | GPT-5.4 | OpenAI | closed | 1.1M | 1,475.3 | $5.62 | DOWN1 |
+| 10 | GPT-5.6 Luna | OpenAI | closed | 1.1M | 1,453.0 | $0.450 | DOWN1 |
+| 11 | MiMo V2.5 | Xiaomi | open | 1.1M | 1,433.9 | $0.800 | DOWN1 |
+| 12 | GPT-6 Astra Pro | OpenAI | closed | 1.1M | - | $20.00 | DOWN1 |
 | 13 | Gemini 4 Argon | Google | closed | 1.0M | 1,520.3 | $4.00 | - |
 | 14 | Kimi K3.1 Pro | Moonshot AI | open | 1.0M | - | $4.00 | - |
 | 15 | Muse Wonder | Meta | closed | 1.0M | 1,507.1 | $8.00 | - |
@@ -25,11 +25,11 @@
 | 17 | Muse Spark 1.3 | Meta | closed | 1.0M | 1,495.0 | $2.00 | - |
 | 18 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,476.2 | $0.159 | - |
 | 19 | GLM-5.2 | Z.AI | open | 1.0M | 1,475.3 | $1.75 | - |
-| 20 | Kimi K3 | Moonshot AI | open | 1.0M | 1,488.2 | $3.90 | - |
-| 21 | GLM-5.3 | Z.AI | open | 1.0M | 1,480.6 | $0.960 | - |
-| 22 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,465.1 | $1.02 | - |
+| 20 | Kimi K3 | Moonshot AI | open | 1.0M | 1,488.2 | $3.89 | - |
+| 21 | GLM-5.3 | Z.AI | open | 1.0M | 1,480.6 | $0.402 | - |
+| 22 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,465.1 | $2.00 | - |
 | 23 | Gemini 3.7 Flash | Google | closed | 1.0M | 1,489.6 | $1.50 | - |
-| 24 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,476.5 | $0.052 | - |
+| 24 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,476.5 | $0.044 | - |
 | 25 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,486.9 | $4.50 | - |
 | 26 | Muse Spark 1.2 | Meta | closed | 1.0M | 1,492.2 | $2.00 | - |
 | 27 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,490.2 | $2.00 | - |
