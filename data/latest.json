@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-31T06:20:03+00:00",
- "date": "2026-10-31",
+ "generated_at": "2026-11-01T06:20:03+00:00",
+ "date": "2026-11-01",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -473,7 +473,7 @@
    "arena_votes": 53702,
    "arena_rank": 38,
    "price_in": 0.006,
-   "price_out": 7,
+   "price_out": 6.8,
    "context_length": 1048576,
    "listed_at_iso": "2026-06-16",
    "agent_score": 1.26,
@@ -648,8 +648,8 @@
    "arena_ci_high": 1481.2,
    "arena_votes": 41642,
    "arena_rank": 33,
-   "price_in": 0.018,
-   "price_out": 0.1238,
+   "price_in": 0.0093,
+   "price_out": 0.1702,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-26",
    "agent_score": -2.33,
