@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-11-01 | 50 models
+> Snapshot: 2026-11-02 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -26,10 +26,10 @@
 | 18 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,476.2 | $0.159 | - |
 | 19 | GLM-5.2 | Z.AI | open | 1.0M | 1,475.3 | $1.70 | - |
 | 20 | Kimi K3 | Moonshot AI | open | 1.0M | 1,488.2 | $3.89 | - |
-| 21 | GLM-5.3 | Z.AI | open | 1.0M | 1,480.6 | $0.402 | - |
+| 21 | GLM-5.3 | Z.AI | open | 1.0M | 1,480.6 | $0.960 | - |
 | 22 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,465.1 | $2.00 | - |
 | 23 | Gemini 3.7 Flash | Google | closed | 1.0M | 1,489.6 | $1.50 | - |
-| 24 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,476.5 | $0.050 | - |
+| 24 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,476.5 | $0.044 | - |
 | 25 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,486.9 | $4.50 | - |
 | 26 | Muse Spark 1.2 | Meta | closed | 1.0M | 1,492.2 | $2.00 | - |
 | 27 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,490.2 | $2.00 | - |
