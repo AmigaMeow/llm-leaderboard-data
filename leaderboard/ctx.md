@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-11-02 | 50 models
+> Snapshot: 2026-11-03 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -20,22 +20,22 @@
 | 12 | GPT-6 Astra Pro | OpenAI | closed | 1.1M | - | $20.00 | - |
 | 13 | Gemini 4 Argon | Google | closed | 1.0M | 1,520.3 | $4.00 | - |
 | 14 | Kimi K3.1 Pro | Moonshot AI | open | 1.0M | - | $4.00 | - |
-| 15 | Muse Wonder | Meta | closed | 1.0M | 1,507.1 | $8.00 | - |
-| 16 | Gemini 3.8 Flash | Google | closed | 1.0M | 1,495.9 | $1.65 | - |
+| 15 | Gemini 3.8 Flash | Google | closed | 1.0M | 1,495.9 | $1.65 | UP1 |
+| 16 | Muse Wonder | Meta | closed | 1.0M | 1,507.1 | $8.00 | DOWN1 |
 | 17 | Muse Spark 1.3 | Meta | closed | 1.0M | 1,495.0 | $2.00 | - |
-| 18 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,476.2 | $0.159 | - |
-| 19 | GLM-5.2 | Z.AI | open | 1.0M | 1,475.3 | $1.70 | - |
-| 20 | Kimi K3 | Moonshot AI | open | 1.0M | 1,488.2 | $3.89 | - |
-| 21 | GLM-5.3 | Z.AI | open | 1.0M | 1,480.6 | $0.960 | - |
-| 22 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,465.1 | $2.00 | - |
-| 23 | Gemini 3.7 Flash | Google | closed | 1.0M | 1,489.6 | $1.50 | - |
-| 24 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,476.5 | $0.044 | - |
-| 25 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,486.9 | $4.50 | - |
+| 18 | GLM-5.3 | Z.AI | open | 1.0M | 1,480.6 | $0.960 | UP3 |
+| 19 | Kimi K3 | Moonshot AI | open | 1.0M | 1,488.2 | $3.89 | UP1 |
+| 20 | GLM-5.2 | Z.AI | open | 1.0M | 1,475.3 | $1.70 | DOWN1 |
+| 21 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,465.1 | $2.00 | UP1 |
+| 22 | Gemini 3.7 Flash | Google | closed | 1.0M | 1,489.6 | $1.50 | UP1 |
+| 23 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,476.5 | $0.044 | UP1 |
+| 24 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,486.9 | $4.50 | UP1 |
+| 25 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,490.2 | $2.00 | UP2 |
 | 26 | Muse Spark 1.2 | Meta | closed | 1.0M | 1,492.2 | $2.00 | - |
-| 27 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,490.2 | $2.00 | - |
-| 28 | MiniMax M3 | MiniMax | open | 1.0M | 1,439.2 | $0.525 | - |
-| 29 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,483.2 | $1.50 | - |
-| 30 | Gemini 3.5 Flash | Google | closed | 1.0M | 1,477.6 | $3.38 | - |
+| 27 | MiniMax M3 | MiniMax | open | 1.0M | 1,439.2 | $0.525 | UP1 |
+| 28 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,483.2 | $1.50 | UP1 |
+| 29 | Gemini 3.5 Flash | Google | closed | 1.0M | 1,477.6 | $3.38 | UP1 |
+| 30 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,476.2 | $0.159 | DOWN12 |
 | 31 | Gemini 3 Flash | Google | closed | 1.0M | 1,472.7 | $1.12 | - |
 | 32 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,445.4 | $3.44 | - |
 | 33 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,435.7 | $0.114 | - |
