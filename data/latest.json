@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T06:20:03+00:00",
- "date": "2026-11-03",
+ "generated_at": "2026-11-04T06:20:04+00:00",
+ "date": "2026-11-04",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -19,7 +19,7 @@
    "metric": "task success rate (%)"
   }
  },
- "count": 71,
+ "count": 72,
  "models": [
   {
    "id": "anthropic/claude-opus-5.5",
@@ -264,6 +264,28 @@
    "agent_variant": "max"
   },
   {
+   "id": "openai/gpt-6-sol",
+   "display_name": "GPT-6 Sol",
+   "org": "OpenAI",
+   "license": "Proprietary",
+   "open_weights": false,
+   "arena_score": 1458.3,
+   "arena_ci_low": 1452.4,
+   "arena_ci_high": 1464.2,
+   "arena_votes": 15807,
+   "arena_rank": 64,
+   "price_in": 2,
+   "price_out": 10,
+   "context_length": 1050000,
+   "listed_at_iso": "2026-09-22",
+   "agent_score": 6.95,
+   "agent_ci_low": 5.36,
+   "agent_ci_high": 8.54,
+   "agent_rank": 12,
+   "agent_sessions": 12478,
+   "agent_variant": "max"
+  },
+  {
    "id": "moonshotai/kimi-k3.1-pro",
    "display_name": "Kimi K3.1 Pro",
    "org": "Moonshot AI",
@@ -450,8 +472,8 @@
    "arena_ci_high": 1492.6,
    "arena_votes": 36780,
    "arena_rank": 19,
-   "price_in": 0.192,
-   "price_out": 15,
+   "price_in": 0.2,
+   "price_out": 16,
    "context_length": 1048576,
    "listed_at_iso": "2026-07-16",
    "agent_score": 0.86,
@@ -626,8 +648,8 @@
    "arena_ci_high": 1481.2,
    "arena_votes": 41642,
    "arena_rank": 33,
-   "price_in": 0.0285,
-   "price_out": 0.0923,
+   "price_in": 0.0269,
+   "price_out": 0.0996,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-26",
    "agent_score": -2.49,

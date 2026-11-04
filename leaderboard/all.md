@@ -2,7 +2,7 @@
 
 > LMArena Bradley-Terry score.
 
-> Snapshot: 2026-11-03 | 50 models
+> Snapshot: 2026-11-04 | 50 models
 
 | # | Model | Org | Weights | Arena | 95% CI | Votes | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -51,8 +51,8 @@
 | 43 | Claude Sonnet 5 | Anthropic | closed | 1,461.7 | 1458 ~ 1466 | 52,952 | - |
 | 44 | Kimi K2.6 | Moonshot AI | open | 1,461.0 | 1456 ~ 1465 | 39,978 | - |
 | 45 | Qwen3.6 Max | Alibaba | closed | 1,460.2 | 1452 ~ 1468 | 5,419 | - |
-| 46 | GLM-5 | Z.AI | open | 1,457.2 | 1453 ~ 1462 | 29,255 | - |
-| 47 | Qwen3.7 Plus | Alibaba | closed | 1,455.7 | 1451 ~ 1460 | 42,011 | - |
-| 48 | GPT-5.1 | OpenAI | closed | 1,455.7 | 1452 ~ 1459 | 41,639 | - |
-| 49 | Grok 4.6 | xAI | closed | 1,455.5 | 1451 ~ 1460 | 33,824 | - |
-| 50 | Hy3 | Tencent | open | 1,454.5 | 1449 ~ 1460 | 13,840 | - |
+| 46 | GPT-6 Sol | OpenAI | closed | 1,458.3 | 1452 ~ 1464 | 15,807 | NEW |
+| 47 | GLM-5 | Z.AI | open | 1,457.2 | 1453 ~ 1462 | 29,255 | DOWN1 |
+| 48 | Qwen3.7 Plus | Alibaba | closed | 1,455.7 | 1451 ~ 1460 | 42,011 | DOWN1 |
+| 49 | GPT-5.1 | OpenAI | closed | 1,455.7 | 1452 ~ 1459 | 41,639 | DOWN1 |
+| 50 | Grok 4.6 | xAI | closed | 1,455.5 | 1451 ~ 1460 | 33,824 | DOWN1 |

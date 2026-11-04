@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-03**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-04**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -23,16 +23,16 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **71** |
-| 有 Arena 评分 | 63 |
-| 有定价数据 | 65 |
+| 收录模型 | **72** |
+| 有 Arena 评分 | 64 |
+| 有定价数据 | 66 |
 | 开源权重 | 20 |
 | 覆盖厂商 | 14 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-11-03 |
+| 最近抓取 | 2026-11-04 |
 | Arena 榜发布日 | 2026-10-28 |
 
-厂商分布：Anthropic (12)、OpenAI (12)、Google (10)、Meta (6)、Z.AI (6)、Moonshot AI (5)
+厂商分布：OpenAI (13)、Anthropic (12)、Google (10)、Meta (6)、Z.AI (6)、Moonshot AI (5)
 
 ---
 
@@ -81,7 +81,7 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.00–0.10 | GLM-5.3 Flash | Z.AI | open | 1,476.5 | 43.8 | $0.044 |
+| $0.00–0.10 | GLM-5.3 Flash | Z.AI | open | 1,476.5 | 43.8 | $0.045 |
 | $0.10–0.25 | DeepSeek V4.1 Flash | DeepSeek | open | 1,476.2 | 44.1 | $0.159 |
 | $0.25–0.50 | GPT-5.6 Luna | OpenAI | closed | 1,453.0 | 67.3 | $0.450 |
 | $0.50–1.00 | GLM-5.3 | Z.AI | open | 1,480.6 | 39.7 | $0.960 |
@@ -99,12 +99,12 @@
 | 🥈 | GPT-6 Astra | OpenAI | 1.1M | 1,475.6 | $20.00 |
 | 🥉 | GPT-6.1 Sol | OpenAI | 1.1M | 1,481.3 | $4.00 |
 | 4 | GPT-6.1 Terra | OpenAI | 1.1M | - | $2.00 |
-| 5 | GPT-5.6 Sol | OpenAI | 1.1M | 1,484.9 | $8.00 |
-| 6 | GPT-5.6 Terra | OpenAI | 1.1M | 1,467.3 | $4.50 |
-| 7 | MiMo V2.5 Pro | Xiaomi | 1.1M | 1,466.6 | $0.810 |
-| 8 | GPT-5.5 | OpenAI | 1.1M | 1,481.7 | $11.25 |
-| 9 | GPT-5.4 | OpenAI | 1.1M | 1,475.3 | $5.62 |
-| 10 | GPT-5.6 Luna | OpenAI | 1.1M | 1,453.0 | $0.450 |
+| 5 | GPT-6 Sol | OpenAI | 1.1M | 1,458.3 | $4.00 |
+| 6 | GPT-5.6 Sol | OpenAI | 1.1M | 1,484.9 | $8.00 |
+| 7 | GPT-5.6 Terra | OpenAI | 1.1M | 1,467.3 | $4.50 |
+| 8 | MiMo V2.5 Pro | Xiaomi | 1.1M | 1,466.6 | $0.810 |
+| 9 | GPT-5.5 | OpenAI | 1.1M | 1,481.7 | $11.25 |
+| 10 | GPT-5.4 | OpenAI | 1.1M | 1,475.3 | $5.62 |
 
 [→ 完整长上下文榜](leaderboard/ctx.md)
 

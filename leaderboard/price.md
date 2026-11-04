@@ -2,11 +2,11 @@
 
 > Sorted by blended price ascending.
 
-> Snapshot: 2026-11-03 | 50 models
+> Snapshot: 2026-11-04 | 50 models
 
 | # | Model | Org | Weights | Blended | Input | Output | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
-| 🥇 | GLM-5.3 Flash | Z.AI | open | $0.044 | $0.029 | $0.092 | - |
+| 🥇 | GLM-5.3 Flash | Z.AI | open | $0.045 | $0.027 | $0.100 | - |
 | 🥈 | DeepSeek V4 Flash | DeepSeek | open | $0.114 | $0.091 | $0.182 | - |
 | 🥉 | DeepSeek V4.1 Flash | DeepSeek | open | $0.159 | $0.045 | $0.500 | - |
 | 4 | Claude Haiku 5.5 | Anthropic | closed | $0.200 | $0.100 | $0.500 | - |
@@ -33,26 +33,26 @@
 | 25 | GPT-6.1 Terra | OpenAI | closed | $2.00 | $1.00 | $5.00 | - |
 | 26 | Muse Spark 1.3 | Meta | closed | $2.00 | $1.25 | $4.25 | - |
 | 27 | DeepSeek V4 Pro | DeepSeek | open | $2.00 | $1.60 | $3.20 | - |
-| 28 | Muse Spark 1.1 | Meta | closed | $2.00 | $1.25 | $4.25 | UP1 |
-| 29 | Muse Spark 1.2 | Meta | closed | $2.00 | $1.25 | $4.25 | DOWN1 |
+| 28 | Muse Spark 1.1 | Meta | closed | $2.00 | $1.25 | $4.25 | - |
+| 29 | Muse Spark 1.2 | Meta | closed | $2.00 | $1.25 | $4.25 | - |
 | 30 | GLM-5.1 | Z.AI | open | $2.15 | $1.40 | $4.40 | - |
 | 31 | Qwen3.7 Max | Alibaba | closed | $2.21 | $1.48 | $4.42 | - |
 | 32 | Grok 4.7 | xAI | closed | $3.00 | $2.00 | $6.00 | - |
-| 33 | Qwen3.8 Max | Alibaba | closed | $3.00 | $2.00 | $6.00 | UP1 |
-| 34 | Grok 4.6 | xAI | closed | $3.00 | $2.00 | $6.00 | DOWN1 |
+| 33 | Qwen3.8 Max | Alibaba | closed | $3.00 | $2.00 | $6.00 | - |
+| 34 | Grok 4.6 | xAI | closed | $3.00 | $2.00 | $6.00 | - |
 | 35 | Mistral Medium 3.5 | Mistral | open | $3.00 | $1.50 | $7.50 | - |
 | 36 | Grok 4.5 | xAI | closed | $3.00 | $2.00 | $6.00 | - |
 | 37 | Mistral Large | Mistral | closed | $3.00 | $2.00 | $6.00 | - |
 | 38 | Gemini 3.5 Flash | Google | closed | $3.38 | $1.50 | $9.00 | - |
 | 39 | GPT-5.1 | OpenAI | closed | $3.44 | $1.25 | $10.00 | - |
 | 40 | Gemini 2.5 Pro | Google | closed | $3.44 | $1.25 | $10.00 | - |
-| 41 | Kimi K3 | Moonshot AI | open | $3.89 | $0.192 | $15.00 | - |
-| 42 | Claude Sonnet 5.5 | Anthropic | closed | $4.00 | $2.00 | $10.00 | - |
-| 43 | GPT-6.1 Sol | OpenAI | closed | $4.00 | $2.00 | $10.00 | - |
-| 44 | Gemini 4 Argon | Google | closed | $4.00 | $2.00 | $10.00 | - |
+| 41 | Claude Sonnet 5.5 | Anthropic | closed | $4.00 | $2.00 | $10.00 | UP1 |
+| 42 | GPT-6.1 Sol | OpenAI | closed | $4.00 | $2.00 | $10.00 | UP1 |
+| 43 | Gemini 4 Argon | Google | closed | $4.00 | $2.00 | $10.00 | UP1 |
+| 44 | GPT-6 Sol | OpenAI | closed | $4.00 | $2.00 | $10.00 | NEW |
 | 45 | Kimi K3.1 Pro | Moonshot AI | open | $4.00 | $2.00 | $10.00 | - |
 | 46 | Claude Sonnet 5 | Anthropic | closed | $4.00 | $2.00 | $10.00 | - |
-| 47 | GPT-5.6 Terra | OpenAI | closed | $4.50 | $2.00 | $12.00 | - |
-| 48 | Gemini 3.1 Pro Preview | Google | closed | $4.50 | $2.00 | $12.00 | - |
-| 49 | GPT-5.2 Chat | OpenAI | closed | $4.81 | $1.75 | $14.00 | - |
-| 50 | GPT-5.2 | OpenAI | closed | $4.81 | $1.75 | $14.00 | - |
+| 47 | Kimi K3 | Moonshot AI | open | $4.15 | $0.200 | $16.00 | DOWN6 |
+| 48 | GPT-5.6 Terra | OpenAI | closed | $4.50 | $2.00 | $12.00 | DOWN1 |
+| 49 | Gemini 3.1 Pro Preview | Google | closed | $4.50 | $2.00 | $12.00 | DOWN1 |
+| 50 | GPT-5.2 Chat | OpenAI | closed | $4.81 | $1.75 | $14.00 | DOWN1 |
