@@ -2,7 +2,7 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-11-04 | 18 models
+> Snapshot: 2026-11-05 | 18 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -20,7 +20,7 @@
 | 12 | Kimi K2.5 | Moonshot AI | Modified MIT | 1,449.7 | 74,682 | 262K | - |
 | 13 | MiniMax M3 | MiniMax | MiniMax Community License | 1,439.2 | 68,611 | 1.0M | - |
 | 14 | DeepSeek V4 Flash | DeepSeek | MIT | 1,435.7 | 51,944 | 1.0M | - |
-| 15 | MiMo V2.5 | Xiaomi | MIT | 1,433.9 | 47,327 | 1.1M | - |
+| 15 | MiMo V2.5 | Xiaomi | MIT | 1,433.9 | 47,327 | 1.0M | - |
 | 16 | Mistral Medium 3.5 | Mistral | Modified MIT | 1,426.4 | 11,791 | 262K | - |
 | 17 | DeepSeek V3.2 | DeepSeek | MIT | 1,424.6 | 48,095 | 163K | - |
 | 18 | GLM-4.6 | Z.AI | MIT | 1,424.3 | 35,810 | 204K | - |
