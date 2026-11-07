@@ -2,12 +2,12 @@
 
 > Sorted by blended price ascending.
 
-> Snapshot: 2026-11-06 | 50 models
+> Snapshot: 2026-11-07 | 50 models
 
 | # | Model | Org | Weights | Blended | Input | Output | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | DeepSeek V4 Flash | DeepSeek | open | $0.114 | $0.091 | $0.182 | - |
-| 🥈 | DeepSeek V4.1 Flash | DeepSeek | open | $0.171 | $0.049 | $0.540 | - |
+| 🥈 | DeepSeek V4.1 Flash | DeepSeek | open | $0.180 | $0.051 | $0.567 | - |
 | 🥉 | Claude Haiku 5.5 | Anthropic | closed | $0.200 | $0.100 | $0.500 | - |
 | 4 | Hy3 | Tencent | open | $0.231 | $0.132 | $0.528 | - |
 | 5 | GLM-5.3 Flash | Z.AI | open | $0.237 | $0.150 | $0.500 | - |
@@ -21,18 +21,18 @@
 | 13 | GLM-4.6 | Z.AI | open | $0.875 | $0.500 | $2.00 | - |
 | 14 | Kimi K2.5 | Moonshot AI | open | $1.00 | $0.500 | $2.50 | - |
 | 15 | Seed 2.1 Turbo | ByteDance | closed | $1.00 | $0.500 | $2.50 | - |
-| 16 | Gemini 3 Flash | Google | closed | $1.12 | $0.500 | $3.00 | - |
-| 17 | DeepSeek V4 Pro | DeepSeek | open | $1.19 | $0.955 | $1.91 | UP10 |
-| 18 | Kimi K2.7 Code | Moonshot AI | open | $1.32 | $0.600 | $3.50 | DOWN1 |
-| 19 | Kimi K2.6 | Moonshot AI | open | $1.34 | $0.650 | $3.41 | DOWN1 |
-| 20 | Gemini 3.7 Flash | Google | closed | $1.50 | $0.750 | $3.75 | DOWN1 |
-| 21 | Gemini 3.6 Flash | Google | closed | $1.50 | $0.750 | $3.75 | DOWN1 |
-| 22 | GLM-5 | Z.AI | open | $1.55 | $1.00 | $3.20 | DOWN1 |
-| 23 | Grok 4.20 | xAI | closed | $1.56 | $1.25 | $2.50 | DOWN1 |
-| 24 | Gemini 3.8 Flash | Google | closed | $1.65 | $0.825 | $4.12 | DOWN1 |
-| 25 | GLM-5.2 | Z.AI | open | $1.70 | $0.0060 | $6.80 | DOWN1 |
-| 26 | GPT-6.1 Terra | OpenAI | closed | $2.00 | $1.00 | $5.00 | DOWN1 |
-| 27 | Muse Spark 1.3 | Meta | closed | $2.00 | $1.25 | $4.25 | DOWN1 |
+| 16 | DeepSeek V4 Pro | DeepSeek | open | $1.06 | $0.850 | $1.70 | UP1 |
+| 17 | Gemini 3 Flash | Google | closed | $1.12 | $0.500 | $3.00 | DOWN1 |
+| 18 | Kimi K2.7 Code | Moonshot AI | open | $1.32 | $0.600 | $3.50 | - |
+| 19 | Kimi K2.6 | Moonshot AI | open | $1.34 | $0.650 | $3.41 | - |
+| 20 | Gemini 3.7 Flash | Google | closed | $1.50 | $0.750 | $3.75 | - |
+| 21 | Gemini 3.6 Flash | Google | closed | $1.50 | $0.750 | $3.75 | - |
+| 22 | GLM-5 | Z.AI | open | $1.55 | $1.00 | $3.20 | - |
+| 23 | Grok 4.20 | xAI | closed | $1.56 | $1.25 | $2.50 | - |
+| 24 | Gemini 3.8 Flash | Google | closed | $1.65 | $0.825 | $4.12 | - |
+| 25 | GLM-5.2 | Z.AI | open | $1.70 | $0.0060 | $6.80 | - |
+| 26 | GPT-6.1 Terra | OpenAI | closed | $2.00 | $1.00 | $5.00 | - |
+| 27 | Muse Spark 1.3 | Meta | closed | $2.00 | $1.25 | $4.25 | - |
 | 28 | Muse Spark 1.1 | Meta | closed | $2.00 | $1.25 | $4.25 | - |
 | 29 | Muse Spark 1.2 | Meta | closed | $2.00 | $1.25 | $4.25 | - |
 | 30 | GLM-5.1 | Z.AI | open | $2.15 | $1.40 | $4.40 | - |
