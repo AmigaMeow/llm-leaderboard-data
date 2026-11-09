@@ -2,27 +2,27 @@
 
 > Sorted by blended price ascending.
 
-> Snapshot: 2026-11-08 | 50 models
+> Snapshot: 2026-11-09 | 50 models
 
 | # | Model | Org | Weights | Blended | Input | Output | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
-| 🥇 | GLM-5.3 Flash | Z.AI | open | $0.046 | $0.034 | $0.083 | UP4 |
-| 🥈 | DeepSeek V4 Flash | DeepSeek | open | $0.114 | $0.091 | $0.182 | DOWN1 |
-| 🥉 | DeepSeek V4.1 Flash | DeepSeek | open | $0.180 | $0.051 | $0.567 | DOWN1 |
-| 4 | Claude Haiku 5.5 | Anthropic | closed | $0.200 | $0.100 | $0.500 | DOWN1 |
-| 5 | Hy3 | Tencent | open | $0.231 | $0.132 | $0.528 | DOWN1 |
+| 🥇 | GLM-5.3 Flash | Z.AI | open | $0.046 | $0.034 | $0.083 | - |
+| 🥈 | DeepSeek V4 Flash | DeepSeek | open | $0.114 | $0.091 | $0.182 | - |
+| 🥉 | DeepSeek V4.1 Flash | DeepSeek | open | $0.180 | $0.051 | $0.567 | - |
+| 4 | Claude Haiku 5.5 | Anthropic | closed | $0.200 | $0.100 | $0.500 | - |
+| 5 | Hy3 | Tencent | open | $0.231 | $0.132 | $0.528 | - |
 | 6 | DeepSeek V3.2 | DeepSeek | open | $0.290 | $0.260 | $0.380 | - |
 | 7 | GLM-5.3 | Z.AI | open | $0.402 | $0.070 | $1.40 | - |
 | 8 | GPT-5.6 Luna | OpenAI | closed | $0.450 | $0.200 | $1.20 | - |
-| 9 | DeepSeek V4 Pro | DeepSeek | open | $0.492 | $0.394 | $0.787 | UP7 |
-| 10 | MiniMax M3 | MiniMax | open | $0.525 | $0.300 | $1.20 | DOWN1 |
-| 11 | Qwen3.7 Plus | Alibaba | closed | $0.560 | $0.320 | $1.28 | DOWN1 |
-| 12 | MiMo V2.5 | Xiaomi | open | $0.800 | $0.400 | $2.00 | DOWN1 |
-| 13 | MiMo V2.5 Pro | Xiaomi | open | $0.810 | $0.480 | $1.80 | DOWN1 |
-| 14 | GLM-4.6 | Z.AI | open | $0.875 | $0.500 | $2.00 | DOWN1 |
-| 15 | Seed 2.1 Turbo | ByteDance | closed | $1.00 | $0.500 | $2.50 | - |
-| 16 | Gemini 3 Flash | Google | closed | $1.12 | $0.500 | $3.00 | UP1 |
-| 17 | Kimi K2.5 | Moonshot AI | open | $1.23 | $0.532 | $3.33 | DOWN3 |
+| 9 | MiniMax M3 | MiniMax | open | $0.525 | $0.300 | $1.20 | UP1 |
+| 10 | Qwen3.7 Plus | Alibaba | closed | $0.560 | $0.320 | $1.28 | UP1 |
+| 11 | MiMo V2.5 | Xiaomi | open | $0.800 | $0.400 | $2.00 | UP1 |
+| 12 | MiMo V2.5 Pro | Xiaomi | open | $0.810 | $0.480 | $1.80 | UP1 |
+| 13 | GLM-4.6 | Z.AI | open | $0.875 | $0.500 | $2.00 | UP1 |
+| 14 | Seed 2.1 Turbo | ByteDance | closed | $1.00 | $0.500 | $2.50 | UP1 |
+| 15 | Gemini 3 Flash | Google | closed | $1.12 | $0.500 | $3.00 | UP1 |
+| 16 | DeepSeek V4 Pro | DeepSeek | open | $1.19 | $0.955 | $1.91 | DOWN7 |
+| 17 | Kimi K2.5 | Moonshot AI | open | $1.23 | $0.532 | $3.33 | - |
 | 18 | Kimi K2.7 Code | Moonshot AI | open | $1.32 | $0.600 | $3.50 | - |
 | 19 | Kimi K2.6 | Moonshot AI | open | $1.34 | $0.650 | $3.41 | - |
 | 20 | Gemini 3.7 Flash | Google | closed | $1.50 | $0.750 | $3.75 | - |
