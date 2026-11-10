@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-10
+
+- 收录模型 **78** 个（开源权重 24）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Claude Fable 5.2、Dolphin Mistral 24B (Venice Uncensored / 破限版)、Qwen3.8 Flash Next、Llama 3.1 Euryale 70B v2.2 (无审查 / RP破限)、Cydonia 24B V4.1 (无审查 / 创作破限)、GLM-5.3 FlashX
+- Arena 榜首：**Gemini 4 Carbon**（1,526.0，4,282 票）
+
 ## 2026-11-09
 
 - 收录模型 **72** 个（开源权重 20）
