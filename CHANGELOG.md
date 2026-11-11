@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-11
+
+- 收录模型 **86** 个（开源权重 29）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Qwen3.8 27B、Qwen3.5 397B、Inkling 2 Small、Qwen3 Coder 480B、Qwen2.5 72B、Qwen2.5 Coder 32B、Muse Ember、Tencent Hy4
+- Arena 榜首：**Gemini 4 Carbon**（1,526.0，4,282 票）
+
 ## 2026-11-10
 
 - 收录模型 **78** 个（开源权重 24）
