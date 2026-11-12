@@ -2,7 +2,7 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-11-11 | 24 models
+> Snapshot: 2026-11-12 | 24 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -19,14 +19,14 @@
 | 11 | GLM-5 | Z.AI | MIT | 1,457.4 | 29,020 | 204K | - |
 | 12 | Hy3 | Tencent | Apache 2.0 | 1,454.2 | 15,068 | 262K | - |
 | 13 | Kimi K2.5 | Moonshot AI | Modified MIT | 1,449.5 | 73,872 | 262K | - |
-| 14 | Qwen3.5 397B | Alibaba | Apache 2.0 | 1,441.5 | 97,678 | 262K | NEW |
-| 15 | MiniMax M3 | MiniMax | MiniMax Community License | 1,435.9 | 72,963 | 1.0M | DOWN1 |
-| 16 | DeepSeek V4 Flash | DeepSeek | MIT | 1,435.8 | 51,368 | 1.0M | DOWN1 |
-| 17 | MiMo V2.5 | Xiaomi | MIT | 1,433.7 | 46,820 | 1.0M | DOWN1 |
-| 18 | Qwen3.8 27B | Alibaba | Apache 2.0 | 1,433.4 | 32,659 | 1.0M | NEW |
-| 19 | Mistral Medium 3.5 | Mistral | Modified MIT | 1,426.5 | 11,656 | 262K | DOWN2 |
-| 20 | DeepSeek V3.2 | DeepSeek | MIT | 1,424.7 | 47,790 | 163K | DOWN2 |
-| 21 | GLM-4.6 | Z.AI | MIT | 1,424.4 | 35,652 | 204K | DOWN2 |
-| 22 | Qwen3 Coder 480B | Alibaba | Apache 2.0 | 1,387.5 | 25,155 | 262K | NEW |
-| 23 | Qwen2.5 72B | Alibaba | Qwen | 1,302.9 | 39,406 | 32K | NEW |
-| 24 | Qwen2.5 Coder 32B | Alibaba | Apache 2.0 | 1,270.6 | 5,432 | 32K | NEW |
+| 14 | Qwen3.5 397B | Alibaba | Apache 2.0 | 1,441.5 | 97,678 | 262K | - |
+| 15 | MiniMax M3 | MiniMax | MiniMax Community License | 1,435.9 | 72,963 | 1.0M | - |
+| 16 | DeepSeek V4 Flash | DeepSeek | MIT | 1,435.8 | 51,368 | 1.0M | - |
+| 17 | MiMo V2.5 | Xiaomi | MIT | 1,433.7 | 46,820 | 1.0M | - |
+| 18 | Qwen3.8 27B | Alibaba | Apache 2.0 | 1,433.4 | 32,659 | 1.0M | - |
+| 19 | Mistral Medium 3.5 | Mistral | Modified MIT | 1,426.5 | 11,656 | 262K | - |
+| 20 | DeepSeek V3.2 | DeepSeek | MIT | 1,424.7 | 47,790 | 163K | - |
+| 21 | GLM-4.6 | Z.AI | MIT | 1,424.4 | 35,652 | 204K | - |
+| 22 | Qwen3 Coder 480B | Alibaba | Apache 2.0 | 1,387.5 | 25,155 | 262K | - |
+| 23 | Qwen2.5 72B | Alibaba | Qwen | 1,302.9 | 39,406 | 32K | - |
+| 24 | Qwen2.5 Coder 32B | Alibaba | Apache 2.0 | 1,270.6 | 5,432 | 32K | - |
