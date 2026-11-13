@@ -2,57 +2,57 @@
 
 > LMArena Bradley-Terry score.
 
-> Snapshot: 2026-11-12 | 50 models
+> Snapshot: 2026-11-13 | 50 models
 
 | # | Model | Org | Weights | Arena | 95% CI | Votes | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
-| 🥇 | Gemini 4 Carbon | Google | closed | 1,526.0 | 1516 ~ 1536 | 4,282 | - |
-| 🥈 | Gemini 4 Argon | Google | closed | 1,522.4 | 1517 ~ 1528 | 19,787 | - |
-| 🥉 | Muse Wonder | Meta | closed | 1,511.0 | 1505 ~ 1517 | 12,032 | - |
-| 4 | Claude Opus 5.5 | Anthropic | closed | 1,506.1 | 1500 ~ 1512 | 15,249 | - |
-| 5 | Claude Fable 5 | Anthropic | closed | 1,503.9 | 1500 ~ 1508 | 45,524 | - |
-| 6 | Claude Opus 4.6 | Anthropic | closed | 1,503.0 | 1500 ~ 1506 | 84,424 | - |
-| 7 | Claude Fable 5.1 | Anthropic | closed | 1,502.7 | 1497 ~ 1508 | 20,087 | - |
-| 8 | Claude Opus 4.7 | Anthropic | closed | 1,501.1 | 1497 ~ 1505 | 64,308 | - |
-| 9 | Gemini 3.8 Flash | Google | closed | 1,497.5 | 1493 ~ 1502 | 61,143 | - |
-| 10 | Muse Spark 1.3 | Meta | closed | 1,496.3 | 1491 ~ 1501 | 26,111 | - |
-| 11 | Muse Spark 1.2 | Meta | closed | 1,493.5 | 1488 ~ 1499 | 15,004 | - |
-| 12 | Muse Spark 1.1 | Meta | closed | 1,490.7 | 1487 ~ 1495 | 45,562 | - |
-| 13 | Claude Opus 5 | Anthropic | closed | 1,489.8 | 1486 ~ 1493 | 73,697 | - |
-| 14 | Gemini 3.7 Flash | Google | closed | 1,489.4 | 1485 ~ 1494 | 33,300 | - |
-| 15 | Muse Spark | Meta | closed | 1,489.1 | 1483 ~ 1495 | 14,009 | - |
-| 16 | Kimi K3.1 Pro | Moonshot AI | open | 1,488.0 | 1475 ~ 1494 | 3,443 | - |
-| 17 | Kimi K3 | Moonshot AI | open | 1,487.1 | 1483 ~ 1491 | 40,867 | - |
-| 18 | Gemini 3.1 Pro Preview | Google | closed | 1,486.7 | 1484 ~ 1490 | 132,296 | - |
-| 19 | Gemini 3 Pro | Google | closed | 1,485.6 | 1482 ~ 1489 | 41,829 | - |
-| 20 | GPT-5.6 Sol | OpenAI | closed | 1,484.9 | 1481 ~ 1489 | 43,994 | - |
-| 21 | Qwen3.8 Max | Alibaba | closed | 1,484.0 | 1479 ~ 1489 | 36,324 | - |
-| 22 | GLM-5.3 | Z.AI | open | 1,482.5 | 1478 ~ 1487 | 31,017 | - |
-| 23 | Gemini 3.6 Flash | Google | closed | 1,482.5 | 1478 ~ 1487 | 35,405 | - |
-| 24 | GPT-6.1 Sol | OpenAI | closed | 1,482.1 | 1476 ~ 1488 | 12,952 | - |
-| 25 | Claude Opus 4.8 | Anthropic | closed | 1,481.8 | 1478 ~ 1486 | 63,128 | - |
-| 26 | GPT-5.5 | OpenAI | closed | 1,481.3 | 1478 ~ 1485 | 68,359 | - |
-| 27 | Gemini 3.5 Flash | Google | closed | 1,478.4 | 1474 ~ 1482 | 47,642 | - |
-| 28 | GPT-5.2 Chat | OpenAI | closed | 1,475.7 | 1472 ~ 1480 | 35,708 | - |
-| 29 | GPT-5.4 | OpenAI | closed | 1,475.2 | 1471 ~ 1479 | 64,103 | - |
-| 30 | GLM-5.2 | Z.AI | open | 1,475.1 | 1471 ~ 1479 | 54,173 | - |
-| 31 | DeepSeek V4.1 Flash | DeepSeek | open | 1,475.0 | 1469 ~ 1481 | 13,580 | - |
-| 32 | GLM-5.3 Flash | Z.AI | open | 1,474.2 | 1470 ~ 1479 | 50,189 | - |
-| 33 | GPT-6 Astra | OpenAI | closed | 1,474.1 | 1468 ~ 1480 | 18,315 | - |
-| 34 | Qwen3.7 Max | Alibaba | closed | 1,473.8 | 1464 ~ 1484 | 3,904 | - |
-| 35 | Gemini 3 Flash | Google | closed | 1,472.9 | 1468 ~ 1477 | 31,133 | - |
-| 36 | Claude Sonnet 5.5 | Anthropic | closed | 1,472.5 | 1466 ~ 1479 | 13,821 | - |
-| 37 | Claude Sonnet 4.6 | Anthropic | closed | 1,472.0 | 1468 ~ 1476 | 70,017 | - |
-| 38 | Claude Opus 4.5 | Anthropic | closed | 1,469.7 | 1467 ~ 1473 | 72,313 | - |
-| 39 | GPT-5.6 Terra | OpenAI | closed | 1,467.9 | 1464 ~ 1472 | 48,825 | - |
-| 40 | MiMo V2.5 Pro | Xiaomi | open | 1,466.5 | 1463 ~ 1470 | 76,793 | - |
-| 41 | Grok 4.5 | xAI | closed | 1,465.8 | 1461 ~ 1470 | 39,155 | - |
-| 42 | GLM-5.1 | Z.AI | open | 1,465.2 | 1462 ~ 1469 | 67,074 | - |
-| 43 | DeepSeek V4 Pro | DeepSeek | open | 1,464.0 | 1457 ~ 1471 | 9,584 | - |
-| 44 | Claude Sonnet 5 | Anthropic | closed | 1,460.9 | 1457 ~ 1465 | 53,013 | - |
-| 45 | Kimi K2.6 | Moonshot AI | open | 1,460.8 | 1456 ~ 1465 | 39,573 | - |
-| 46 | Qwen3.6 Max | Alibaba | closed | 1,459.7 | 1451 ~ 1468 | 5,386 | - |
-| 47 | GLM-5 | Z.AI | open | 1,457.4 | 1453 ~ 1462 | 29,020 | - |
-| 48 | GPT-6 Sol | OpenAI | closed | 1,456.8 | 1451 ~ 1462 | 19,890 | - |
-| 49 | Grok 4.6 | xAI | closed | 1,456.5 | 1452 ~ 1461 | 34,616 | - |
-| 50 | GPT-5.1 | OpenAI | closed | 1,455.5 | 1452 ~ 1459 | 41,405 | - |
+| 🥇 | Gemini 4 Carbon | Google | closed | 1,526.2 | 1517 ~ 1536 | 4,273 | - |
+| 🥈 | Gemini 4 Argon | Google | closed | 1,521.7 | 1516 ~ 1527 | 20,779 | - |
+| 🥉 | Muse Wonder | Meta | closed | 1,510.9 | 1505 ~ 1517 | 12,696 | - |
+| 4 | Claude Opus 5.5 | Anthropic | closed | 1,506.8 | 1501 ~ 1513 | 15,793 | - |
+| 5 | Claude Fable 5 | Anthropic | closed | 1,504.0 | 1500 ~ 1508 | 45,469 | - |
+| 6 | Claude Opus 4.6 | Anthropic | closed | 1,502.8 | 1500 ~ 1506 | 84,375 | - |
+| 7 | Claude Fable 5.1 | Anthropic | closed | 1,502.3 | 1497 ~ 1508 | 20,511 | - |
+| 8 | Claude Opus 4.7 | Anthropic | closed | 1,501.1 | 1497 ~ 1505 | 64,260 | - |
+| 9 | Gemini 3.8 Flash | Google | closed | 1,496.7 | 1492 ~ 1501 | 62,675 | - |
+| 10 | Muse Spark 1.3 | Meta | closed | 1,496.5 | 1492 ~ 1502 | 26,806 | - |
+| 11 | Muse Spark 1.2 | Meta | closed | 1,492.9 | 1487 ~ 1499 | 15,563 | - |
+| 12 | Muse Spark 1.1 | Meta | closed | 1,490.9 | 1487 ~ 1495 | 45,519 | - |
+| 13 | Gemini 4 Hydrogen | Google | closed | 1,490.4 | 1481 ~ 1499 | 4,741 | NEW |
+| 14 | Claude Opus 5 | Anthropic | closed | 1,489.7 | 1486 ~ 1493 | 73,632 | DOWN1 |
+| 15 | Gemini 3.7 Flash | Google | closed | 1,489.3 | 1485 ~ 1494 | 33,251 | DOWN1 |
+| 16 | Muse Spark | Meta | closed | 1,489.2 | 1483 ~ 1495 | 13,985 | DOWN1 |
+| 17 | Kimi K3.1 Pro | Moonshot AI | open | 1,488.0 | 1475 ~ 1494 | 3,995 | DOWN1 |
+| 18 | Kimi K3 | Moonshot AI | open | 1,487.4 | 1483 ~ 1492 | 41,402 | DOWN1 |
+| 19 | Gemini 3.1 Pro Preview | Google | closed | 1,486.8 | 1484 ~ 1490 | 132,181 | DOWN1 |
+| 20 | Gemini 3 Pro | Google | closed | 1,485.6 | 1482 ~ 1489 | 41,803 | DOWN1 |
+| 21 | GPT-5.6 Sol | OpenAI | closed | 1,485.1 | 1481 ~ 1489 | 43,925 | DOWN1 |
+| 22 | Qwen3.8 Max | Alibaba | closed | 1,484.1 | 1480 ~ 1489 | 36,936 | DOWN1 |
+| 23 | Gemini 3.6 Flash | Google | closed | 1,482.6 | 1478 ~ 1487 | 35,362 | - |
+| 24 | Claude Opus 4.8 | Anthropic | closed | 1,481.9 | 1478 ~ 1486 | 63,082 | UP1 |
+| 25 | GLM-5.3 | Z.AI | open | 1,481.6 | 1477 ~ 1486 | 31,604 | DOWN3 |
+| 26 | GPT-5.5 | OpenAI | closed | 1,481.3 | 1478 ~ 1485 | 68,294 | - |
+| 27 | GPT-6.1 Sol | OpenAI | closed | 1,480.8 | 1475 ~ 1487 | 13,498 | DOWN3 |
+| 28 | Gemini 3.5 Flash | Google | closed | 1,478.4 | 1474 ~ 1482 | 47,588 | DOWN1 |
+| 29 | GPT-5.2 Chat | OpenAI | closed | 1,475.6 | 1472 ~ 1480 | 35,669 | DOWN1 |
+| 30 | GLM-5.3 Flash | Z.AI | open | 1,475.3 | 1471 ~ 1480 | 51,019 | UP2 |
+| 31 | DeepSeek V4.1 Flash | DeepSeek | open | 1,475.1 | 1469 ~ 1481 | 13,547 | - |
+| 32 | GPT-5.4 | OpenAI | closed | 1,475.1 | 1471 ~ 1479 | 64,067 | DOWN3 |
+| 33 | GLM-5.2 | Z.AI | open | 1,475.0 | 1471 ~ 1479 | 54,143 | DOWN3 |
+| 34 | GPT-6 Astra | OpenAI | closed | 1,473.9 | 1468 ~ 1479 | 18,745 | DOWN1 |
+| 35 | Qwen3.7 Max | Alibaba | closed | 1,473.8 | 1464 ~ 1484 | 3,896 | DOWN1 |
+| 36 | Gemini 3 Flash | Google | closed | 1,473.0 | 1469 ~ 1477 | 31,126 | DOWN1 |
+| 37 | Claude Sonnet 5.5 | Anthropic | closed | 1,472.9 | 1467 ~ 1479 | 14,355 | DOWN1 |
+| 38 | Claude Sonnet 4.6 | Anthropic | closed | 1,472.1 | 1469 ~ 1476 | 69,975 | DOWN1 |
+| 39 | Claude Opus 4.5 | Anthropic | closed | 1,469.7 | 1467 ~ 1473 | 72,235 | DOWN1 |
+| 40 | GPT-5.6 Terra | OpenAI | closed | 1,467.9 | 1464 ~ 1472 | 48,778 | DOWN1 |
+| 41 | MiMo V2.5 Pro | Xiaomi | open | 1,466.4 | 1463 ~ 1470 | 76,747 | DOWN1 |
+| 42 | Grok 4.5 | xAI | closed | 1,465.8 | 1461 ~ 1470 | 39,122 | DOWN1 |
+| 43 | GLM-5.1 | Z.AI | open | 1,465.0 | 1461 ~ 1468 | 67,009 | DOWN1 |
+| 44 | DeepSeek V4 Pro | DeepSeek | open | 1,463.9 | 1457 ~ 1471 | 9,573 | DOWN1 |
+| 45 | Kimi K2.6 | Moonshot AI | open | 1,460.9 | 1456 ~ 1465 | 39,551 | - |
+| 46 | Claude Sonnet 5 | Anthropic | closed | 1,460.8 | 1457 ~ 1465 | 52,963 | DOWN2 |
+| 47 | Qwen3.6 Max | Alibaba | closed | 1,459.7 | 1452 ~ 1468 | 5,380 | DOWN1 |
+| 48 | GLM-5 | Z.AI | open | 1,457.3 | 1453 ~ 1462 | 28,979 | DOWN1 |
+| 49 | GPT-6 Sol | OpenAI | closed | 1,457.2 | 1452 ~ 1463 | 20,430 | DOWN1 |
+| 50 | Grok 4.6 | xAI | closed | 1,456.7 | 1452 ~ 1461 | 34,582 | DOWN1 |

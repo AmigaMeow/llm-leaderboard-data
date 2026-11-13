@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-13
+
+- 收录模型 **87** 个（开源权重 30）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Inkling 2 Small、Gemini 4 Hydrogen
+- Arena 榜首：**Gemini 4 Carbon**（1,526.2，4,273 票）
+
 ## 2026-11-12
 
 - 收录模型 **86** 个（开源权重 29）
