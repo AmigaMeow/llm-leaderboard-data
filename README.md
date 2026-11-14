@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-13**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-14**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -29,7 +29,7 @@
 | 开源权重 | 30 |
 | 覆盖厂商 | 18 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-11-13 |
+| 最近抓取 | 2026-11-14 |
 | Arena 榜发布日 | 2026-11-11 |
 
 厂商分布：Anthropic (13)、OpenAI (13)、Google (11)、Alibaba (11)、Meta (7)、Z.AI (7)
@@ -100,7 +100,7 @@
 | 🥉 | GPT-6.1 Sol | OpenAI | 1.1M | 1,480.8 | $4.00 |
 | 4 | GPT-6.1 Terra | OpenAI | 1.1M | - | $2.00 |
 | 5 | GPT-6 Sol | OpenAI | 1.1M | 1,457.2 | $4.00 |
-| 6 | GPT-5.6 Sol | OpenAI | 1.1M | 1,485.1 | $8.80 |
+| 6 | GPT-5.6 Sol | OpenAI | 1.1M | 1,485.1 | $8.00 |
 | 7 | GPT-5.6 Terra | OpenAI | 1.1M | 1,467.9 | $4.50 |
 | 8 | GPT-5.5 | OpenAI | 1.1M | 1,481.3 | $11.25 |
 | 9 | GPT-5.4 | OpenAI | 1.1M | 1,475.1 | $5.62 |
