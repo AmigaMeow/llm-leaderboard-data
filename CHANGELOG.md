@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-15
+
+- 收录模型 **99** 个（开源权重 39）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Hy4、MiMo V2.6 Pro、GPT-6 Luna、Hy4 Preview、MiMo V2.6 Flash、MiniMax M3.1 Flash、Step 5 Preview、Mistral Large 4 等 13 个
+- Arena 榜首：**Gemini 4 Carbon**（1,526.2，4,273 票）
+
 ## 2026-11-14
 
 - 收录模型 **87** 个（开源权重 30）

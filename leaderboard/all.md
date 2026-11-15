@@ -2,7 +2,7 @@
 
 > LMArena Bradley-Terry score.
 
-> Snapshot: 2026-11-14 | 50 models
+> Snapshot: 2026-11-15 | 50 models
 
 | # | Model | Org | Weights | Arena | 95% CI | Votes | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -33,26 +33,26 @@
 | 25 | GLM-5.3 | Z.AI | open | 1,481.6 | 1477 ~ 1486 | 31,604 | - |
 | 26 | GPT-5.5 | OpenAI | closed | 1,481.3 | 1478 ~ 1485 | 68,294 | - |
 | 27 | GPT-6.1 Sol | OpenAI | closed | 1,480.8 | 1475 ~ 1487 | 13,498 | - |
-| 28 | Gemini 3.5 Flash | Google | closed | 1,478.4 | 1474 ~ 1482 | 47,588 | - |
-| 29 | GPT-5.2 Chat | OpenAI | closed | 1,475.6 | 1472 ~ 1480 | 35,669 | - |
-| 30 | GLM-5.3 Flash | Z.AI | open | 1,475.3 | 1471 ~ 1480 | 51,019 | - |
-| 31 | DeepSeek V4.1 Flash | DeepSeek | open | 1,475.1 | 1469 ~ 1481 | 13,547 | - |
-| 32 | GPT-5.4 | OpenAI | closed | 1,475.1 | 1471 ~ 1479 | 64,067 | - |
-| 33 | GLM-5.2 | Z.AI | open | 1,475.0 | 1471 ~ 1479 | 54,143 | - |
-| 34 | GPT-6 Astra | OpenAI | closed | 1,473.9 | 1468 ~ 1479 | 18,745 | - |
-| 35 | Qwen3.7 Max | Alibaba | closed | 1,473.8 | 1464 ~ 1484 | 3,896 | - |
-| 36 | Gemini 3 Flash | Google | closed | 1,473.0 | 1469 ~ 1477 | 31,126 | - |
-| 37 | Claude Sonnet 5.5 | Anthropic | closed | 1,472.9 | 1467 ~ 1479 | 14,355 | - |
-| 38 | Claude Sonnet 4.6 | Anthropic | closed | 1,472.1 | 1469 ~ 1476 | 69,975 | - |
-| 39 | Claude Opus 4.5 | Anthropic | closed | 1,469.7 | 1467 ~ 1473 | 72,235 | - |
-| 40 | GPT-5.6 Terra | OpenAI | closed | 1,467.9 | 1464 ~ 1472 | 48,778 | - |
-| 41 | MiMo V2.5 Pro | Xiaomi | open | 1,466.4 | 1463 ~ 1470 | 76,747 | - |
-| 42 | Grok 4.5 | xAI | closed | 1,465.8 | 1461 ~ 1470 | 39,122 | - |
-| 43 | GLM-5.1 | Z.AI | open | 1,465.0 | 1461 ~ 1468 | 67,009 | - |
-| 44 | DeepSeek V4 Pro | DeepSeek | open | 1,463.9 | 1457 ~ 1471 | 9,573 | - |
-| 45 | Kimi K2.6 | Moonshot AI | open | 1,460.9 | 1456 ~ 1465 | 39,551 | - |
-| 46 | Claude Sonnet 5 | Anthropic | closed | 1,460.8 | 1457 ~ 1465 | 52,963 | - |
-| 47 | Qwen3.6 Max | Alibaba | closed | 1,459.7 | 1452 ~ 1468 | 5,380 | - |
-| 48 | GLM-5 | Z.AI | open | 1,457.3 | 1453 ~ 1462 | 28,979 | - |
-| 49 | GPT-6 Sol | OpenAI | closed | 1,457.2 | 1452 ~ 1463 | 20,430 | - |
-| 50 | Grok 4.6 | xAI | closed | 1,456.7 | 1452 ~ 1461 | 34,582 | - |
+| 28 | MiMo V2.6 Pro | Xiaomi | open | 1,479.9 | 1470 ~ 1489 | 4,064 | NEW |
+| 29 | Gemini 3.5 Flash | Google | closed | 1,478.4 | 1474 ~ 1482 | 47,588 | DOWN1 |
+| 30 | GPT-5.2 Chat | OpenAI | closed | 1,475.6 | 1472 ~ 1480 | 35,669 | DOWN1 |
+| 31 | GLM-5.3 Flash | Z.AI | open | 1,475.3 | 1471 ~ 1480 | 51,019 | DOWN1 |
+| 32 | DeepSeek V4.1 Flash | DeepSeek | open | 1,475.1 | 1469 ~ 1481 | 13,547 | DOWN1 |
+| 33 | GPT-5.4 | OpenAI | closed | 1,475.1 | 1471 ~ 1479 | 64,067 | DOWN1 |
+| 34 | GLM-5.2 | Z.AI | open | 1,475.0 | 1471 ~ 1479 | 54,143 | DOWN1 |
+| 35 | GPT-6 Astra | OpenAI | closed | 1,473.9 | 1468 ~ 1479 | 18,745 | DOWN1 |
+| 36 | Qwen3.7 Max | Alibaba | closed | 1,473.8 | 1464 ~ 1484 | 3,896 | DOWN1 |
+| 37 | Gemini 3 Flash | Google | closed | 1,473.0 | 1469 ~ 1477 | 31,126 | DOWN1 |
+| 38 | Claude Sonnet 5.5 | Anthropic | closed | 1,472.9 | 1467 ~ 1479 | 14,355 | DOWN1 |
+| 39 | Claude Sonnet 4.6 | Anthropic | closed | 1,472.1 | 1469 ~ 1476 | 69,975 | DOWN1 |
+| 40 | Claude Opus 4.5 | Anthropic | closed | 1,469.7 | 1467 ~ 1473 | 72,235 | DOWN1 |
+| 41 | GPT-5.6 Terra | OpenAI | closed | 1,467.9 | 1464 ~ 1472 | 48,778 | DOWN1 |
+| 42 | MiMo V2.5 Pro | Xiaomi | open | 1,466.4 | 1463 ~ 1470 | 76,747 | DOWN1 |
+| 43 | Grok 4.5 | xAI | closed | 1,465.8 | 1461 ~ 1470 | 39,122 | DOWN1 |
+| 44 | GLM-5.1 | Z.AI | open | 1,465.0 | 1461 ~ 1468 | 67,009 | DOWN1 |
+| 45 | DeepSeek V4 Pro | DeepSeek | open | 1,463.9 | 1457 ~ 1471 | 9,573 | DOWN1 |
+| 46 | Kimi K2.6 | Moonshot AI | open | 1,460.9 | 1456 ~ 1465 | 39,551 | DOWN1 |
+| 47 | Claude Sonnet 5 | Anthropic | closed | 1,460.8 | 1457 ~ 1465 | 52,963 | DOWN1 |
+| 48 | Qwen3.6 Max | Alibaba | closed | 1,459.7 | 1452 ~ 1468 | 5,380 | DOWN1 |
+| 49 | GLM-5 | Z.AI | open | 1,457.3 | 1453 ~ 1462 | 28,979 | DOWN1 |
+| 50 | GPT-6 Sol | OpenAI | closed | 1,457.2 | 1452 ~ 1463 | 20,430 | DOWN1 |
