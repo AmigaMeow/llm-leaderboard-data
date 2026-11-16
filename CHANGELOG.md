@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-16
+
+- 收录模型 **100** 个（开源权重 39）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Qwen4 Max
+- Arena 榜首：**Gemini 4 Carbon**（1,526.2，4,273 票）
+
 ## 2026-11-15
 
 - 收录模型 **99** 个（开源权重 39）
