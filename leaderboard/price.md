@@ -2,17 +2,17 @@
 
 > Sorted by blended price ascending.
 
-> Snapshot: 2026-11-17 | 50 models
+> Snapshot: 2026-11-18 | 50 models
 
 | # | Model | Org | Weights | Blended | Input | Output | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
 | 🥇 | GLM-5.3 Flash | Z.AI | open | $0.050 | $0.040 | $0.078 | - |
 | 🥈 | DeepSeek V4 Flash | DeepSeek | open | $0.113 | $0.090 | $0.180 | - |
 | 🥉 | MiMo V2.6 Flash | Xiaomi | open | $0.175 | $0.140 | $0.280 | - |
-| 4 | Muse Ember | Meta | closed | $0.200 | $0.100 | $0.500 | - |
-| 5 | GPT-6 Luna | OpenAI | closed | $0.200 | $0.100 | $0.500 | - |
-| 6 | Claude Haiku 5.5 | Anthropic | closed | $0.200 | $0.100 | $0.500 | - |
-| 7 | DeepSeek V4.1 Flash | DeepSeek | open | $0.210 | $0.140 | $0.420 | - |
+| 4 | DeepSeek V4.1 Flash | DeepSeek | open | $0.180 | $0.051 | $0.567 | UP3 |
+| 5 | Muse Ember | Meta | closed | $0.200 | $0.100 | $0.500 | DOWN1 |
+| 6 | GPT-6 Luna | OpenAI | closed | $0.200 | $0.100 | $0.500 | DOWN1 |
+| 7 | Claude Haiku 5.5 | Anthropic | closed | $0.200 | $0.100 | $0.500 | DOWN1 |
 | 8 | Qwen3.8 Flash Next | Alibaba | open | $0.230 | $0.150 | $0.470 | - |
 | 9 | Hy3 | Tencent | open | $0.231 | $0.132 | $0.528 | - |
 | 10 | Nemotron 3.5 Super VL | NVIDIA | open | $0.237 | $0.150 | $0.500 | - |
@@ -30,25 +30,25 @@
 | 22 | MiMo V2.6 Pro | Xiaomi | open | $0.544 | $0.435 | $0.870 | - |
 | 23 | MiMo V2.5 Pro | Xiaomi | open | $0.544 | $0.435 | $0.870 | - |
 | 24 | Qwen3.7 Plus | Alibaba | closed | $0.560 | $0.320 | $1.28 | - |
-| 25 | Qwen3.8 27B | Alibaba | open | $0.581 | $0.150 | $1.88 | - |
-| 26 | GLM-5.3 FlashX | Z.AI | closed | $0.590 | $0.370 | $1.25 | - |
+| 25 | GLM-5.3 FlashX | Z.AI | closed | $0.590 | $0.370 | $1.25 | UP1 |
+| 26 | Qwen3.8 27B | Alibaba | open | $0.595 | $0.060 | $2.20 | DOWN1 |
 | 27 | Hy4 | Tencent | closed | $0.625 | $0.417 | $1.25 | - |
 | 28 | Inkling Small | Thinking Machines | open | $0.637 | $0.450 | $1.20 | - |
 | 29 | Qwen2.5 Coder 32B | Alibaba | open | $0.745 | $0.660 | $1.00 | - |
 | 30 | MiMo V2.5 | Xiaomi | open | $0.800 | $0.400 | $2.00 | - |
 | 31 | Llama 3.1 Euryale 70B v2.2 (无审查 / RP破限) | Sao10K | open | $0.850 | $0.850 | $0.850 | - |
 | 32 | GLM-4.6 | Z.AI | open | $0.875 | $0.500 | $2.00 | - |
-| 33 | Nemotron 3 Ultra | NVIDIA | open | $0.925 | $0.500 | $2.20 | UP3 |
-| 34 | Kimi K2.5 | Moonshot AI | open | $1.00 | $0.500 | $2.50 | DOWN1 |
-| 35 | Seed 2.1 Turbo | ByteDance | closed | $1.00 | $0.500 | $2.50 | DOWN1 |
-| 36 | Mistral Large 4 | Mistral | open | $1.05 | $0.700 | $2.10 | DOWN1 |
+| 33 | Nemotron 3 Ultra | NVIDIA | open | $0.925 | $0.500 | $2.20 | - |
+| 34 | Kimi K2.5 | Moonshot AI | open | $1.00 | $0.500 | $2.50 | - |
+| 35 | Seed 2.1 Turbo | ByteDance | closed | $1.00 | $0.500 | $2.50 | - |
+| 36 | Mistral Large 4 | Mistral | open | $1.05 | $0.700 | $2.10 | - |
 | 37 | DeepSeek V4 Pro | DeepSeek | open | $1.05 | $0.900 | $1.50 | - |
 | 38 | Qwen3.5 397B | Alibaba | open | $1.09 | $0.450 | $3.00 | - |
 | 39 | Gemini 3 Flash | Google | closed | $1.12 | $0.500 | $3.00 | - |
 | 40 | Hy4 Preview | Tencent | open | $1.25 | $0.834 | $2.50 | - |
-| 41 | Kimi K2.7 Code | Moonshot AI | open | $1.32 | $0.600 | $3.50 | - |
-| 42 | Kimi K2.6 | Moonshot AI | open | $1.34 | $0.650 | $3.41 | - |
-| 43 | Step 5 Preview | StepFun | closed | $1.43 | $1.00 | $2.70 | - |
+| 41 | Kimi K2.6 | Moonshot AI | open | $1.34 | $0.650 | $3.41 | UP1 |
+| 42 | Step 5 Preview | StepFun | closed | $1.43 | $1.00 | $2.70 | UP1 |
+| 43 | Kimi K2.7 Code | Moonshot AI | open | $1.46 | $0.700 | $3.75 | DOWN2 |
 | 44 | Gemini 3.7 Flash | Google | closed | $1.50 | $0.750 | $3.75 | - |
 | 45 | Gemini 3.6 Flash | Google | closed | $1.50 | $0.750 | $3.75 | - |
 | 46 | GLM-5 | Z.AI | open | $1.55 | $1.00 | $3.20 | - |

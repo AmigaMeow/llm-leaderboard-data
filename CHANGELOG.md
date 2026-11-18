@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-18
+
+- 收录模型 **102** 个（开源权重 39）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：GPT-6.2 Astra、GPT-6.2 Sol
+- Arena 榜首：**Gemini 4 Carbon**（1,526.2，4,273 票）
+
 ## 2026-11-17
 
 - 收录模型 **100** 个（开源权重 39）

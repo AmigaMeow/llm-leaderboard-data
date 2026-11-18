@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T06:20:04+00:00",
- "date": "2026-11-17",
+ "generated_at": "2026-11-18T06:20:04+00:00",
+ "date": "2026-11-18",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -19,7 +19,7 @@
    "metric": "task success rate (%)"
   }
  },
- "count": 100,
+ "count": 102,
  "models": [
   {
    "id": "anthropic/claude-fable-5.2",
@@ -582,8 +582,8 @@
    "arena_ci_high": 1481.2,
    "arena_votes": 13547,
    "arena_rank": 38,
-   "price_in": 0.14,
-   "price_out": 0.42,
+   "price_in": 0.051,
+   "price_out": 0.567,
    "context_length": 1048576,
    "listed_at_iso": "2026-09-10",
    "agent_score": 1.13,
@@ -956,8 +956,8 @@
    "arena_ci_high": 1438.4,
    "arena_votes": 33323,
    "arena_rank": 111,
-   "price_in": 0.15,
-   "price_out": 1.875,
+   "price_in": 0.06,
+   "price_out": 2.2,
    "context_length": 1024000,
    "listed_at_iso": "2026-08-14",
    "agent_score": -5.63,
@@ -1878,8 +1878,8 @@
    "arena_ci_high": null,
    "arena_votes": null,
    "arena_rank": null,
-   "price_in": 0.6,
-   "price_out": 3.5,
+   "price_in": 0.7,
+   "price_out": 3.75,
    "context_length": 262144,
    "listed_at_iso": "2026-06-12"
   },
@@ -1898,6 +1898,38 @@
    "price_out": 50,
    "context_length": 1050000,
    "listed_at_iso": "2026-09-04"
+  },
+  {
+   "id": "openai/gpt-6.2-astra",
+   "display_name": "GPT-6.2 Astra",
+   "org": "OpenAI",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": 8,
+   "price_out": 40,
+   "context_length": 1050000,
+   "listed_at_iso": "2026-11-17"
+  },
+  {
+   "id": "openai/gpt-6.2-sol",
+   "display_name": "GPT-6.2 Sol",
+   "org": "OpenAI",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": 2,
+   "price_out": 10,
+   "context_length": 1050000,
+   "listed_at_iso": "2026-11-17"
   },
   {
    "id": "sao10k/l3.1-euryale-70b",
