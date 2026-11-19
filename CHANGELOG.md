@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-19
+
+- 收录模型 **103** 个（开源权重 39）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：Gemini 4 Neon
+- Arena 榜首：**Gemini 4 Carbon**（1,525.9，4,266 票）
+
 ## 2026-11-18
 
 - 收录模型 **102** 个（开源权重 39）
