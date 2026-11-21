@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-20**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-21**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -29,7 +29,7 @@
 | 开源权重 | 39 |
 | 覆盖厂商 | 21 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-11-20 |
+| 最近抓取 | 2026-11-21 |
 | Arena 榜发布日 | 2026-11-19 |
 
 厂商分布：OpenAI (16)、Anthropic (13)、Google (12)、Alibaba (12)、Meta (7)、Z.AI (7)
@@ -103,8 +103,8 @@
 | 6 | GPT-6.1 Terra | OpenAI | 1.1M | 1,474.1 | $2.00 |
 | 7 | GPT-6 Sol | OpenAI | 1.1M | 1,458.2 | $4.00 |
 | 8 | GPT-5.6 Sol | OpenAI | 1.1M | 1,485.1 | $8.00 |
-| 9 | MiMo V2.6 Pro | Xiaomi | 1.1M | 1,481.0 | $0.544 |
-| 10 | GPT-6 Luna | OpenAI | 1.1M | 1,442.6 | $0.200 |
+| 9 | GPT-6 Luna | OpenAI | 1.1M | 1,442.6 | $0.200 |
+| 10 | GPT-5.6 Terra | OpenAI | 1.1M | 1,468.0 | $4.50 |
 
 [→ 完整长上下文榜](leaderboard/ctx.md)
 
