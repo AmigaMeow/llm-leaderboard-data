@@ -15,43 +15,43 @@
   </style>
 <rect class="bg" x="0" y="0" width="900" height="476" rx="8"/>
 <text class="fg" x="24" y="40" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Arena Top 10 — human preference</text>
-<text class="muted" x="24" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5">LMArena Bradley-Terry score, higher is better. Snapshot 2026-11-22</text>
+<text class="muted" x="24" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5">LMArena Bradley-Terry score, higher is better. Snapshot 2026-11-23</text>
 <text class="fg" x="250" y="113" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Gemini 4 Carbon</text>
 <rect class="track" x="264" y="100" width="492" height="18" rx="4"/>
 <rect x="264" y="100" width="492.0" height="18" rx="4" fill="#d4a017"/>
-<text class="fg" x="764" y="113" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,527.0</text>
+<text class="fg" x="764" y="113" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,526.5</text>
 <text class="fg" x="250" y="147" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Gemini 4 Argon</text>
 <rect class="track" x="264" y="134" width="492" height="18" rx="4"/>
-<rect x="264" y="134" width="394.7" height="18" rx="4" fill="#8c959f"/>
-<text class="fg" x="764" y="147" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,519.6</text>
+<rect x="264" y="134" width="402.1" height="18" rx="4" fill="#8c959f"/>
+<text class="fg" x="764" y="147" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,519.8</text>
 <text class="fg" x="250" y="181" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Gemini 4 Neon</text>
 <rect class="track" x="264" y="168" width="492" height="18" rx="4"/>
-<rect x="264" y="168" width="306.6" height="18" rx="4" fill="#b06a3b"/>
-<text class="fg" x="764" y="181" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,512.9</text>
+<rect x="264" y="168" width="300.2" height="18" rx="4" fill="#b06a3b"/>
+<text class="fg" x="764" y="181" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,512.2</text>
 <text class="fg" x="250" y="215" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Muse Wonder</text>
 <rect class="track" x="264" y="202" width="492" height="18" rx="4"/>
-<rect x="264" y="202" width="286.8" height="18" rx="4" fill="#3b82f6"/>
-<text class="fg" x="764" y="215" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,511.4</text>
+<rect x="264" y="202" width="296.2" height="18" rx="4" fill="#3b82f6"/>
+<text class="fg" x="764" y="215" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,511.9</text>
 <text class="fg" x="250" y="249" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Opus 5.5</text>
 <rect class="track" x="264" y="236" width="492" height="18" rx="4"/>
-<rect x="264" y="236" width="215.8" height="18" rx="4" fill="#3b82f6"/>
-<text class="fg" x="764" y="249" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,506.0</text>
+<rect x="264" y="236" width="230.5" height="18" rx="4" fill="#3b82f6"/>
+<text class="fg" x="764" y="249" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,507.0</text>
 <text class="fg" x="250" y="283" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Fable 5</text>
 <rect class="track" x="264" y="270" width="492" height="18" rx="4"/>
-<rect x="264" y="270" width="190.8" height="18" rx="4" fill="#3b82f6"/>
+<rect x="264" y="270" width="191.6" height="18" rx="4" fill="#3b82f6"/>
 <text class="fg" x="764" y="283" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,504.1</text>
-<text class="fg" x="250" y="317" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Fable 5.2</text>
+<text class="fg" x="250" y="317" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Opus 4.6</text>
 <rect class="track" x="264" y="304" width="492" height="18" rx="4"/>
-<rect x="264" y="304" width="177.7" height="18" rx="4" fill="#3b82f6"/>
-<text class="fg" x="764" y="317" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,503.1</text>
-<text class="fg" x="250" y="351" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Fable 5.1</text>
+<rect x="264" y="304" width="175.5" height="18" rx="4" fill="#3b82f6"/>
+<text class="fg" x="764" y="317" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,502.9</text>
+<text class="fg" x="250" y="351" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Fable 5.2</text>
 <rect class="track" x="264" y="338" width="492" height="18" rx="4"/>
-<rect x="264" y="338" width="173.7" height="18" rx="4" fill="#3b82f6"/>
-<text class="fg" x="764" y="351" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,502.8</text>
-<text class="fg" x="250" y="385" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Opus 4.6</text>
+<rect x="264" y="338" width="166.1" height="18" rx="4" fill="#3b82f6"/>
+<text class="fg" x="764" y="351" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,502.2</text>
+<text class="fg" x="250" y="385" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Fable 5.1</text>
 <rect class="track" x="264" y="372" width="492" height="18" rx="4"/>
-<rect x="264" y="372" width="173.7" height="18" rx="4" fill="#3b82f6"/>
-<text class="fg" x="764" y="385" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,502.8</text>
+<rect x="264" y="372" width="164.8" height="18" rx="4" fill="#3b82f6"/>
+<text class="fg" x="764" y="385" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">1,502.1</text>
 <text class="fg" x="250" y="419" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Claude Opus 4.7</text>
 <rect class="track" x="264" y="406" width="492" height="18" rx="4"/>
 <rect x="264" y="406" width="152.7" height="18" rx="4" fill="#3b82f6"/>
