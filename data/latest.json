@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T06:20:05+00:00",
- "date": "2026-11-23",
+ "generated_at": "2026-11-24T06:20:05+00:00",
+ "date": "2026-11-24",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -934,8 +934,8 @@
    "arena_ci_high": 1480.1,
    "arena_votes": 57426,
    "arena_rank": 37,
-   "price_in": 0.0399,
-   "price_out": 0.0784,
+   "price_in": 0.0356,
+   "price_out": 0.0815,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-26",
    "agent_score": -3.78,
@@ -1110,8 +1110,8 @@
    "arena_ci_high": 1461,
    "arena_votes": 16292,
    "arena_rank": 77,
-   "price_in": 0.14,
-   "price_out": 0.58,
+   "price_in": 0.132,
+   "price_out": 0.528,
    "context_length": 262144,
    "listed_at_iso": "2026-07-06",
    "agent_score": -8.7,
@@ -1310,7 +1310,7 @@
    "arena_rank": 98,
    "price_in": 1,
    "price_out": 4.05,
-   "context_length": 524288,
+   "context_length": 1048576,
    "listed_at_iso": "2026-07-17",
    "agent_score": -18.54,
    "agent_ci_low": -20.15,
@@ -1560,10 +1560,10 @@
    "arena_ci_high": 1469.9,
    "arena_votes": 76445,
    "arena_rank": 58,
-   "price_in": 0.48,
-   "price_out": 1.8,
-   "context_length": 262144,
-   "listed_at_iso": "2026-04-22"
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
   },
   {
    "id": "x-ai/grok-4.5",
@@ -1608,8 +1608,8 @@
    "arena_ci_high": 1470.3,
    "arena_votes": 9529,
    "arena_rank": 65,
-   "price_in": 0.9,
-   "price_out": 1.5,
+   "price_in": 1.28,
+   "price_out": 2.56,
    "context_length": 1048576,
    "listed_at_iso": "2026-08-12"
   },
