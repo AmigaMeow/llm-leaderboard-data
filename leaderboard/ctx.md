@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-11-24 | 50 models
+> Snapshot: 2026-11-25 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -30,7 +30,7 @@
 | 22 | Inkling 2 Small | Thinking Machines | open | 1.0M | 1,412.2 | $0.475 | - |
 | 23 | Muse Spark 1.3 | Meta | closed | 1.0M | 1,497.8 | $2.00 | - |
 | 24 | MiMo V2.6 Pro | Xiaomi | open | 1.0M | 1,481.3 | $0.544 | - |
-| 25 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,474.4 | $0.087 | - |
+| 25 | DeepSeek V4.1 Flash | DeepSeek | open | 1.0M | 1,474.4 | $0.210 | - |
 | 26 | Muse Wonder | Meta | closed | 1.0M | 1,511.9 | $8.00 | - |
 | 27 | GLM-5.3 | Z.AI | open | 1.0M | 1,481.1 | $0.402 | - |
 | 28 | Kimi K3 | Moonshot AI | open | 1.0M | 1,487.9 | $4.14 | - |
@@ -39,7 +39,7 @@
 | 31 | Muse Ember | Meta | closed | 1.0M | - | $0.200 | - |
 | 32 | MiMo V2.6 Flash | Xiaomi | open | 1.0M | 1,448.3 | $0.175 | - |
 | 33 | Gemini 3.7 Flash | Google | closed | 1.0M | 1,489.7 | $1.50 | - |
-| 34 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,475.8 | $0.047 | - |
+| 34 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,475.8 | $0.185 | - |
 | 35 | MiniMax M3.1 Flash | MiniMax | open | 1.0M | - | $0.262 | - |
 | 36 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,486.7 | $4.50 | - |
 | 37 | Mistral Large 4 | Mistral | open | 1.0M | 1,423.5 | $1.05 | - |
@@ -47,12 +47,12 @@
 | 39 | Muse Spark 1.1 | Meta | closed | 1.0M | 1,491.2 | $2.00 | - |
 | 40 | MiniMax M3 | MiniMax | open | 1.0M | 1,434.1 | $0.525 | - |
 | 41 | Nemotron 3.5 Super VL | NVIDIA | open | 1.0M | - | $0.230 | - |
-| 42 | Inkling | Thinking Machines | open | 1.0M | 1,443.4 | $1.76 | UP28 |
-| 43 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,482.5 | $1.50 | DOWN1 |
-| 44 | Gemini 3.5 Flash | Google | closed | 1.0M | 1,478.2 | $3.38 | DOWN1 |
-| 45 | Gemini 3 Flash | Google | closed | 1.0M | 1,473.0 | $1.12 | DOWN1 |
-| 46 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,463.6 | $1.60 | DOWN1 |
-| 47 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,445.4 | $3.44 | DOWN1 |
-| 48 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,435.6 | $0.113 | DOWN1 |
-| 49 | GLM-5.3 FlashX | Z.AI | closed | 1.0M | - | $0.590 | DOWN1 |
-| 50 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,435.0 | $0.401 | DOWN1 |
+| 42 | Inkling | Thinking Machines | open | 1.0M | 1,443.4 | $1.76 | - |
+| 43 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,482.5 | $1.50 | - |
+| 44 | Gemini 3.5 Flash | Google | closed | 1.0M | 1,478.2 | $3.38 | - |
+| 45 | Gemini 3 Flash | Google | closed | 1.0M | 1,473.0 | $1.12 | - |
+| 46 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,463.6 | $1.60 | - |
+| 47 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,445.4 | $3.44 | - |
+| 48 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,435.6 | $0.113 | - |
+| 49 | GLM-5.3 FlashX | Z.AI | closed | 1.0M | - | $0.590 | - |
+| 50 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,435.0 | $0.401 | - |
