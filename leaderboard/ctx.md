@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-11-25 | 50 models
+> Snapshot: 2026-11-26 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -39,7 +39,7 @@
 | 31 | Muse Ember | Meta | closed | 1.0M | - | $0.200 | - |
 | 32 | MiMo V2.6 Flash | Xiaomi | open | 1.0M | 1,448.3 | $0.175 | - |
 | 33 | Gemini 3.7 Flash | Google | closed | 1.0M | 1,489.7 | $1.50 | - |
-| 34 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,475.8 | $0.185 | - |
+| 34 | GLM-5.3 Flash | Z.AI | open | 1.0M | 1,475.8 | $0.237 | - |
 | 35 | MiniMax M3.1 Flash | MiniMax | open | 1.0M | - | $0.262 | - |
 | 36 | Gemini 3.1 Pro Preview | Google | closed | 1.0M | 1,486.7 | $4.50 | - |
 | 37 | Mistral Large 4 | Mistral | open | 1.0M | 1,423.5 | $1.05 | - |
@@ -51,7 +51,7 @@
 | 43 | Gemini 3.6 Flash | Google | closed | 1.0M | 1,482.5 | $1.50 | - |
 | 44 | Gemini 3.5 Flash | Google | closed | 1.0M | 1,478.2 | $3.38 | - |
 | 45 | Gemini 3 Flash | Google | closed | 1.0M | 1,473.0 | $1.12 | - |
-| 46 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,463.6 | $1.60 | - |
+| 46 | DeepSeek V4 Pro | DeepSeek | open | 1.0M | 1,463.6 | $1.04 | - |
 | 47 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,445.4 | $3.44 | - |
 | 48 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,435.6 | $0.113 | - |
 | 49 | GLM-5.3 FlashX | Z.AI | closed | 1.0M | - | $0.590 | - |

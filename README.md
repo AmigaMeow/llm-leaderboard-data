@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-25**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-26**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -29,7 +29,7 @@
 | 开源权重 | 39 |
 | 覆盖厂商 | 21 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-11-25 |
+| 最近抓取 | 2026-11-26 |
 | Arena 榜发布日 | 2026-11-22 |
 
 厂商分布：OpenAI (16)、Anthropic (13)、Google (12)、Alibaba (12)、Meta (7)、Z.AI (7)
@@ -81,7 +81,7 @@
 
 | Budget | Strongest model | Org | Weights | Arena | Gap to #1 | Price |
 |:---|:---|:---|:---|---:|---:|---:|
-| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,475.8 | 50.7 | $0.185 |
+| $0.10–0.25 | GLM-5.3 Flash | Z.AI | open | 1,475.8 | 50.7 | $0.237 |
 | $0.25–0.50 | GLM-5.3 | Z.AI | open | 1,481.1 | 45.4 | $0.402 |
 | $0.50–1.00 | MiMo V2.6 Pro | Xiaomi | open | 1,481.3 | 45.2 | $0.544 |
 | $1.00–3.00 | Gemini 3.8 Flash | Google | closed | 1,498.0 | 28.5 | $1.65 |
