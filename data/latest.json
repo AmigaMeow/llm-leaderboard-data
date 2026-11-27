@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T06:20:04+00:00",
- "date": "2026-11-26",
+ "generated_at": "2026-11-27T06:20:04+00:00",
+ "date": "2026-11-27",
  "schema_version": 2,
  "sources": {
   "lmarena": {
@@ -19,7 +19,7 @@
    "metric": "task success rate (%)"
   }
  },
- "count": 103,
+ "count": 104,
  "models": [
   {
    "id": "anthropic/claude-fable-5.2",
@@ -1022,8 +1022,8 @@
    "arena_ci_high": 1439.5,
    "arena_votes": 37444,
    "arena_rank": 112,
-   "price_in": 0.035,
-   "price_out": 1.5,
+   "price_in": 0.06,
+   "price_out": 1.96,
    "context_length": 1024000,
    "listed_at_iso": "2026-08-14",
    "agent_score": -5.53,
@@ -1704,8 +1704,8 @@
    "arena_ci_high": 1452.8,
    "arena_votes": 73597,
    "arena_rank": 87,
-   "price_in": 0.5,
-   "price_out": 2.5,
+   "price_in": 0.6,
+   "price_out": 3,
    "context_length": 262144,
    "listed_at_iso": "2026-01-27"
   },
@@ -1818,7 +1818,7 @@
    "arena_rank": 132,
    "price_in": 0.5,
    "price_out": 2,
-   "context_length": 204800,
+   "context_length": 202752,
    "listed_at_iso": "2025-09-30"
   },
   {
@@ -1884,6 +1884,22 @@
    "price_out": 1,
    "context_length": 32768,
    "listed_at_iso": "2024-11-11"
+  },
+  {
+   "id": "baidu/ernie-5-5-flash",
+   "display_name": "ERNIE 5.5 Flash Preview",
+   "org": "Baidu",
+   "license": null,
+   "open_weights": null,
+   "arena_score": null,
+   "arena_ci_low": null,
+   "arena_ci_high": null,
+   "arena_votes": null,
+   "arena_rank": null,
+   "price_in": null,
+   "price_out": null,
+   "context_length": null,
+   "listed_at_iso": null
   },
   {
    "id": "bytedance-seed/seed-2.1-turbo",

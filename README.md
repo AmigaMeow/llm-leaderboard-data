@@ -2,7 +2,7 @@
 
 > 📊 **每日自动更新**的大模型排行榜（LLM Leaderboard）：聚合 Arena 人类盲测偏好与 OpenRouter 定价，
 >
-> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-26**
+> 数据源：[17nas.com](https://17nas.com/llm-leaderboard.php) ｜ 本仓库抓取于 **2026-11-27**
 >
 > Hugging Face 镜像：[datasets/AmigaMeow/llm-leaderboard](https://huggingface.co/datasets/AmigaMeow/llm-leaderboard) —— 不用克隆，可直接 `load_dataset()` 读取
 >
@@ -23,13 +23,13 @@
 
 | 指标 | 值 |
 |---|---:|
-| 收录模型 | **103** |
+| 收录模型 | **104** |
 | 有 Arena 评分 | 85 |
 | 有定价数据 | 96 |
 | 开源权重 | 39 |
-| 覆盖厂商 | 21 |
+| 覆盖厂商 | 22 |
 | 数据源 | lmarena ok | openrouter ok | arena_agents ok |
-| 最近抓取 | 2026-11-26 |
+| 最近抓取 | 2026-11-27 |
 | Arena 榜发布日 | 2026-11-22 |
 
 厂商分布：OpenAI (16)、Anthropic (13)、Google (12)、Alibaba (12)、Meta (7)、Z.AI (7)

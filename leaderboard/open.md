@@ -2,7 +2,7 @@
 
 > Open-weight models only, by Arena score.
 
-> Snapshot: 2026-11-26 | 30 models
+> Snapshot: 2026-11-27 | 30 models
 
 | # | Model | Org | License | Arena | Votes | Context | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -29,7 +29,7 @@
 | 21 | MiMo V2.5 | Xiaomi | MIT | 1,433.7 | 46,654 | - | - |
 | 22 | Mistral Medium 3.5 | Mistral | Modified MIT | 1,426.3 | 11,621 | 262K | - |
 | 23 | DeepSeek V3.2 | DeepSeek | MIT | 1,424.7 | 47,709 | 163K | - |
-| 24 | GLM-4.6 | Z.AI | MIT | 1,424.4 | 35,630 | 204K | - |
+| 24 | GLM-4.6 | Z.AI | MIT | 1,424.4 | 35,630 | 202K | - |
 | 25 | Mistral Large 4 | Mistral | Modified MIT | 1,423.5 | 10,705 | 1.0M | - |
 | 26 | Inkling 2 Small | Thinking Machines | Apache 2.0 | 1,412.2 | 2,682 | 1.0M | - |
 | 27 | Inkling Small | Thinking Machines | Apache 2.0 | 1,405.2 | 37,427 | 524K | - |

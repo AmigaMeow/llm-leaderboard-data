@@ -2,7 +2,7 @@
 
 > Sorted by maximum context window.
 
-> Snapshot: 2026-11-26 | 50 models
+> Snapshot: 2026-11-27 | 50 models
 
 | # | Model | Org | Weights | Context | Arena | Blended | Change |
 |---:|:---|:---|:---|:---|:---|:---|---:|
@@ -55,4 +55,4 @@
 | 47 | Gemini 2.5 Pro | Google | closed | 1.0M | 1,445.4 | $3.44 | - |
 | 48 | DeepSeek V4 Flash | DeepSeek | open | 1.0M | 1,435.6 | $0.113 | - |
 | 49 | GLM-5.3 FlashX | Z.AI | closed | 1.0M | - | $0.590 | - |
-| 50 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,435.0 | $0.401 | - |
+| 50 | Qwen3.8 27B | Alibaba | open | 1.0M | 1,435.0 | $0.535 | - |

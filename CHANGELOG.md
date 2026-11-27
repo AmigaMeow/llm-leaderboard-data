@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-11-27
+
+- 收录模型 **104** 个（开源权重 39）
+- 数据源：lmarena ok／openrouter ok／arena_agents ok
+- 新进榜：ERNIE 5.5 Flash Preview
+- Arena 榜首：**Gemini 4 Carbon**（1,526.5，4,255 票）
+
 ## 2026-11-26
 
 - 收录模型 **103** 个（开源权重 39）
